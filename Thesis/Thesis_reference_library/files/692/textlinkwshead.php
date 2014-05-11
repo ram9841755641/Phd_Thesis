@@ -1,0 +1,1 @@
+document.write("<span>Weblink: </span><a target=\"_blank\" href=\"http://ateson.com/c/article-google%20translate.html\">google translate</a>")

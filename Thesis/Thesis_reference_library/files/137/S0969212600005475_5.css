@@ -1,0 +1,23 @@
+
+/* ::::: null ::::: */
+
+body, td, div, span, p { font-family: arial,sans-serif; }
+a { color: rgb(0, 0, 204); }
+a:visited { color: rgb(85, 26, 139); }
+a:active { color: rgb(255, 0, 0); }
+body { margin: 0px; padding: 0px; background-color: white; }
+
+/* ::::: null ::::: */
+
+body { width: 258px; margin: 0px; padding-right: 0px; font-family: Arial; font-size: 12px; }
+#mainArea { text-align: center; border: 1px solid rgb(215, 215, 215); width: 256px; }
+#titleBar { background-image: url('appheader-background.png'); background-repeat: repeat-x; color: rgb(92, 92, 92); height: 17px; min-width: 240px; padding: 8px; }
+#titlebar a { float: right; text-decoration: none; }
+h2 { color: rgb(92, 92, 92); float: left; font-size: 1.1em; font-weight: normal; margin: 0px; }
+#newWindow { margin: 0px; }
+img { border: 0px none; }
+a, a:visited { font-size: 0.9em; color: rgb(49, 108, 157); text-decoration: none; }
+#infoButton { text-align: left; float: left; }
+#infoContainer { text-align: left; margin: 5px 0px 5px 5px; }
+#InformationModel { color: rgb(92, 92, 92); font-size: 10px; text-align: left; margin-left: 4px; visibility: hidden; }
+#helpLink { float: right; margin-right: 10px; }

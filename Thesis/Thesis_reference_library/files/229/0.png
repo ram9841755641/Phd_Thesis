@@ -1,0 +1,113 @@
+
+
+<!--
+################################################################## 
+## 
+##   THIS IS A GENERATED FILE. 
+## 
+##   ANY CHANGES YOU MAKE DIRECTLY TO THIS FILE WILL BE OVERWRITTEN 
+##   AND LOST THE NEXT TIME THIS FILE IS GENERATED. 
+## 
+##  (This file last generated: May 06, 2013, 10:53 P.M.) 
+## 
+################################################################## 
+-->
+
+
+<!--##### BELOW added by: file:/mayshare02/shared/webapp/modules/jbc/resources/shared/build/error-pages/404-html.base.xml #####-->
+
+
+
+<!--##### BELOW added by: file:/mayshare02/shared/webapp/modules/jbc/resources/local/build/404-html.mix-in.xml #####-->
+
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:gen="http://schema.highwire.org/Site/Generator" xml:lang="en" lang="en">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   
+      
+      <title>The Journal of Biological Chemistry Ã¢Â&#128;Â&#148; Not Found</title>
+      
+      
+      <link rel="stylesheet" type="text/css" media="all" href="/shared/css/hw-global.css" />
+      
+      <link rel="stylesheet" type="text/css" media="all" href="/shared/css/standard-designs/design2/main.css" />
+      
+      <link rel="stylesheet" type="text/css" media="all" href="/publisher/css/hw-publisher-global.css" />
+      
+      <link rel="stylesheet" type="text/css" media="all" href="/local/css/hw-journal-global.css" />
+      
+   </head>
+   
+   <body>
+      
+      
+      <div class="hw-gen-page pagetype-error" id="pageid-error">
+         
+         
+         <div id="header"><a href="/"><img title="The Journal of Biological Chemistry" alt="The Journal of Biological Chemistry" id="main-logo" src="/local/img/journal_logo.gif" /></a><p id="skip-link"><a href="#content-block">Skip to main page content</a></p>
+            
+            <ul class="button-list header-buttons">
+               
+               <li class="first"><a href="/" title="Home"><span>Home</span></a></li>
+               
+               <li><a href="/content/current" title="Current issue"><span>Current issue</span></a></li>
+               
+               <li><a href="/content/by/year" title="Issue Archive">Archive</a></li>
+               
+               <li><a href="/content/early/recent/0" title="Papers in Press"><span>Papers in Press</span></a></li>
+               
+               <li id="minireviews"><a href="/content/by/section/Minireviews" title="Minireviews"><span>Minireviews</span></a></li>
+               
+               <li id="classics"><a href="/content/by/section/Classics" title="Classics"><span>Classics</span></a></li>
+               
+               <li id="reflections"><a href="/content/by/section/Reflections" title="Reflections"><span>Reflections</span></a></li>
+               
+               <li id="potw" class="last"><a href="/potw" title="Papers of the Week"><span>Papers of the Week</span></a></li>
+               
+            </ul>
+            
+            <div class="header-qs">
+               
+               <form class="searchbox" action="/search" method="get"><span class="searchform-label">QUICK SEARCH</span><label for="header-qs-input-author">Author:</label><input type="text" name="author1" id="header-qs-input-author" size="9" /><label for="header-qs-input-keyword">Keyword:</label><input type="text" name="fulltext" id="header-qs-input-keyword" size="16" /><label for="header-qs-input-year">Year:</label><input type="text" name="pubdate_year" id="header-qs-input-year" size="4" /><label for="header-qs-input-vol">Vol:</label><input type="text" name="volume" id="header-qs-input-vol" size="4" /><label for="header-qs-input-page">Page:</label><input type="text" name="firstpage" id="header-qs-input-page" size="4" /><input type="hidden" name="submit" value="yes" /><label for="header-qs-search-go" id="header-qs-search-label">GO</label><input alt="Link: Go" value="Go" type="submit" id="header-qs-search-go" /><span class="adv-search-link"><a href="/search">[Advanced Search]</a></span><span class="adv-search-link"><a href="/content/by/year">[Browse the Archive]</a></span></form>
+               
+            </div>
+            
+         </div>
+         
+         <div id="content-block">
+            
+            <h1>Content Not Found</h1>
+            
+            
+            <p>The page you requested cannot be found. Please recheck the URL if you typed it or <a href="/feedback">CONTACT US</a> if you were following a link. Please send the details of where you clicked and what you were trying to locate.
+            </p>
+            
+            
+            <p>Thank you for your help in correcting this issue.</p>
+            
+            
+            <p>JBC</p>
+            
+         </div>
+         
+         
+      </div>
+      
+      
+   </body>
+   
+   
+</html>
+
+
+
+
+<!--##### END OF ADDED BLOCK #####-->
+
+
+
+<!--##### END OF ADDED BLOCK #####-->

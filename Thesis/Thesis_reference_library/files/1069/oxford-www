@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+
+        bnTagManager.getTag(1).results = [{"r":"<h4 class=\"cb-contents-header\">\n<span style=\"margin-top:10px;\"><\/span>\n<\/h4><ol style=\"padding-right:5px;\">\n<li>\n<div id=\"bn_g_resultbnArticleRecs_1\" class=\"bn_g_result bn_g_result\" style=\"margin:0 auto; padding:0;\">\n<div class=\"bn_g_result_title\" style=\"margin:0 auto; padding:0 5px 4px 0;\">\n<a class=\"bn_g_result_link\" baynote_req=\"ArticlePage\" baynote_guide=\"NextStepMatch\" baynote_bnrank=\"1\" href=\"http://jac.oxfordjournals.org/cgi/doi/10.1093/jac/dkn292\">Adverse cutaneous reactions associated with the newest antiretroviral drugs in patients with human immunodeficiency virus infection<div class=\"bn_mouseoverdiv\">\n<span class=\"bn_journaltitle\"><b>Journal of Antimicrobial Chemotherapy<\/b> - 2008<\/span>\n<br>\n<span class=\"bn_authorslist\">Borr&aacute;s-Blasco, J.; Navarro-Ruiz, A.; Borr&aacute;s, C.; Caster&aacute;, E.<\/span>\n<br>\n<span class=\"bn_viewCount\">24 readers also viewed this\n                     <\/span>\n<\/div>\n<\/a>\n<\/div>\n<\/div>\n<div id=\"bn_g_resultbnArticleRecs_2\" class=\"bn_g_result bn_g_result\" style=\"margin:0 auto; padding:0;\">\n<div class=\"bn_g_result_title\" style=\"margin:0 auto; padding:0 5px 4px 0;\">\n<a class=\"bn_g_result_link\" baynote_req=\"ArticlePage\" baynote_guide=\"NextStepMatch\" baynote_bnrank=\"2\" href=\"http://jac.oxfordjournals.org/cgi/doi/10.1093/jac/dkq261\">Ibalizumab: an anti-CD4 monoclonal antibody for the treatment of HIV-1 infection<div class=\"bn_mouseoverdiv\">\n<span class=\"bn_journaltitle\"><b>Journal of Antimicrobial Chemotherapy<\/b> - 2010<\/span>\n<br>\n<span class=\"bn_authorslist\">Bruno, Christopher J.; Jacobson, Jeffrey M.<\/span>\n<br>\n<span class=\"bn_viewCount\">14 readers also viewed this\n                     <\/span>\n<\/div>\n<\/a>\n<\/div>\n<\/div>\n<div id=\"bn_g_resultbnArticleRecs_3\" class=\"bn_g_result bn_g_result\" style=\"margin:0 auto; padding:0;\">\n<div class=\"bn_g_result_title\" style=\"margin:0 auto; padding:0 5px 4px 0;\">\n<a class=\"bn_g_result_link\" baynote_req=\"ArticlePage\" baynote_guide=\"NextStepMatch\" baynote_bnrank=\"3\" href=\"http://jac.oxfordjournals.org/cgi/doi/10.1093/jac/dkh161\">Clinical perspective of fusion inhibitors for treatment of HIV<div class=\"bn_mouseoverdiv\">\n<span class=\"bn_journaltitle\"><b>Journal of Antimicrobial Chemotherapy<\/b> - 2004<\/span>\n<br>\n<span class=\"bn_authorslist\">Rockstroh, J. K.; Mauss, S.<\/span>\n<br>\n<span class=\"bn_viewCount\">0 readers also viewed this\n                     <\/span>\n<\/div>\n<\/a>\n<\/div>\n<\/div>\n<\/li>\n<\/ol>\n","ei":"bnArticleRecs","ri":"0:UHy|kXs|13Vl|"}];
+        bnResourceManager.registerResource("GLResults1");
+
+

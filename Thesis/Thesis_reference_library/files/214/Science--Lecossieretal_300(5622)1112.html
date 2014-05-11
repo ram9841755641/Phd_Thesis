@@ -1,0 +1,1125 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://aidscience.org/Science/Science--Lecossieretal_300(5622)1112.htm">
+<meta name="wpd_url" content="http://aidscience.org/Science/Science--Lecossieretal_300(5622)1112.htm">
+<meta name="wpd_date" content="2013-04-10T16:01Z">
+
+<title>Science --  Lecossier et al. 300 (5622): 1112</title>
+
+<script language="JavaScript">
+
+<!--
+
+function SymError()
+{
+  return true;
+}
+
+window.onerror = SymError;
+
+var SymRealWinOpen = window.open;
+
+function SymWinOpen(url, name, attributes)
+{
+  return (new Object());
+}
+
+window.open = SymWinOpen;
+
+//-->
+</script>
+
+<script type="text/javascript">
+
+
+
+<!-- 
+
+// Set Booleans for Browser Type
+
+var isNavPC;
+var isNavMac;
+var isIEMac;
+var isIEPC;
+
+if (parseInt(navigator.appVersion) >= 4) {
+
+        isNavMac = ((navigator.appName == "Netscape") && (navigator.platform.indexOf("Mac") != -1));
+        isNavPC = ((navigator.appName == "Netscape") && (navigator.platform.indexOf("Win") != -1));
+        isIEMac = ((navigator.appName.indexOf("Microsoft") != -1) && (navigator.platform.indexOf("Mac") != -1));
+        isIEPC = ((navigator.appName.indexOf("Microsoft") != -1) && (navigator.platform.indexOf("Win") != -1));
+
+} 
+
+
+// Set Booleans for DHTML
+
+var isLayers = ((isNavPC) || (isNavMac)); // Netscape 4, 5
+var isDivs = ((isIEPC) || (isIEMac));  // IE 4, 5
+var isOther = ((!isLayers) && (!isDivs)); // All Else
+
+
+// Set IE4 "all" and "style" for cross-platform functionality
+
+var coll = "";
+var stylo = ""; 
+
+if (isDivs) { 
+        coll = "all.";
+        stylo = ".style";
+}
+
+// Set Global Variables
+
+mName = new Array(); // name of menu
+menuX1 = new Array(); // top left X of layer
+menuY1 = new Array(); // top left Y of layer
+menuX2 = new Array(); // bottom right X of layer
+menuY2 = new Array(); // bottom right Y of layer
+menuX3 = new Array(); // point of right "L" in layer
+menuY3 = new Array(); // point of right "L" in layer
+menuX4 = new Array(); // point of left "L" in layer
+menuY4 = new Array(); // point of left "L" in layer
+
+
+mName[0] = "search";
+menuX1[0] = 202;
+menuY1[0] = 115;
+menuX2[0] = 376;
+menuY2[0] = 205;
+menuX3[0] = 339;
+menuY3[0] = 135;
+menuX4[0] = 202;
+menuY4[0] = 135;
+
+mName[1] = "browse";
+menuX1[1] = 338;
+menuY1[1] = 115;
+menuX2[1] = 533;
+menuY2[1] = 205;
+menuX3[1] = 447;
+menuY3[1] = 135;
+menuX4[1] = 338;
+menuY4[1] = 135;
+
+
+
+var mNum = -1; // says mouse is roaming, not on a menu at all
+
+
+// Start collecting Mouse Move Events
+
+if (!isOther) { 
+
+        if (isLayers) { document.captureEvents(Event.MOUSEMOVE); }
+        document.onmousemove = whereami;
+
+}
+
+// whereami function to track mousemoving
+
+function whereami(e) {
+
+        if (mNum == -1) { return; }
+        
+        if (isLayers) { x = e.pageX; y = e.pageY; }
+        if (isDivs) { 
+                x = event.clientX + document.body.scrollLeft; 
+                y = event.clientY + document.body.scrollTop; 
+        }
+
+        if ((( x > menuX3[mNum]) && ( y < menuY3[mNum])) || ((x < menuX1[mNum]) || (x > menuX2[mNum]) || (y < menuY1[mNum]) || (y > menuY2[mNum])) || ((x < menuX4[mNum]) && (y < menuY4[mNum]))) { 
+                hidez(mName[0]);
+                hidez(mName[1]);
+                mNum = -1;
+        }
+        
+} // End whereami function
+
+
+// Turn On New menu, turn off all others
+
+function menuOn(menuNum) {
+
+        for (i=0; i<2; i++) {
+        
+                if (i != menuNum) { hidez(mName[i]); }
+        
+        }       
+
+        showz(mName[menuNum]);
+        
+}
+
+                
+// Show layer/div
+
+function showz(mname) {
+
+        var obj = makeobj(mname);
+
+        if (isLayers) { 
+                obj.visibility = "show"; 
+        } else if (isDivs) { 
+                obj.visibility = "visible"; 
+        }
+        
+        return false;
+
+} // End showz function
+
+
+// Hide layers/divs
+
+function hidez(mname) {
+
+        var obj = makeobj(mname);
+        if (isLayers) { 
+                obj.visibility = "hide"; 
+        } else if (isDivs) { 
+                obj.visibility = "hidden"; 
+        }       
+
+} // End Hidez Function
+
+
+// General make object function for cross platform compatibility
+
+function makeobj(objname) {
+
+        var newobj;
+        
+        if (typeof objname == "string") {
+                newobj = eval("document." + coll + objname + stylo);
+        } else { newobj = objname; }
+        
+        return newobj;
+        
+} // End makeobj function
+
+// -->
+
+
+</script>
+
+
+<script type="text/javascript">
+
+
+
+<!-- 
+
+// Set Netscape Redraw
+
+if (isLayers) {         
+        var oWidth = innerWidth; 
+        var oHeight = innerHeight; 
+        window.onResize = navReload(); }
+
+function navReload() { 
+
+        if ((window.innerWidth != oWidth) || (window.innerHeight != oHeight)) { 
+                document.location=document.location; 
+        }
+        
+} // end navReload()
+
+// -->
+
+
+</script>
+
+<script language="JavaScript">
+
+
+
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+
+</script>
+
+<script language="JavaScript">
+
+
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+   document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+// -->
+
+</script>
+
+
+</head>
+<body leftmargin="0" topmargin="0" bgcolor="#eeeeee" link="#0000cc" marginheight="0" marginwidth="0" text="#000000" vlink="#0000cc">
+
+<a name="top"><!-- null --></a>
+
+	 
+	<!-- BEGIN MAIN TABLE - CONTAINER -->
+	<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<!-- BEGIN BANNER ADS -->
+	<tbody><tr align="center" bgcolor="#666666" valign="top"> 
+
+		<!-- height hardcoded in case of missing ads -->
+		<td align="CENTER" height="40" width="600"><a name="top"></a><table border="0"><tbody><tr><td>
+
+</td><td>
+
+</td></tr></tbody></table></td>
+	</tr>
+	<!-- END BANNER ADS -->
+	<!-- BEGIN TOP NAV --> 
+	<tr align="left" bgcolor="#4b4b4b" valign="top"> 
+		<td height="18" width="600"><a href="http://www.scienceonline.org/"><img src="scionline_home_top1_off.gif" border="0" height="19" width="85"></a><a href="http://www.sciencemag.org/"><img src="scionline_home_top2_on.gif" border="0" height="19" width="121"></a><a href="http://sciencenow.sciencemag.org/"><img src="scionline_home_top3_off.gif" border="0" height="19" width="71"></a><a href="http://nextwave.sciencemag.org/"><img src="scionline_home_top4_off.gif" border="0" height="19" width="63"></a><a href="http://www.scienceonline.org/ke"><img src="KE_off.gif" border="0" height="19" width="76"></a><a href="http://recruit.sciencemag.org/"><img src="scionline_home_top6_off.gif" border="0" height="19" width="92"></a><a href="http://www.sciencemag.org/feature/e-market/"><img src="scionline_home_top7_off.gif" border="0" height="19" width="89"></a></td>
+	</tr>
+	<!-- END TOP NAV -->
+	<!-- BEGIN USER INFO BAR (BLANK) -->
+	<tr bgcolor="#999999"> 
+		<td height="20"><img src="shim.gif" height="1" width="1"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="1"><img src="shim.gif" height="1" width="8">
+	
+	
+	
+	
+	
+		
+			<b></b> <font color="#666666">|</font>
+		
+		<a target="_top" style="text-decoration:no" href="http://www.sciencemag.org/cgi/changepwd/basic"><font color="#000000">Change Password</font></a> <font color="#666666">|</font>
+		<a target="_top" style="text-decoration:no" href="http://www.sciencemag.org/cgi/changeuserinfo/basic"><font color="#000000">Change User Info</font></a>
+		 <font color="#666666">|</font> <a target="_top" style="text-decoration:no" href="http://www.sciencemag.org/cgi/ctmain"><font color="#000000">CiteTrack Alerts</font></a> <font color="#666666">|</font>
+
+	
+<a target="_top" style="text-decoration:no" href="http://www.sciencemag.org/subscriptions/my_access.dtl"><font color="#000000">Access Rights</font></a>
+<font color="#666666">|</font> 
+
+<a target="_top" style="text-decoration:no" href="http://www.sciencemag.org/subscriptions/accessinfo.dtl"><font color="#000000">Subscription Help</font></a> <font color="#666666">|</font>
+		<b><a target="_top" style="text-decoration:no" href="http://www.sciencemag.org/cgi/logout"><font color="#000000">Sign Out</font></a></b>
+	<!-- INDV -->
+	<!-- USER.PFA -->
+	<!-- USER.PFABSAIC -->
+	<!-- NOT GUEST -->
+		
+
+	
+
+	
+</font></td>
+	</tr>
+	<!-- END USER INFO BAR (BLANK) -->
+	<tr align="left" valign="top"> 
+		<td> 
+	<!-- BEGIN NESTED TABLE 1 - Science, magazine logos, DHTML MENUS -->      
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tbody><tr>
+		<td rowspan="2" align="left" valign="top"><a href="http://www.sciencemag.org/"><img src="science_logo_sm.gif" border="0" height="34" width="110"><img src="magazine_sm2.gif" align="top" border="0" height="34" width="120"></a></td>
+        <td align="left" bgcolor="#cccccc" valign="top" width="100%"><a href="http://www.sciencemag.org/help/"><img src="help.gif" alt="Help" border="0" height="24" width="39"></a><a href="http://www.sciencemag.org/subscriptions/accessinfo.dtl"><img src="subscriptions.gif" alt="Subscriptions" border="0" height="24" width="87"></a><a href="http://www.sciencemag.org/cgi/feedback"><img src="feedback.gif" alt="Feedback" border="0" height="24" width="59"></a><a href="http://www.sciencemag.org/cgi/login?uri=/subscriptions/signedin.shtml"><img src="signin.gif" alt="Sign In" border="0" height="24" width="46"></a><a href="http://www.aaas.org/"><img src="aaas.gif" border="0" height="24" width="72"></a></td>
+		</tr>
+		<tr>
+		<td align="left" height="19" valign="top" width="100%"><a href="http://www.sciencemag.org/search.dtl" onmouseover="mNum=0; menuOn(mNum)"><img src="search2.gif" border="0" height="20" width="108"></a><a href="http://www.sciencemag.org/contents-by-date.0.shtml" onmouseover="mNum=1; menuOn(mNum)"><img src="browse_sm.gif" border="0" height="20" width="109"></a><a href="http://www.sciencemag.org/cgi/order"><img src="order_article.gif" border="0" height="18" width="154"></a></td>
+		</tr>
+		</tbody></table>
+	<!-- END NESTED TABLE 1 - Science, magazine logos, DHTML MENUS --> 
+	<!-- BEGIN NESTED TABLE 2 - PAGE CONTENT cellpadding must be 7 or text will not wrap correctly-->
+		<table border="0" cellpadding="7" cellspacing="0" width="100%">
+		<tbody><tr> 
+			<td align="left" valign="top" width="100%"><img src="shim.gif" align="right" height="1" width="5"><br>
+
+
+
+
+
+
+
+        
+                
+
+
+         
+ 
+
+ 
+
+ 
+	  
+		
+	
+
+
+	
+		<!-- beginning of outer tables -->
+		<table align="right" border="0" cellpadding="0" cellspacing="0" width="215">
+		<tbody><tr bgcolor="#ffffff"><td> 
+		<!-- beginning of inner table -->
+			<table border="0" cellpadding="3" cellspacing="0" width="212">
+				
+		
+		
+		
+		
+
+		
+
+		
+
+		
+		
+		
+
+		
+		 
+
+		
+		 
+	 		
+	<tbody><tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+			
+			 
+
+			
+			
+					
+	<font color="blue"><u><b>PDF</b>
+	Version of this Article</u></font> 
+			
+			
+
+		</font></td></tr>
+		
+		
+
+                
+                
+
+	                
+	                
+	                        
+	                        
+					
+	                        
+	                
+                
+		
+		
+
+				
+		
+		 
+		 
+		
+
+                
+
+
+
+                
+                
+                
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+                <a href="http://aidscience.org/science/images/Lecossieretal.pdf">Supporting Online Material</a>
+                </font></td></tr>
+                
+                
+
+                
+
+
+
+
+		
+	
+        <tr>
+        <td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	 <td align="left" bgcolor="#eeeeee" height="11" valign="top" width="12">&nbsp;</td>
+        <td align="left" bgcolor="#eeeeee" valign="top">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr align="left" noshade="" width="155">
+	</font></td></tr>
+
+
+
+
+
+                
+
+
+                
+
+                
+		
+
+                
+                        
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+                        <a href="http://www.sciencemag.org/cgi/citmgr?gca=sci;300/5622/1112">Download to Citation Manager</a>
+                        </font></td></tr>
+                
+
+
+                
+                
+                
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+                Alert me when:
+                <br><a href="http://www.sciencemag.org/cgi/alerts/ctalert?alertType=citedby&amp;addAlert=cited_by&amp;saveAlert=no&amp;cited_by_criteria_resid=sci;300/5622/1112&amp;return_type=article&amp;return_url=%2Fcgi%2Fcontent%2Ffull%2F300%2F5622%2F1112"><font size="-1">new articles cite this article</font></a><br>
+                </font></td></tr>
+                
+                
+
+		
+	
+        <tr>
+        <td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	 <td align="left" bgcolor="#eeeeee" height="11" valign="top" width="12">&nbsp;</td>
+        <td align="left" bgcolor="#eeeeee" valign="top">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr align="left" noshade="" width="155">
+	</font></td></tr>
+
+
+	
+	
+	
+		
+		
+		
+		
+	
+		
+		
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+			Search for similar articles in:
+			
+				<br>&nbsp;&nbsp;<a href="http://www.sciencemag.org/cgi/search?qbe=sci;300/5622/1112&amp;journalcode=sci&amp;minscore=5000"><font size="-1"><i>Science</i> Online</font></a>
+				
+				
+				<br>&nbsp;&nbsp;<a href="http://www.sciencemag.org/cgi/external_ref?access_num=12750511&amp;link_type=MED_NBRS"><font size="-1">PubMed</font></a>
+		</font></td></tr>
+		
+		
+
+
+
+		
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+			Search Medline for articles by:<br>
+			
+			
+				<a href="http://www.sciencemag.org/cgi/external_ref?access_num=Lecossier+D&amp;link_type=AUTHORSEARCH">Lecossier, D.</a>
+				 || 
+			
+				<a href="http://www.sciencemag.org/cgi/external_ref?access_num=Hance+AJ&amp;link_type=AUTHORSEARCH">Hance, A. J.</a>
+				
+			
+		</font></td></tr>
+		
+
+		
+
+
+
+		
+
+
+		
+
+		
+		
+	
+        <tr>
+        <td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	 <td align="left" bgcolor="#eeeeee" height="11" valign="top" width="12">&nbsp;</td>
+        <td align="left" bgcolor="#eeeeee" valign="top">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr align="left" noshade="" width="155">
+	</font></td></tr>
+
+			
+			
+				
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+					
+						This article appears in the following Subject Collections:<br>
+					
+					<b>
+					
+					<a href="http://www.sciencemag.org/cgi/collection/medicine">Medicine/Diseases</a>
+					</b>
+					
+					
+				</font></td></tr>
+			
+			
+			
+			
+
+	</tbody></table> 
+	</td></tr> <!-- end of inner content box -->
+	</tbody></table>	 <!-- end of outer content box -->
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+	
+	
+	
+		<h2>
+
+Hypermutation of HIV-1 DNA in the Absence of the Vif Protein
+</h2>
+
+<strong>
+<nobr>Denise Lecossier,</nobr>
+<nobr>Francine Bouchonnet,</nobr>
+<nobr>François Clavel,</nobr>
+<nobr>Allan J. Hance<sup><a href="#COR1">*</a></sup></nobr>
+</strong><p>
+
+
+
+
+
+
+INSERM U552, Paris, France.
+</p><p>
+
+
+<a name="COR1"><!-- null --></a>
+<sup>*</sup>  To whom correspondence should be addressed. E-mail: <a href="mailto:hance@bichat.inserm.fr">hance@bichat.inserm.fr</a> </p><p>
+</p><hr noshade="" width="30%">The Vif (viral infectivity factor) protein of human immunodeficiency<sup> </sup>virus–1 (HIV-1) is essential for the production of infectious<sup> </sup>virus by T lymphocytes and macrophages, the natural targets<sup> </sup>for HIV-1 infection. Vif is dispensable for HIV infection in<sup> </sup>certain transformed cell lines ("permissive" cells) but is required<sup> </sup>for propagative infection in others ("nonpermissive" cells).<sup> </sup>Vif is thought to inhibit an antiviral pathway recently demonstrated<sup> </sup>to require the cellular protein CEM 15 (<i><a href="#REF1">1</a></i>). This protein, also<sup> </sup>called APOBEC3G (<i><a href="#REF2">2</a></i>), is a member of the family of cytidine deaminases.<sup> </sup>Because recent studies have suggested that some mammalian cytidine<sup> </sup>deaminases target single-stranded DNA (<i><a href="#REF3">3</a></i>), we tested the hypothesis<sup> </sup>that Vif may be required to prevent the editing of minus-strand<sup> </sup>viral DNA synthesized by virions produced in nonpermissive cells.<sup> </sup>Thus, nonpermissive H9 cells (<i><a href="#REF4">4</a></i>) were exposed to virus produced<sup> </sup>by HeLa cells transfected with wild-type HIV-1 (pNL4-3) or a<sup> </sup>variant in which a portion of the <i>vif</i> gene had been deleted<sup> </sup>(<img src="Delta.gif" alt="{Delta}" border="0"><i>vif</i>). The virions produced by H9 cells 24 to 48 hours after<sup> </sup>infection were recovered. Target cells (CD4<sup>+</sup>, HeLa-derived P4<sup> </sup>cells) were then exposed to these virions and incubated for<sup> </sup>5 hours at 37°C, and newly reverse transcribed viral DNA<sup> </sup>was isolated (<i><a href="#REF4">4</a></i>). Degenerate primers that would not be affected<sup> </sup>by the editing of minus-strand DNA by cytidine deaminases were<sup> </sup>then used to amplify viral sequences in <i>env</i> and <i>U5</i>. The products<sup> </sup>were then cloned and sequenced. Guanine to adenine (G<img src="rarr.gif" alt="->" border="0">A) changes<sup> </sup>were significantly more frequent in DNA synthesized by <img src="Delta.gif" alt="{Delta}" border="0"><i>vif</i> virions<sup> </sup>than in DNA produced by wild-type virions (<i>P</i> &lt; 0.0001 and<sup> </sup><i>P</i> &lt; 0.01) (<a href="#FIG1">Fig. 1A</a>; fig. S1A and fig. S2). In contrast, no<sup> </sup>difference in the frequency of G<img src="rarr.gif" alt="->" border="0">A changes could be observed<sup> </sup>in viral DNA synthesized by wild-type and <img src="Delta.gif" alt="{Delta}" border="0"><i>vif</i> viruses produced<sup> </sup>in permissive cells (P4 cells) under the same conditions, or<sup> </sup>those generated in HeLa cells (fig. S1).<sup> </sup><p>
+
+<a name="FIG1"><!-- null --></a>
+</p><hr width="100%"><center><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="left" valign="top">
+<a href="http://aidscience.org/science/Images/se1931514001.jpg"><img src="se1931514001.gif" alt=" " align="left" border="2" height="100" hspace="10" vspace="5" width="200"></a>
+
+
+<b>Fig. 1.</b> Sequence analysis of <i>env</i> for viral DNA synthesized in infected P4 cells, cDNA prepared from viral RNA, and DNA synthesized in endogenous RT reactions. (<b>A</b>) DNA was isolated from P4 cells cultured for 5 hours after spinoculation with virions produced by H9 cells infected by cell-free virions produced by transfected HeLa cells. (<b>B</b>) cDNA synthesized by M-MLV RT using RNA from <img src="Delta.gif" alt="{Delta}" border="0"><i>vif</i> virions produced by H9 cells &lt;24 hours after infection with virions produced by transfected HeLa cells. (<b>C</b>) Endogenous RT reactions performed using virions produced by H9 cells. The sequence of pNL4-3 for the amplified fragment is shown at the top of the figure (annotated per GenBank M19921<!-- HIGHWIRE EXLINK_ID="300:5622:1112:1" VALUE="M19921" TYPEGUESS="GEN, PIRDB, SPROT" -->
+<a href="http://www.sciencemag.org/cgi/external_ref?access_num=M19921&amp;link_type=GEN">[GenBank]</a>
+<!-- /HIGHWIRE -->), and only bases different from this sequence are shown for the other sequences. The corresponding amino acids for pNL4-3 are shown above the sequence; amino acid substitutions or premature stop codons (*) resulting from G<img src="rarr.gif" alt="->" border="0">A changes observed in the study are shown below the involved base. The numbers preceding the sequences (1x, 5x,...) indicate the number of clones with the given sequence. Only the portion of the sequence containing mutations is shown.
+<nobr><a href="http://www.sciencemag.org/cgi/content/full/300/5622/1112/FIG1">[View Larger Version of this Image (23K GIF file)]</a></nobr>
+
+</td></tr></tbody></table>
+</center><hr width="100%">
+
+
+<sup> </sup><p>
+
+
+G<img src="rarr.gif" alt="->" border="0">A changes in the HIV plus-strand DNA can be directly explained<sup> </sup>by modifications of cytidine to uridine (C<img src="rarr.gif" alt="->" border="0">U) in the minus-strand<sup> </sup>of DNA by a cytidine deaminase, because U is subsequently read<sup> </sup>as T by DNA polymerases. Such changes might also be compatible<sup> </sup>with hypermutation by reverse transcriptase, a phenomenon markedly<sup> </sup>accentuated by low intracellular deoxycytidine triphosphate<sup> </sup>to deoxythymidine triphosphate (dCTP/dTTP) ratios (<i><a href="#REF5">5</a></i>). Because<sup> </sup>the dCTP/dTTP ratio present in P4 cells is not conducive to<sup> </sup>hypermutation (<i><a href="#REF6">6</a></i>) and because base changes were only frequent<sup> </sup>when virions were produced by nonpermissive cells in the absence<sup> </sup>of Vif, this mechanism seems less likely. Similarly, the editing<sup> </sup>of viral RNA by a cytidine deaminase would not explain our findings,<sup> </sup>because C<img src="rarr.gif" alt="->" border="0">T changes and not G<img src="rarr.gif" alt="->" border="0">A changes in the DNA plus strand<sup> </sup>would then be expected. Indeed, when RNA was extracted from<sup> </sup><img src="Delta.gif" alt="{Delta}" border="0"><i>vif</i> virions produced by H9 cells during the first 24 hours after<sup> </sup>infection, reverse-transcribed with Moloney murine leukemia<sup> </sup>virus reverse transcriptase (M-MLV RT), and amplified, no G<img src="rarr.gif" alt="->" border="0">A<sup> </sup>changes could be observed in these cDNA sequences (<a href="#FIG1">Fig. 1B</a>).<sup> </sup>However, when these virions were used to synthesize viral DNA<sup> </sup>by endogenous reverse transcription within the viral particles<sup> </sup>(<i><a href="#REF4">4</a></i>), numerous G<img src="rarr.gif" alt="->" border="0">A changes were seen (<a href="#FIG1">Fig. 1C</a>). G<img src="rarr.gif" alt="->" border="0">A changes were<sup> </sup>not observed when endogenous reverse transcription was performed<sup> </sup>using wild-type viruses produced by H9 cells or <img src="Delta.gif" alt="{Delta}" border="0"><i>vif</i> viruses<sup> </sup>produced by permissive cells (<a href="#FIG1">Fig. 1C</a>) (<i><a href="#REF6">6</a></i>).<sup> </sup></p><p>
+
+
+Overall, our results indicate that in the absence of Vif, virions<sup> </sup>produced in nonpermissive H9 cells contain an activity that<sup> </sup>results in the introduction of C<img src="rarr.gif" alt="->" border="0"> U changes into the minus-strand<sup> </sup>of viral DNA synthesized during reverse transcription, a feature<sup> </sup>that is highly compatible with editing of the minus-strand by<sup> </sup>a cytidine deaminase, such as CEM 15/APOBEC3G (<i><a href="#REF1">1</a></i>). Thus, when<sup> </sup>HIV replicates in cells expressing CEM 15/APOBEC3G, the Vif<sup> </sup>protein, through mechanisms that remain to be defined, is able<sup> </sup>to prevent the accumulation of multiple defects in structural,<sup> </sup>enzymatic, and regulatory viral proteins that would otherwise<sup> </sup>result in failure at several points in the HIV life cycle.<sup> </sup></p><p>
+
+
+
+
+<br clear="all"><font size="+1"><strong>References and Notes</strong></font></p><p>
+
+<table>
+
+<tbody><tr><td align="right" valign="top"><a name="REF1"><!-- null --></a>1.</td> <td align="left" valign="top">A. M. Sheehy, N. C. Gaddis, J. D. Choi, M. H. Malim, <i>Nature</i> <b>418</b>, 646 (2002).<!-- HIGHWIRE ID="300:5622:1112:1" --><a href="http://www.sciencemag.org/cgi/external_ref?access_num=10.1038/nature00939&amp;link_type=DOI">[CrossRef]</a><a href="http://www.sciencemag.org/cgi/external_ref?access_num=000177305600044&amp;link_type=ISI">[ISI]</a><a href="http://www.sciencemag.org/cgi/external_ref?access_num=12167863&amp;link_type=MED">[Medline]</a><!-- /HIGHWIRE --></td></tr>
+<tr><td align="right" valign="top"><a name="REF2"><!-- null --></a>2.</td> <td align="left" valign="top">A. Jarmuz <i>et al</i>., <i>Genomics</i> <b>79</b>, 285 (2002).<!-- HIGHWIRE ID="300:5622:1112:2" --><a href="http://www.sciencemag.org/cgi/external_ref?access_num=10.1006/geno.2002.6718&amp;link_type=DOI">[CrossRef]</a><a href="http://www.sciencemag.org/cgi/external_ref?access_num=000174224200004&amp;link_type=ISI">[ISI]</a><a href="http://www.sciencemag.org/cgi/external_ref?access_num=11863358&amp;link_type=MED">[Medline]</a><!-- /HIGHWIRE --></td></tr>
+<tr><td align="right" valign="top"><a name="REF3"><!-- null --></a>3.</td> <td align="left" valign="top">A. Martin, M. D. Scharff, <i>Proc. Natl. Acad Sci. U.S.A.</i> <b>99</b>, 12304 (2002).<!-- HIGHWIRE ID="300:5622:1112:3" --><a href="http://www.sciencemag.org/cgi/ijlink?linkType=ABST&amp;journalCode=pnas&amp;resid=99/19/12304"><nobr>[Abstract/<font color="CC0000">Free</font> Full&nbsp;Text]</nobr></a><!-- /HIGHWIRE --></td></tr>
+<tr><td align="right" valign="top"><a name="REF4"><!-- null --></a>4.</td> <td align="left" valign="top">Materials and Methods are available as supporting online material at <i>Science</i> Online.<!-- HIGHWIRE ID="300:5622:1112:4" --><!-- /HIGHWIRE --></td></tr>
+<tr><td align="right" valign="top"><a name="REF5"><!-- null --></a>5.</td> <td align="left" valign="top">M. A. Martinez, J. P. Vartanian, S. Wain-Hobson, <i>Proc. Natl. Acad. Sci. U.S.A.</i> <b>91</b>, 11787 (1994).<!-- HIGHWIRE ID="300:5622:1112:5" --><a href="http://www.sciencemag.org/cgi/ijlink?linkType=ABST&amp;journalCode=pnas&amp;resid=91/25/11787"><nobr>[Abstract/<font color="CC0000">Free</font> Full&nbsp;Text]</nobr></a><!-- /HIGHWIRE --></td></tr>
+<tr><td align="right" valign="top"><a name="REF6"><!-- null --></a>6.</td> <td align="left" valign="top">A. J. Hance, unpublished data.<!-- HIGHWIRE ID="300:5622:1112:6" --><!-- /HIGHWIRE --></td></tr></tbody></table>
+
+</p><p><b><font size="+1">Supporting Online Material</font></b><sup> </sup></p><p>
+
+<a href="http://aidscience.org/science/images/Lecossieretal.pdf">www.sciencemag.org/cgi/content/full/300/5622/1112/DC1</a><sup> </sup></p><p>
+
+
+Materials and Methods<sup> </sup></p><p>
+
+
+Figs. S1 and S2<sup> </sup></p><p>
+
+
+
+
+ 
+		
+
+
+ 
+
+
+
+
+
+
+
+	10.1126/science.1083338<br>Include this information when citing this paper.</p><p>
+	
+	 
+		  
+			
+	
+
+
+	
+		<!-- beginning of outer tables -->
+		<table border="0" cellpadding="0" cellspacing="0" width="215">
+		<tbody><tr bgcolor="#ffffff"><td> 
+		<!-- beginning of inner table -->
+			<table border="0" cellpadding="3" cellspacing="0" width="212">
+				
+		
+		
+		
+		
+
+		
+
+		
+
+		
+		
+		
+
+		
+		 
+
+		
+		 
+	 		
+	<tbody><tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+			
+			 
+
+			
+			
+					
+	<b><a href="http://www.sciencemag.org/cgi/reprint/300/5622/1112">PDF</a></b><a href="http://www.sciencemag.org/cgi/reprint/300/5622/1112">
+
+	Version of this Article</a> 
+			
+			
+
+		</font></td></tr>
+		
+		
+
+                
+                
+
+	                
+	                
+	                        
+	                        
+					
+	                        
+	                
+                
+		
+		
+
+				
+		
+		 
+		 
+		
+
+                
+
+
+
+                
+                
+                
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+                <a href="http://www.sciencemag.org/cgi/content/full/300/5622/1112/DC1">Supporting Online Material</a>
+                </font></td></tr>
+                
+                
+
+                
+
+
+
+
+		
+	
+        <tr>
+        <td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	 <td align="left" bgcolor="#eeeeee" height="11" valign="top" width="12">&nbsp;</td>
+        <td align="left" bgcolor="#eeeeee" valign="top">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr align="left" noshade="" width="155">
+	</font></td></tr>
+
+
+
+
+
+                
+
+
+                
+
+                
+		
+
+                
+                        
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+                        <a href="http://www.sciencemag.org/cgi/citmgr?gca=sci;300/5622/1112">Download to Citation Manager</a>
+                        </font></td></tr>
+                
+
+
+                
+                
+                
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+                Alert me when:
+                <br><a href="http://www.sciencemag.org/cgi/alerts/ctalert?alertType=citedby&amp;addAlert=cited_by&amp;saveAlert=no&amp;cited_by_criteria_resid=sci;300/5622/1112&amp;return_type=article&amp;return_url=%2Fcgi%2Fcontent%2Ffull%2F300%2F5622%2F1112"><font size="-1">new articles cite this article</font></a><br>
+                </font></td></tr>
+                
+                
+
+		
+	
+        <tr>
+        <td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	 <td align="left" bgcolor="#eeeeee" height="11" valign="top" width="12">&nbsp;</td>
+        <td align="left" bgcolor="#eeeeee" valign="top">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr align="left" noshade="" width="155">
+	</font></td></tr>
+
+
+	
+	
+	
+		
+		
+		
+		
+	
+		
+		
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+			Search for similar articles in:
+			
+				<br>&nbsp;&nbsp;<a href="http://www.sciencemag.org/cgi/search?qbe=sci;300/5622/1112&amp;journalcode=sci&amp;minscore=5000"><font size="-1"><i>Science</i> Online</font></a>
+				
+				
+				<br>&nbsp;&nbsp;<a href="http://www.sciencemag.org/cgi/external_ref?access_num=12750511&amp;link_type=MED_NBRS"><font size="-1">PubMed</font></a>
+		</font></td></tr>
+		
+		
+
+
+
+		
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+			Search Medline for articles by:<br>
+			
+			
+				<a href="http://www.sciencemag.org/cgi/external_ref?access_num=Lecossier+D&amp;link_type=AUTHORSEARCH">Lecossier, D.</a>
+				 || 
+			
+				<a href="http://www.sciencemag.org/cgi/external_ref?access_num=Hance+AJ&amp;link_type=AUTHORSEARCH">Hance, A. J.</a>
+				
+			
+		</font></td></tr>
+		
+
+		
+
+
+
+		
+
+
+		
+
+		
+		
+	
+        <tr>
+        <td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	 <td align="left" bgcolor="#eeeeee" height="11" valign="top" width="12">&nbsp;</td>
+        <td align="left" bgcolor="#eeeeee" valign="top">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr align="left" noshade="" width="155">
+	</font></td></tr>
+
+			
+			
+				
+	<tr>
+	<td align="left" bgcolor="#FFFFFF" valign="top" width="4"><img src="shim.gif" height="1" width="4"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top" width="12"><img src="gray_arr_gray.gif" height="11" width="12"></td>
+	<td align="left" bgcolor="#eeeeee" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+
+					
+						This article appears in the following Subject Collections:<br>
+					
+					<b>
+					
+					<a href="http://www.sciencemag.org/cgi/collection/medicine">Medicine/Diseases</a>
+					</b>
+					
+					
+				</font></td></tr>
+			
+			
+			
+			
+
+	</tbody></table> 
+	</td></tr> <!-- end of inner content box -->
+	</tbody></table>	 <!-- end of outer content box -->
+
+
+					
+	
+
+
+
+
+
+<br clear="ALL">
+
+
+     
+	<font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="1">
+
+	Volume 300,
+	Number 5622,
+	Issue of 16 May 2003,
+	p. 1112.
+	
+    
+	<br><a style="text-decoration:no" href="http://www.sciencemag.org/misc/copyright.dtl"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="1">Copyright © 2003 by The American Association for the Advancement of Science.  All rights reserved.</font></a>
+	</font>
+	
+	
+	        <br>
+	        </p></td>
+	<!-- END ARTICLE ABSTRACT TEXT -->
+	    </tr>
+	        </tbody></table>
+	<!-- END NESTED TABLE 2 - PAGE CONTENT -->
+	<!-- BEGIN NESTED TABLE 3 - PAGE FOOTER -->     
+	        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+        <tbody><tr align="center" bgcolor="#eeeeee" valign="top">
+
+                <!-- height hardcoded in case of missing ads -->
+                <td height="40"><table><tbody><tr><td>
+
+</td><td>
+
+</td></tr></tbody></table></td>
+        </tr>
+        <tr align="left" bgcolor="#eeeeee" valign="top">
+                <td height="10" width="600"><img src="shim.gif" align="left" height="10" width="1"></td>
+        </tr>
+	    <tr align="left" bgcolor="#eeeeee" valign="middle"> 
+	                <td><img src="greydot_cccccc.gif" height="2" width="100%"><br>
+	        <br>
+	        <img src="shim.gif" height="1" width="7"><a href="#top"><img src="page_top.gif" border="0" height="11" width="70"></a><img src="shim.gif" height="1" width="39"> 
+	        
+	        <br>
+	        </td>
+	        </tr>
+	        <tr align="left" bgcolor="#eeeeee" height="100%" valign="middle"> 
+	                <td><img src="shim.gif" height="100%" width="1"></td>
+	        </tr>
+	    </tbody></table>
+	<!-- END NESTED TABLE 3 - PAGE FOOTER -->
+	    </td>
+	</tr>
+	</tbody></table>
+	<!-- END MAIN TABLE - CONTAINER -->
+	
+	
+	<script language="JavaScript">
+
+<!--
+	if (!isOther) { 
+	        var search_menu = '';
+	        search_menu += '<img src="http://www.sciencemag.org/icons/global_images/shim.gif" width="1" height="19">
+';
+	        search_menu += '<a href="http://www.sciencemag.org/search.dtl" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;science_magazine&#039;,&#039;&#039;,&#039;/icons/sci_mag_roll_over.gif&#039;,0)"><img name="science_magazine" border="0" src="http://www.sciencemag.org/icons/sci_mag_roll_up.gif" width="146" height="18"></a>
+';
+	        search_menu += '<a href="http://www.sciencenow.org/search.dtl" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;science_now&#039;,&#039;&#039;,&#039;/icons/sci_now_roll_over.gif&#039;,0)"><img name="science_now" border="0" src="http://www.sciencemag.org/icons/sci_now_roll_up.gif" width="146" height="17"></a>
+';
+	        search_menu += '<a href="http://www.nextwave.org/search.dtl" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;science_next_wave&#039;,&#039;&#039;,&#039;/icons/next_wave_roll_over.gif&#039;,0)"><img name="science_next_wave" border="0" src="http://www.sciencemag.org/icons/next_wave_roll_up.gif" width="146" height="17"></a>
+';
+	        search_menu += '<a HREF="http://www.sciencemag.org/searchall/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;highwire&#039;,&#039;&#039;,&#039;/icons/highwire_roll_over.gif&#039;,0)"><img name="highwire" border="0" src="http://www.sciencemag.org/icons/highwire_roll_up.gif" width="146" height="17"></a>
+';
+	        if (isLayers) { document.write('<layer name="search" left=230 top=116 z-index=15 visibility="hidden">' + search_menu + '</layer>'); 
+	        } else if (isDivs) { document.write('<div id="search" style="position:absolute; left:230px; top:116px; z-index:15; visibility:hidden">' + search_menu + '</div>'); }
+	}
+// -->
+	</script><layer name="search" left="230" top="116" z-index="15" visibility="hidden"><img src="shim.gif" height="19" width="1"><br><a href="http://www.sciencemag.org/search.dtl" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('science_magazine','','/icons/sci_mag_roll_over.gif',0)"><img name="science_magazine" src="sci_mag_roll_up.gif" border="0" height="18" width="146"></a><br><a href="http://www.sciencenow.org/search.dtl" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('science_now','','/icons/sci_now_roll_over.gif',0)"><img name="science_now" src="sci_now_roll_up.gif" border="0" height="17" width="146"></a><br><a href="http://www.nextwave.org/search.dtl" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('science_next_wave','','/icons/next_wave_roll_over.gif',0)"><img name="science_next_wave" src="next_wave_roll_up.gif" border="0" height="17" width="146"></a><br><a href="http://www.sciencemag.org/searchall/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('highwire','','/icons/highwire_roll_over.gif',0)"><img name="highwire" src="highwire_roll_up.gif" border="0" height="17" width="146"></a><br></layer>
+	<script language="JavaScript">
+
+<!--
+	if (!isOther) { 
+	        var browse_menu = '';
+	        browse_menu += '<img src="http://www.sciencemag.org/icons/global_images/shim.gif" width="1" height="19">
+';
+	        browse_menu += '<a HREF="http://www.sciencemag.org/content/current" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;browse_button&#039;,&#039;&#039;,&#039;/icons/current_issue_roll_over.gif&#039;,1)"><img name="browse_button" border="0" src="http://www.sciencemag.org/icons/current_issue_roll_up.gif" width="194" height="17"></a>
+';
+	        browse_menu += '<a HREF="http://www.sciencemag.org/contents-by-date.0.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;archives&#039;,&#039;&#039;,&#039;/icons/archives_roll_over.gif&#039;,1)"><img name="archives" border="0" src="http://www.sciencemag.org/icons/archives_roll_up.gif" width="194" height="17"></a>
+';
+	        browse_menu += '<a HREF="http://www.sciencemag.org/collections/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;subject&#039;,&#039;&#039;,&#039;/icons/subject_roll_over.gif&#039;,1)"><img name="subject" border="0" src="http://www.sciencemag.org/icons/subject_roll_up.gif" width="194" height="17"></a>
+';
+			browse_menu += '<a href="http://sciencenow.sciencemag.org/archives.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;nowarc&#039;,&#039;&#039;,&#039;/icons/scinow_arc_roll_over.gif&#039;,1)"><img name="nowarc" border="0" src="http://www.sciencemag.org/icons/scinow_arc_roll_up.gif" width="194" height="17"></a>
+';
+	        if (isLayers) { document.write('<layer name="browse" left=339 top=116 z-index=15 visibility="hidden">' + browse_menu + '</layer>'); 
+	        } else if (isDivs) { document.write('<div id="browse" style="position:absolute; left:339px; top:116px; z-index:15; visibility:hidden">' + browse_menu + '</div>'); }
+	}
+// -->
+	</script><layer name="browse" left="339" top="116" z-index="15" visibility="hidden"><img src="shim.gif" height="19" width="1"><br><a href="http://www.sciencemag.org/content/current" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('browse_button','','/icons/current_issue_roll_over.gif',1)"><img name="browse_button" src="current_issue_roll_up.gif" border="0" height="17" width="194"></a><br><a href="http://www.sciencemag.org/contents-by-date.0.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('archives','','/icons/archives_roll_over.gif',1)"><img name="archives" src="archives_roll_up.gif" border="0" height="17" width="194"></a><br><a href="http://www.sciencemag.org/collections/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('subject','','/icons/subject_roll_over.gif',1)"><img name="subject" src="subject_roll_up.gif" border="0" height="17" width="194"></a><br><a href="http://sciencenow.sciencemag.org/archives.shtml" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('nowarc','','/icons/scinow_arc_roll_over.gif',1)"><img name="nowarc" src="scinow_arc_roll_up.gif" border="0" height="17" width="194"></a><br></layer>
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+
+<!--
+
+window.open = SymRealWinOpen;
+
+//-->
+</script>
+
+
+</body>
+</html>

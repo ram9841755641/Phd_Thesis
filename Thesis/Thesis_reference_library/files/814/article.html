@@ -1,0 +1,725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" class="js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.eurekaselect.com/80566/article">
+<meta name="wpd_url" content="http://www.eurekaselect.com/80566/article">
+<meta name="wpd_date" content="2013-04-23T16:14Z">
+
+
+   	
+   	<title> Current Status of the Non-nucleoside Reverse Transcriptase Inhibitors of Human Immunodeficiency Virus Type 1 | BenthamScience</title>     
+   	
+
+<meta description="Almost fifteen years ago, the first non-nucleoside reverse transcriptase (RT) inhibitor (NNRTI) lead compounds have been discovered. Nowadays, three NNRTIs are approved for treatment of HIV-1-infected">
+<meta keywords="non-nucleoside, reverse transcriptase inhibitors, nucleoside rt inhibitors, nevirapine, delavirdine, efavirenz,J.  Balzarini">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="drupal.js"></script>
+<script type="text/javascript" src="apachesolr_autocomplete.js"></script>
+<script type="text/javascript" src="jquery.autocomplete.js"></script>
+<script type="text/javascript" src="googleanalytics.js"></script>
+<script type="text/javascript" src="uc_file.js"></script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "apachesolr_autocomplete": { "path": "/apachesolr_autocomplete" }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip", "trackOutboundAsPageview": 1 } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+
+ $(document).ready(function() {
+	
+	 try {
+		 onchange_isEPUB();
+	} catch(err) { 
+		//do nothing 
+	}
+	
+ }
+ )
+ 
+function onchange_isEPUB(){
+	
+	var ocboEPUB = document.getElementById("edit-articleinfo-is-epub");
+	var otxtVol = document.getElementById("edit-articleinfo-vol");
+	var otxtIssue = document.getElementById("edit-articleinfo-issue-name");
+	var epub_type = document.getElementById("edit-articleinfo-epub-type");
+	var epub_type_wrapper = document.getElementById("edit-articleinfo-epub-type-wrapper");
+	var epub_type = document.getElementById("edit-articleinfo-epub-type");
+	
+//	var otxtPCount = document.getElementById("page_count")[0];
+//	var otxtFPage = document.getElementById("first_page")[0];
+//	var otxtLPage = document.getElementById("last_page")[0];
+	
+	//if this is epub
+	if(ocboEPUB.options[ocboEPUB.selectedIndex].value == "1")
+	{	
+
+		//epub_type_wrapper.style.display = "block";
+		epub_type.disabled = false;
+
+		
+	} else {
+	
+		//epub_type_wrapper.style.display = "none";
+		epub_type.disabled = true;
+	}
+		
+	if(ocboEPUB.options[ocboEPUB.selectedIndex].value != "0")
+	{				
+		//otxtVol.value = 0;
+		otxtIssue.value = 0;
+		//otxtVol.disabled = true;
+		otxtIssue.disabled = true;
+
+		
+	}
+	else{
+		otxtVol.disabled = false;
+		otxtIssue.disabled = false;
+
+		
+	}	
+}
+
+function CalculatePages(){
+	
+	txtPageCount = document.getElementById("edit-articleinfo-page-count");
+	txtFirstPage = document.getElementById("edit-articleinfo-first-page");
+	txtLastPage = document.getElementById("edit-articleinfo-last-page");
+	
+	if((txtFirstPage.value != "") && (txtLastPage.value != "")){
+		if((IsNumeric(txtFirstPage.value)) && (IsNumeric(txtLastPage.value)))
+		{
+			var PageCount = Number(txtLastPage.value) - Number(txtFirstPage.value) + 1;
+			txtPageCount.value = PageCount;
+		}
+	}
+}
+
+
+function IsNumeric(strString)
+   //  check for valid numeric strings	
+   {
+   var strValidChars = "0123456789.-";
+   var strChar;
+   var blnResult = true;
+
+   if (strString.length == 0) return false;
+
+   //  test strString consists of valid characters listed above
+   for (i = 0; i < strString.length && blnResult == true; i++)
+      {
+      strChar = strString.charAt(i);
+      if (strValidChars.indexOf(strChar) == -1)
+         {
+         blnResult = false;
+         }
+      }
+   return blnResult;
+   }
+
+
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+ 
+function CalculateChapterPages(){
+	
+	txtPageCount = document.getElementById("edit-chapterinfo-page-count");
+	txtFirstPage = document.getElementById("edit-chapterinfo-first-page");
+	txtLastPage = document.getElementById("edit-chapterinfo-last-page");
+	
+	if((txtFirstPage.value != "") && (txtLastPage.value != "")){
+		if((IsNumeric(txtFirstPage.value)) && (IsNumeric(txtLastPage.value)))
+		{
+			var PageCount = Number(txtLastPage.value) - Number(txtFirstPage.value) + 1;
+			txtPageCount.value = PageCount;
+		}
+	}
+}
+
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+    $(document).ready(function(){
+
+    
+       
+      });
+      
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+    $(document).ready(function(){
+       
+       
+      });
+      
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+function AddAuthor(){
+
+	//Get all author fields
+	var ohdnAuthor = document.getElementsByName("hdnauthor")[0];
+	var ocboAuthorType = document.getElementsByName("author_type")[0];
+	var otxtAuthorfName = document.getElementsByName("authorfname")[0];
+	var otxtAuthorlName = document.getElementsByName("authorlname")[0];
+	var otxtAuthorIni = document.getElementsByName("authorinit")[0];
+	var otxtAuthorAff = document.getElementsByName("authoraffiliation")[0];		
+	var otxtAuthorInfo = document.getElementsByName("authorinfo")[0];
+	
+	//Check if all author Info is added
+	if( otxtAuthorlName.value == "" )
+	{	
+		alert("Please enter last name");
+		return;
+	}
+		
+	//save it in csv form in hidden field
+	ohdnAuthor.value = ohdnAuthor.value + otxtAuthorfName.value + "^" + otxtAuthorIni.value + "^" + otxtAuthorlName.value + "^" + otxtAuthorAff.value +  "|";
+
+	//add info to text area
+	otxtAuthorInfo.value = otxtAuthorInfo.value + " " + otxtAuthorfName.value + " " + otxtAuthorIni.value + " " + otxtAuthorlName.value + " " + otxtAuthorAff.value + "\n\r";	
+	
+	otxtAuthorfName.value = "";
+	otxtAuthorlName.value = ""; 
+	otxtAuthorIni.value = ""; 
+	otxtAuthorAff.value = "";
+	ocboAuthorType.selectedIndex = 0;	
+}
+
+function ResetAuthor()
+{	
+	var ohdnAuthor = document.getElementsByName("hdnauthor")[0];
+	var otxtAuthorInfo = document.getElementsByName("authorinfo")[0];
+
+	ohdnAuthor.value = "";
+	otxtAuthorInfo.value = "";
+}
+
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+	$(document).ready(function(){
+	   
+	   
+	  });
+	  
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+
+ 
+function IsNotNormal(){
+	
+	var ocboEPUB = document.getElementById("edit-articleinfo-is-epub");
+	var otxtVol = document.getElementById("edit-articleinfo-vol");
+	var otxtIssue = document.getElementById("edit-articleinfo-issue");
+	
+		
+	if(ocboEPUB.options[ocboEPUB.selectedIndex].value != "0")
+	{				
+		
+		otxtIssue.value = 0;
+		otxtIssue.disabled = true;
+
+		
+	}
+	else{
+	
+		otxtVol.disabled = false;
+		otxtIssue.disabled = false;
+	
+	}	
+}
+
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+function CloseWindow(){
+
+	window.close();	
+}
+
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+	$(document).ready(function(){
+	   
+	   
+	  });
+	  
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+
+    $(document).ready(function(){
+       
+       
+      });
+      
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+$.fn.showIf = function( show, arg ) {
+       return this[ show ? 'show' : 'hide' ]( arg );
+     };
+     $().ready(function() {
+       $('#edit-profile-country').change(function() {
+         var country = $(this).val();
+         $('#state').showIf( country == 'US' );
+         $('#province').showIf( country == 'CA' );
+       }).trigger('change');
+     }); 
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+$.fn.showIf = function( show, arg ) {
+       return this[ show ? 'show' : 'hide' ]( arg );
+     };
+     $().ready(function() {
+       $('#edit-profile-country').change(function() {
+         var country = $(this).val();
+         $('#state').showIf( country == 'US' );
+         $('#province').showIf( country == 'CA' );
+       }).trigger('change');
+     }); 
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+$.fn.showIf = function( show, arg ) {
+       return this[ show ? 'show' : 'hide' ]( arg );
+     };
+     $().ready(function() {
+       $('#edit-profile-country').change(function() {
+         var country = $(this).val();
+         $('#state').showIf( country == 'US' );
+         $('#province').showIf( country == 'CA' );
+       }).trigger('change');
+     }); 
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+$.fn.showIf = function( show, arg ) {
+       return this[ show ? 'show' : 'hide' ]( arg );
+     };
+     $().ready(function() {
+       $('#edit-profile-country').change(function() {
+         var country = $(this).val();
+         $('#state').showIf( country == 'US' );
+         $('#province').showIf( country == 'CA' );
+       }).trigger('change');
+     }); 
+//--><!]]>
+</script>
+		
+	<script type="text/javascript">$(document).ready(function() { $("#license").fancybox(); }); </script>
+	<script type="text/javascript" src="jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="jquery.fancybox-1.3.4.pack.js"></script>
+		
+		
+	
+	
+	
+     
+<script type="text/javascript">
+
+  $(document).ready(function(){
+	 
+	  var pathname = window.location.pathname.toLowerCase();    
+	  $('#menu li a').removeClass('active'); 
+	  if(pathname == "/bypublication"){		  
+		  $('#Browse').addClass('active');
+	  }
+	  else if(pathname == "/bybook"){		  
+		  $('#Browse').addClass('active');
+	  }
+	  else if(pathname == "/browse_by_subject"){		  
+		  $('#Browse').addClass('active');
+	  }
+	  else if(pathname == "/search/apachesolr_search"){		  
+		  
+		  $('#Search_Page').addClass('active');
+	  }
+	  else if(pathname == "/326/page/contact-us"){ 		  
+		  $('#Contact').addClass('active');
+	  }
+	  else if(pathname == "/benthamdirect/marklist/show"){ 		  
+		  $('#Marklist').addClass('active');
+	  }
+	  else if(pathname == "/3/page/about"){ 		  
+		  $('#AboutUs').addClass('active');
+	  }
+	  else if(pathname == "/2/page/fact-sheet"){ 		  
+		  $('#FactSheet').addClass('active');
+	  }
+	  
+	  else if(pathname == "/admin"){ 		
+		  $('#AdminHome').addClass('active');
+	  }
+	  
+
+	  if(document.getElementsByTagName){
+			var rows = document.getElementsByTagName("tr"); 
+			 
+			for(i = 0; i < rows.length; i++){          
+				if(i % 2 == 0){
+					rows[i].className = "evenrowcolor";
+				}else{
+					rows[i].className = "oddrowcolor";
+				}      
+			}
+			
+		}
+	  
+  });    	  
+	function OpenLoginPopup(){
+		loginBlock =  document.getElementById("login-block"); 
+		
+  		if(loginBlock.style.display == "block"){
+  			loginBlock.style.display = "none";
+  		}
+  		else{
+  			loginBlock.style.display = "block";
+  		}
+	}
+		
+</script>  	
+    
+    
+
+<link rel="stylesheet" type="text/css" href="article.css" media="all">
+</head>
+<body>
+
+	<!-- Wrapper start here -->
+	<div id="dic_bubble" class="selection_bubble fontSize13 noSelect" style="z-index: 9999; border: 1px solid rgb(74, 174, 222);"></div><div class="wrapper">
+	
+		<!-- Home Top Header wrapper start here -->
+		<div class="home-top-header-menu-wrapper">
+	
+			<!-- Home Top Header container start here -->
+			<div class="home-top-header-menu-container">	
+				<div class="left-logo"><img src="bentham.JPG"></div>
+				<div style="margin: 20px 0px 0px -40px; width: 0px; height: 0px; float: left; color: rgb(255, 0, 0) ! important;">
+				  
+				</div>
+
+				<div class="top-menu-container">	
+					
+					<div class="top-menu-icon01" onclick="OpenLoginPopup();">Login</div><div class="top-menu-icon02"><a href="http://www.eurekaselect.com/user/register">Register</a></div>					
+					
+					<div class="top-menu-icon03"><a href="http://www.eurekaselect.com/cart">Shopping cart</a></div>
+					<br>
+					<div class="login-block" id="login-block">
+							
+
+
+<div style="margin-bottom: 10px;" id="block-user-0" class="block block-user">
+  <div class="asearch-hedig">
+  <h3 style="color: rgb(0, 0, 0); font-size: 12px; padding: 5px;">Login</h3>
+  </div>
+  <div class="current-search-sep" style="background-color: rgb(246, 246, 246);"></div>
+
+  <div class="content">
+  	
+    <form action="http://www.eurekaselect.com/80566/article?destination=node%2F80566" accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" type="text">
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input name="pass" id="edit-pass" maxlength="60" size="15" class="form-text required" type="password">
+</div>
+<input name="op" id="edit-submit" value="Log in" class="form-submit" type="submit">
+<div class="item-list"><ul><li class="first"><a href="http://www.eurekaselect.com/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="http://www.eurekaselect.com/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input name="form_build_id" id="form-0fa94623c8901daccbe9d878302c86f1" value="form-0fa94623c8901daccbe9d878302c86f1" type="hidden">
+<input name="form_id" id="edit-user-login-block" value="user_login_block" type="hidden">
+
+</div></form>
+<br>
+  </div>
+</div>
+			
+					</div>
+					
+				</div>
+				
+				
+			</div>
+			<!-- Home Top Header container close here -->
+
+			<!-- Top Menu container start here -->
+            	<div id="menu">
+            		<ul class="dropdown">
+        				<li>
+        														<a href="http://www.eurekaselect.com/" class="">Home</a>
+								        				</li>
+        				<li><a class="" href="javascript:void(0)">Browse</a>
+        					<ul class="sub_menu">
+        						<li><a href="http://www.eurekaselect.com/bypublication" class="" id="Journals">Journals</a>
+									<ul class="sub_menu2">
+										<li><a href="http://www.eurekaselect.com/bypublication" class="" id="Journals">By Title</a></li>
+										<li><a href="http://www.eurekaselect.com/browse_by_subject" class="" id="Journals">By Subject</a></li>
+									</ul>
+								</li>
+        						<li><a href="http://www.eurekaselect.com/bybook" class="" id="Ebooks">eBooks</a>
+								
+									<ul class="sub_menu2">
+											<li><a href="http://www.eurekaselect.com/bybook" class="" id="eBook">By Title</a></li>
+											<li><a href="http://www.eurekaselect.com/browse_by_ebook_subject" class="" id="eBook">By Subject</a></li>
+										</ul>
+								</li>
+        			 			
+        			 		</ul>       				
+        				</li>
+        				<li><a href="http://www.eurekaselect.com/search" class="" id="Search_Page">Search</a></li>
+        				        				<li><a href="http://www.eurekaselect.com/326/page/contact-us" class="" id="Contact">Contact</a></li>
+        				<li><a href="http://www.eurekaselect.com/3/page/about" class="" id="AboutUs">About Us</a></li>
+        				<li><a href="http://www.eurekaselect.com/2/page/fact-sheet" class="" id="FactSheet">Ordering &amp; Subscription</a></li>
+        				<!--<li><a href="mailto:support@bentham-direct.org" class = "" id = "Help">Help</a></li>    -->
+        				<li><a href="http://www.eurekaselect.com/feedback" class="" id="Help">Feedback</a></li>
+        			</ul>
+        		</div>
+				<!-- Top Menu container close here 
+				<div class="home-menu-shadow-line"><img src="/sites/all/themes/eurekaselect/images/home-menu-shadow-line.png" /></div>
+-->
+		</div>
+		<!-- Home Top Header wrapper close here -->
+		
+        <div class="inner-body-container">
+        	
+        	
+        	        		<div style="float: left; padding-left: 10px; width: 99%;">
+        		 
+        		      
+        			<div class="inner-browse-container">
+  <div style="background-color: rgb(255, 255, 255);">
+    <div style="float: left; margin-left: 6px;">
+     		<img class="imgborder" src="CTMC_0.gif" alt="Journal Image" height="140" width="95">  
+    </div>
+    <div class="title-2" style="float: left; margin-left: 12px; font-size: 15px; width: 875px;">
+    	<b>Current Topics in Medicinal Chemistry</b><br>
+        <span style="font-size: 10px;"></span>
+        <div class="volume" style="margin-top: 8px;">
+        	<strong>ISSN (Print)</strong>: 1568-0266<br>
+        	<strong>ISSN (Online)</strong>: 1873-5294<br>
+        	 <strong>VOLUME</strong>: 4<br>
+        	<strong>ISSUE</strong>: 9<br>			
+        				<strong>DOI</strong>: <a href="http://dx.doi.org/10.2174/1568026043388420">10.2174/1568026043388420</a>
+			
+						
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<strong>Price</strong>: &nbsp;$58			
+						<br>
+        </div>
+        <div style="margin-top: 14px; float: left;">
+        	<a href="javascript:history.back()"><img src="btn_back.gif"></a>        	
+        </div>
+		
+		<div style="margin-top: 14px; float: left; margin-left: 15px;">
+			 	   
+		<div style="float: left; margin-right: 25px;"> 
+			<form action="http://www.eurekaselect.com/80566/article" accept-charset="UTF-8" method="post" id="article-add-to-marklist-form-80566">
+<div><input name="submit" value="Mark Item" id="edit-submit-80566" class="form-submit" src="mark.gif" type="image">
+<input name="form_build_id" id="form-5651c896cebb3b9bade061ec8e36f115" value="form-5651c896cebb3b9bade061ec8e36f115" type="hidden">
+<input name="form_id" id="edit-article-add-to-marklist-form-80566" value="article_add_to_marklist_form_80566" type="hidden">
+
+</div></form>
+		</div>
+		<div style="float: left;" id="add-to-cart"> 
+			<form action="http://www.eurekaselect.com/80566/article" accept-charset="UTF-8" method="post" id="article-add-to-cart-form-80566">
+<div><input name="submit" value=" ADD TO CART " id="edit-submit-80566" class="form-submit" src="cart.gif" type="image">
+<input name="form_build_id" id="form-927c7588341f51fb84cc94a195ba0b3e" value="form-927c7588341f51fb84cc94a195ba0b3e" type="hidden">
+<input name="form_id" id="edit-article-add-to-cart-form-80566" value="article_add_to_cart_form_80566" type="hidden">
+
+</div></form>
+		</div>
+	  		</div>
+		
+    </div>
+     
+  </div><br><br><br><br><br><br><br><br><br>
+ 
+  <div style="margin: 20px 0px; width: auto;">
+  	<div class="title-2" style="float: left; margin-left: 0px; font-size: 15px; width: 875px;">      
+      	<b> Current Status of the Non-nucleoside Reverse Transcriptase Inhibitors of Human Immunodeficiency Virus Type 1</b>      
+    </div>
+    <div style="clear: both;"></div>
+    <br>        
+  	<img src="header-btm.png" alt="img" height="8" width="800">
+  
+    <div style="color: rgb(51, 51, 51);">
+    	    	<span style="font-weight: bold;">Author(s):</span> 
+    	J.  Balzarini    	<br>
+    	Pages 921-944 (24)    </div>
+  </div>
+  
+  <div class="alphabet-browse-container">
+      <div class="title-2" style="float: left;"> <span style="font-weight: bold;">Abstract:</span>
+        <div style="margin: 8px 0px 20px; line-height: 23px; text-align: justify; color: rgb(51, 51, 51);">
+  	
+         	  Almost fifteen years ago, the first non-nucleoside reverse transcriptase (RT) inhibitor (NNRTI) lead compounds have been discovered. Nowadays, three NNRTIs are approved for treatment of HIV-1-infected individuals and several others are subject of (advanced) clinical trials. Although the NNRTIs target HIV-1 RT, they are clearly different from the nucleoside RT inhibitors (NRTIs). They are highly selective for HIV-1 and do not inhibit HIV-2 or any other (retro)virus. They target HIV-1 RT by a direct interaction without the need to be metabolised by cellular enzymes, and they interact at a site on the HIV-1 RT that is near to, but distant from, the substrate-binding site. The majority of NNRTIs share common conformational properties and structural features that let them fit in a hydrophobic pocket at the HIV-1 RT, which is nowadays well-characterized. A wide variety of crystal structures of RT complexed with NNRTIs have been obtained. They provide detailed insights in the molecular interaction of the NNRTIs with the amino acids lining the pocket in HIV-1 RT. Due to their unprecedented specificity, the NNRTIs are relatively non-toxic in cell culture, and the most potent compounds reach selectivity indices that exceed 100,000 or more. However, inherent to their high specificity, the NNRTIs easily select for mutant virus strains with several degrees of drug resistance. The first-generation NNRTIs such as nevirapine and delavirdine easily loose their inhibitory potential against mutant virus strains that contain single amino acid mutations in their RT. The second-generation NNRTIs such as efavirenz, capravirine and dapivirine usually require two or more mutations in the HIV-1 RT before significantly decreasing their antiviral potency. Evidently, it requires a markedly longer time period to obtain significant resistance against second-generation NNRTIs. The resistance spectrum of NNRTIs is entirely different from the NRTI resistance spectrum, and, as a rule, NRTI-resistant mutant virus strains keep full sensitivity to the inhibitory effects of NNRTIs, and vice versa NNRTI-resistant and mutant virus strains keep full sensitivity to the inhibitory effects of NRTIs. NNRTIs have proven beneficial when included in drug combination (triple or quadruple) therapy, preferably in the presence of protease inhibitors and NRTIs.           
+         </div>
+    </div>
+    <div style="clear: both;"></div>
+        <div class="title-2" style="float: left;"> <span style="font-weight: bold;">Keywords: </span>
+        <div style="margin: 8px 0px 20px; line-height: 23px; color: rgb(51, 51, 51);">
+
+        	 non-nucleoside, reverse transcriptase inhibitors, nucleoside rt inhibitors, nevirapine, delavirdine, efavirenz        </div>
+    </div>
+     <div style="clear: both;"></div>
+         <div class="title-2" style="float: left;"> <span style="font-weight: bold;">Affiliation:</span>
+        <div style="margin: 8px 0px 20px; line-height: 23px; color: rgb(51, 51, 51);">
+
+        	Rega Institute for Medical Research, Minderbroedersstraat 10, B-3000 Leuven, Belgium	  
+        </div>
+    </div>
+      </div>
+<p style="clear: both;"></p>
+		 
+</div>
+	        		</div>
+        		<div style="clear: both;"></div>
+                  
+ 		</div>
+ 		<br>
+        <!-- Footer start here -->
+        <!--  <div class="footer-wrapper">-->
+            <!--<div class="footer-container">
+                <div class="footer-4box-container">
+                    <h1>INFORMATION FOR</h1>
+                    <div class="footer-4box-brackline"><img src="/sites/all/themes/eurekaselect/images/footer-4box-line.png" /></div>
+					<div class="footer-navigation">
+						<ul>
+						<li>Authors</li>
+						<li>Editors</li>
+						<li>Researchers</li>
+						<li>Industries</li>
+						<li>Librarians</li>						
+						</ul>
+					</div>
+				</div>
+				<div class="footer-4box-brackline-center"><img src="/sites/all/themes/eurekaselect/images/footer-4box-line-center.png" /></div>
+                <div class="footer-4box-container">
+                	<h1>HOW TO PURCHASE</h1>
+                    <div class="footer-4box-brackline"><img src="/sites/all/themes/eurekaselect/images/footer-4box-line.png" /></div>
+					<div class="footer-navigation">
+						<ul>
+							<li>Journals</li>
+							<li>eBooks</li>
+							<li>Articles</li>
+							<li>Chapters</li>					
+						</ul>
+					</div>
+                </div>
+				<div class="footer-4box-brackline-center"><img src="/sites/all/themes/eurekaselect/images/footer-4box-line-center.png" /></div>
+                <div class="footer-4box-container">
+                    <h1>IMPORTANT LINKS</h1>
+                    <div class="footer-4box-brackline"><img src="/sites/all/themes/eurekaselect/images/footer-4box-line.png" /></div>
+					<div class="footer-navigation">
+						<ul>
+							<li><a href = "/benthamdirect/326/page/contact-us">Contact Us</a></li>
+							<li><a href = "/benthamdirect/3/page/about" >About Us</a></li>
+							<li><a href = "/benthamdirect/freecontent" >Free Content</a></li>
+							<li><a href = "/benthamdirect/openaccess">Open Access Plus</a></li>
+							<li><a href = "/benthamdirect/2/page/fact-sheet">Fact Sheet</a></li>						
+						</ul>
+					</div>
+                </div>
+				<div class="footer-4box-brackline-center"><img src="/sites/all/themes/eurekaselect/images/footer-4box-line-center.png" /></div>
+				<div class="footer-4box-container">
+                	<h1>FOLLOW US</h1>
+                    <div class="footer-4box-brackline"><img src="/sites/all/themes/eurekaselect/images/footer-4box-line.png" /></div>
+					<div class="footer-navigation">
+						<ul>
+							<li>Facebook</li>
+							<li>Twitter</li>
+							<li>LinkedIn</li>
+							<li>Flickr</li>
+							<li>myspace</li>
+												
+						</ul>
+					</div>
+                </div>
+           </div>-->
+			<div class="footer-designer-container">
+  				<div class="copyright">Copyright © 2013 Bentham Science Publishers. All Rights Reserved. <a href="http://eurekaselect.com/209">Terms &amp; Conditions</a></div>
+          	</div>
+        	<!--  </div>-->
+			<!-- Footer close here -->		
+     </div>
+     <!-- Wrapper close here -->
+     <script type="text/javascript">
+
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-33930356-1"]);_gaq.push(["_gat._anonymizeIp"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+     
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body>
+</html>

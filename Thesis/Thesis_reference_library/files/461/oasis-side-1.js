@@ -1,0 +1,1 @@
+document.write('<script type="text/javascript" src="http://ahs2.adhostingsolutions.com/oasisi-j.php?s=1892&w=160&h=160&u=ahs2.adhostingsolutions.com&t=_blank&k='+adskey+'+'+url_path+'"><\/script>');

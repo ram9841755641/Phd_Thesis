@@ -1,0 +1,5 @@
+function OAS_RICH(position) {
+if (position == 'TopRight') {
+document.write ('<A HREF="http://oas.rsc.org/5c/pubs.rsc.org/en/content/articlelanding/2003/ob/b208248a/unauth/2013486179/TopRight/default/empty.gif/6131685077464769634f6f4141523747?x" target="_top"><IMG SRC="http://imagec16.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+}

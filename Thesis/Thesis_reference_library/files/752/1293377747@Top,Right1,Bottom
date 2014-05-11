@@ -1,0 +1,69 @@
+function OAS_RICH(position) {
+if (position == 'Bottom') {
+document.write ('<script LANGUAGE="JavaScript1.1"\n');
+document.write ('\n');
+document.write ('SRC="http://oasc05134.247realmedia.com/RealMedia/ads/adstream_jx.ads/BMJsti/healthfitness /1{TIME_DATE_STAMP}@Middle1">\n');
+document.write ('\n');
+document.write ('</script>');
+}
+if (position == 'Right1') {
+document.write ('<script LANGUAGE="JavaScript1.1"\n');
+document.write ('\n');
+document.write ('SRC="http://oasc05134.247realmedia.com/RealMedia/ads/adstream_jx.ads/BMJsti/healthfitness /1{TIME_DATE_STAMP}@Right1">\n');
+document.write ('\n');
+document.write ('</script>');
+}
+if (position == 'Top') {
+document.write ('\n');
+document.write ('		\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('<script type="text/javascript">\n');
+document.write ('//<![CDATA[\n');
+document.write ('var filePath                     = "http://imagec16.247realmedia.com/RealMedia/ads/Creatives/BMJ/sti-alere-280812/Online_Ad_october_clickTAG_blank.swf/1351004356";\n');
+document.write ('var TFSMFlash_PRETAG             = "";\n');
+document.write ('var TFSMFlash_POSTTAG            = "";\n');
+document.write ('var TFSMFlash_VERSION            = "9";\n');
+document.write ('var TFSMFlash_WMODE              = "window";\n');
+document.write ('\n');
+document.write ('			var TFSMFlash_OASCLICK           = "http://oas.services.bmj.com/5c/sti.bmj.com/content/87/2/178.full/L19/1800292893/Top/BMJ/sti-alere-280812/alere.html/327a66434f6c4764377463414457692f";\n');
+document.write ('	\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('var TFSMFlash_SWFCLICKVARIABLE   = "?clickTAG="+TFSMFlash_OASCLICK + "";\n');
+document.write ('var TFSMFlash_SWFFILE            = filePath + TFSMFlash_SWFCLICKVARIABLE;\n');
+document.write ('var TFSMFlash_FSCOMMAND          = "";\n');
+document.write ('var TFSMFlash_IMAGEALTERNATE     = "http://imagec16.247realmedia.com/RealMedia/ads/Creatives/BMJ/sti-alere-280812/Online_Ad_october1.jpg/1351004356";\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('var TFSMFlash_OASALTTEXT         = "";\n');
+document.write ('var TFSMFlash_OASTARGET          = "_blank";\n');
+document.write ('var TFSMFlash_OASPROTOCOL        = "http://";\n');
+document.write ('var TFSMFlash_OASDIM             = "width=');
+document.write ("'");
+document.write ('728px');
+document.write ("'");
+document.write (' height=');
+document.write ("'");
+document.write ('90px');
+document.write ("'");
+document.write ('";\n');
+document.write ('var TFSMFlash_OASADID            = "OAS_RMF_Top_FLASH";\n');
+document.write ('document.write("<"+"scr"+"ipt type=\\');
+document.write ('"text/javascript\\');
+document.write ('" src=\\');
+document.write ('"http://imagec16.247realmedia.com/RealMedia/ads/Creatives/BMJ/sti-alere-280812/TFSMFlashWrapper301.js/1351004356\\');
+document.write ('"><\\');
+document.write ('/scr"+"ipt"+">");\n');
+document.write ('//]]>\n');
+document.write ('</script>\n');
+document.write ('<noscript>\n');
+document.write ('	<a href="http://oas.services.bmj.com/5c/sti.bmj.com/content/87/2/178.full/L19/1800292893/Top/BMJ/sti-alere-280812/alere.html/327a66434f6c4764377463414457692f" target="_blank">\n');
+document.write ('		<img src="http://imagec16.247realmedia.com/RealMedia/ads/Creatives/BMJ/sti-alere-280812/Online_Ad_october1.jpg/1351004356" width="728" height="90" alt="" style="border:0px black solid;" />\n');
+document.write ('	</a>\n');
+document.write ('</noscript>\n');
+document.write ('\n');
+document.write ('\n');
+}
+}

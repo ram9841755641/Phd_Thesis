@@ -1,0 +1,383 @@
+
+/* ::::: http://images.webofknowledge.com/WOKRS510B3_1/css/WoKcommon.css ::::: */
+
+BODY { background-position: center top; background-image: url('bg_vert.gif'); background-repeat: repeat-x; background-color: rgb(194, 194, 194); font-family: Arial,Helvetica,sans-serif; z-index: 1; margin: 0px 0px 15px; padding: 0px; }
+img { border: medium none; }
+A:link, A:active, A:visited { color: rgb(53, 80, 202); text-decoration: none; }
+A:hover { color: rgb(53, 80, 202); text-decoration: underline; }
+P { margin-right: 4px; margin-left: 0px; margin-bottom: 0px; }
+form { margin: 0px; padding: 0px; }
+.normalWeight { font-weight: normal; }
+.invisible { visibility: hidden; }
+.smaller95 { font-size: 95%; }
+.nodisplay { display: none; }
+label.hidden { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; }
+.dothorz { height: 1px; background-color: rgb(204, 204, 204); }
+.dotvert { background-color: rgb(204, 204, 204); width: 1px; }
+.borderProduct { font-family: Arial,Helvetica,sans-serif; color: rgb(255, 146, 1); padding-top: 5px; padding-bottom: 0px; font-weight: bold; padding-left: 10px; font-size: 100%; }
+.returnProduct { font-family: Arial,Helvetica,sans-serif; color: rgb(0, 125, 29); padding-top: 10px; padding-bottom: 8px; font-weight: bold; background-color: rgb(242, 242, 242); padding-left: 10px; }
+.backLink { font-family: Arial,Helvetica,sans-serif; font-size: 75%; padding-bottom: 4px; }
+.SiloBackLink { font-family: Arial,Helvetica,sans-serif; font-size: 70%; padding-top: 3px; padding-bottom: 1px; }
+.NEW3colTable, .NEW2colTable4sidebar { min-width: 700px; }
+.NEWleftOuterEdge { width: 15px; height: 1px; }
+.NEWrightOuterEdge { width: 15px; height: 1px; }
+.NEWtopTabContainer {  }
+.NEWprodToolbarContainer, .NEWsummaryTopContainer, .NEWmiddleWhiteContainer, .NEWsearchContainer, .NEWquickOutputContainer, .NEWlanguageContainer, .NEWsearchLimitsContainer, .NEWbottomContainer, .NEWvcrContainer, .NEWaddResourcesContainer, .NEWselectDBContainer, .NEWumlDataContainer, .NEWumlScoreCardContainer, .NEWsearchHistoryContainer, .NEWdaisTopContainer, .NEWdaisContainer, .NEWcr2searchContainer, .NEWselectContainer, .NEWcitedReferencesContainer, .CHEMresultsTableContainer { background-color: rgb(255, 255, 255); padding: 0px 25px; margin: 0px; }
+.NEWprodToolbarContainerAllDB { padding: 0px 25px; margin: 0px; background-color: rgb(255, 255, 255); }
+.NEWsummaryDataContainer { background-color: rgb(255, 255, 255); }
+.NEWumlScoreCardContainer { padding-bottom: 15px; }
+.NEWsearchHistoryContainer { padding-bottom: 6px; }
+.NEWviewAbstract { background-position: center top; background-image: url('bg_vert.gif'); background-repeat: repeat-x; background-color: rgb(194, 194, 194); font-family: Arial,Helvetica,sans-serif; margin: 4px; }
+.NEWviewAbtractBox { background-color: rgb(255, 255, 255); padding: 6px; }
+.NEWquickOutputContainer .NEWquickOutputBox { padding-right: 10px; padding-left: 10px; }
+.NEWaddResourcesContainer { padding-bottom: 20px; padding-top: 14px; }
+.NEWselectDBContainer { padding-top: 20px; padding-bottom: 20px; }
+.NEWfullRecordDataContainer { background-color: rgb(255, 255, 255); }
+.NEWmoduleTitleContainer { background-color: rgb(255, 255, 255); margin: 0px; padding: 10px 25px 0px; }
+.NEWmoduleMidContainer, .NEWpersContainer, .NEWncbiContainer, .NEWsssContainer, .NEWaufinderContainer, .NEWpctContainer, .NEWbrowseContainer, .NEWmjlContainer { background-color: rgb(255, 255, 255); margin: 0px; padding: 5px 25px 10px; }
+.NEWsssContainer { padding-left: 50px; padding-right: 50px; }
+.NEWmjlContainer { padding-top: 15px; padding-bottom: 15px; }
+.NEWwokErrorContainer { background-color: rgb(255, 255, 255); margin: 0px; padding: 15px 25px; }
+.NEWwokErrorContainer P { font-size: 75%; color: rgb(75, 75, 75); margin: 15px 0px 10px; }
+.NEWwokErrorContainer UL { margin: 15px 0px 10px 10px; padding: 0px; }
+.NEWwokErrorContainer LI { font-size: 75%; color: rgb(75, 75, 75); margin-left: 20px; }
+.NEWbackArrows { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 90%; }
+.NEWbackLink { white-space: nowrap; font-family: Arial,Helvetica,sans-serif; font-size: 70%; font-weight: bold; padding: 4px 0px 3px; margin: 0px; }
+.NEWtrLogo { text-align: right; float: right; }
+.NEWwokLogo {  }
+.NEWbannerBar { white-space: nowrap; background-color: rgb(255, 255, 255); margin: 0px; padding: 2px 0px; min-width: 832px; }
+.NEWbannerBarSMALL { white-space: nowrap; background-color: rgb(255, 255, 255); margin: 0px; padding: 2px 0px; min-width: 441px; }
+.NEWbannerNavBar { margin: 0px 0px 20px; text-align: right; vertical-align: middle; background-color: rgb(223, 223, 223); background-image: url('navbg.gif'); background-repeat: repeat-x; padding: 6px 20px 6px 6px; background-position: center top; }
+.NEWbannerNavBar .NEWpipe, .copyrightStripe .NEWpipe, .umlMoreField .NEWpipe { vertical-align: bottom; height: 16px; width: 1px; }
+.summary_quickTopButtons .NEWpipe, .FR_links_table .NEWpipe, .outputSErow1 .NEWpipe, outputSErow3 .NEWpipe { vertical-align: bottom; height: 18px; width: 1px; padding-left: 4px; padding-right: 4px; }
+.FR_links_table input { padding-bottom: 3px; }
+.NEWtopNavItem { font-size: 75%; padding-left: 9px; padding-right: 9px; white-space: nowrap; }
+.NEWtabBar { margin: 0px; padding: 0px; white-space: nowrap; }
+.NEWtoolBar { padding: 4px 0px; border-bottom: 1px solid rgb(204, 204, 204); margin-left: -15px; margin-right: -15px; }
+#searchTabsTable { margin-top: 0px; margin-bottom: 0px; }
+#searchTabsTable .dotvert { background-color: rgb(204, 204, 204); width: 1px; }
+#searchTabsTable .contnavtext { padding-right: 9px; padding-left: 9px; font-size: 75%; text-align: left; height: 24px; vertical-align: middle; color: rgb(75, 75, 75); }
+.contnavtextB { padding-left: 3px; }
+.NEWproductName { font-family: Arial,Helvetica,sans-serif; color: rgb(255, 146, 1); font-weight: bold; font-size: 120%; padding: 8px 0px 2px 15px; margin: 0px -15px; }
+.NEWproductNameUA { margin-top: 1px; background-image: url('allDBbk.gif'); background-position: center bottom; }
+.NEWpageTitle { white-space: nowrap; font-family: Arial,Helvetica,sans-serif; color: rgb(255, 146, 1); font-weight: bold; font-size: 100%; padding: 10px 0px 4px; margin: 0px; }
+.languages { vertical-align: middle; padding: 6px 20px 6px 6px; border-top: 1px solid rgb(204, 204, 204); }
+.languages .NEWpipe { vertical-align: bottom; height: 16px; width: 1px; }
+.languageHdr { font-family: Arial,Helvetica,sans-serif; font-size: 70%; padding-right: 10px; color: rgb(78, 78, 78); font-weight: bold; }
+.languageChars { font-size: 90%; padding-right: 9px; padding-left: 9px; }
+.languageText { font-size: 70%; padding-right: 9px; padding-left: 9px; color: rgb(75, 75, 75); }
+.NEWfooter { font-family: Arial,Helvetica,sans-serif; margin-bottom: 15px; border-top: 1px solid rgb(204, 204, 204); padding-top: 10px; background-color: rgb(255, 255, 255); }
+.NEWfeedback { font-size: 70%; color: rgb(75, 75, 75); font-style: italic; margin: 0px; padding-left: 6px; white-space: nowrap; }
+.NEWpolicy { font-size: 70%; color: rgb(75, 75, 75); margin: 0px; padding-left: 6px; padding-right: 6px; }
+.NEWprivacy { font-size: 70%; color: rgb(75, 75, 75); margin: 0px; padding-left: 6px; padding-right: 6px; }
+.NEWcopyright { font-size: 70%; color: rgb(75, 75, 75); margin: 0px; padding-top: 6px; padding-right: 6px; }
+.instLogosBottom { padding: 10px 10px 10px 20px; text-align: center; }
+.copyrightStripe { padding: 4px; margin: 0px; }
+.NEWtext { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 80%; margin-top: 4px; font-style: italic; font-weight: bold; color: rgb(244, 98, 0); }
+.formBoxesShow { font-size: 70%; font-family: Arial,Helvetica,sans-serif; border: 1px solid rgb(128, 128, 128); }
+.formBoxesRefine { font-size: 75%; font-family: Arial,Helvetica,sans-serif; border: 1px solid rgb(153, 153, 153); }
+.formBoxesSave { font-size: 70%; font-family: Arial,Helvetica,sans-serif; border: 1px solid rgb(128, 128, 128); margin-left: 0px; }
+.formBoxesSort { font-size: 70%; font-family: Arial,Helvetica,sans-serif; border: 1px solid rgb(128, 128, 128); }
+.formBoxesCRS { font-size: 75%; font-family: Arial,Helvetica,sans-serif; width: 30em; border: 1px solid rgb(153, 153, 153); margin-top: 4px; }
+.formFieldSelect { font-size: 70%; font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(51, 51, 51); border: 1px solid rgb(128, 128, 128); }
+.formBooleanSelect { font-size: 70%; font-family: Arial,Helvetica,sans-serif; color: rgb(51, 51, 51); width: 65px; border: 1px solid rgb(128, 128, 128); }
+.errorMessage { padding-bottom: 5px; padding-top: 3px; background-color: rgb(255, 255, 204); text-align: center; border: 1px dashed rgb(102, 102, 102); margin: 12px 1px; }
+.errorHead { font-family: Arial,Helvetica,sans-serif; font-size: 80%; font-weight: bold; padding-top: 6px; padding-bottom: 6px; color: rgb(153, 0, 0); }
+.newErrorHead { font-family: Arial,Helvetica,sans-serif; font-size: 80%; font-weight: bold; padding-top: 6px; padding-bottom: 6px; color: rgb(153, 0, 0); text-align: left; }
+.newErrorHeadLinks { font-family: Arial,Helvetica,sans-serif; font-size: 80%; font-weight: normal; padding-top: 6px; padding-bottom: 6px; float: right; }
+.errorText { font-family: Arial,Helvetica,sans-serif; font-size: 80%; font-weight: normal; padding-bottom: 6px; color: rgb(153, 0, 0); }
+.noHitsMessage { font-weight: normal; font-size: 9pt; padding-bottom: 1px; color: rgb(68, 68, 68); font-family: Arial,Helvetica,sans-serif; text-align: left; padding-right: 10px; padding-left: 10px; }
+.ZZgreybg_view { background-color: rgb(242, 242, 242); }
+.ZZgreybg { background-color: rgb(242, 242, 242); }
+.ZZsubnavML { font-weight: bold; }
+.ZZtdbgwhite { background-color: rgb(255, 255, 255); }
+.ZZtdbgwhitepad { padding-right: 10px; padding-left: 10px; padding-bottom: 8px; background-color: rgb(255, 255, 255); }
+.ZZpagecntnav1 { padding-right: 10px; padding-left: 10px; padding-bottom: 8px; vertical-align: top; }
+.NEWmiskHorRule { border-top: 1px solid rgb(204, 204, 204); }
+.summary_quickTopButtons { padding-bottom: 5px; line-height: 20px; }
+.contnav_error { padding: 10px 10px 0px; background-color: rgb(255, 255, 255); }
+.error_pagecntnav { width: 100%; padding: 20px; font-size: 80%; }
+.turn_notice { font-weight: bold; color: rgb(51, 51, 51); padding-top: 20px; font-size: 110%; }
+.your_editions { padding-top: 6px; font-size: 75%; color: rgb(75, 75, 75); padding-left: 20px; }
+.eFirst { font-family: Arial,Helvetica,sans-serif; }
+.NEWproductName .RegMark { font-family: Arial,Helvetica,sans-serif; font-size: 75%; vertical-align: top; padding-left: 2px; }
+.NEWproductName .TMMark { font-family: Arial,Helvetica,sans-serif; font-size: 65%; vertical-align: top; padding-left: 2px; }
+.special_product .RegMark { font-family: Arial,Helvetica,sans-serif; font-size: 90%; vertical-align: top; padding-left: 1px; }
+.special_product .TMMark { font-family: Arial,Helvetica,sans-serif; font-size: 68%; vertical-align: top; }
+.other_product .RegMark, .NEWFRsidebar .RegMark { font-family: Arial,Helvetica,sans-serif; font-size: 90%; vertical-align: top; padding-left: 1px; }
+.other_product .TMMark { font-family: Arial,Helvetica,sans-serif; font-size: 68%; vertical-align: top; }
+.other_desc .RegMark { font-family: Arial,Helvetica,sans-serif; font-size: 100%; vertical-align: top; padding-left: 1px; }
+.other_desc .TMMark { font-family: Arial,Helvetica,sans-serif; font-size: 75%; vertical-align: top; }
+.refineItem .RegMark { font-family: Arial,Helvetica,sans-serif; font-size: 100%; vertical-align: top; padding-left: 1px; }
+.refineItem .TMMark { font-family: Arial,Helvetica,sans-serif; font-size: 75%; vertical-align: top; }
+.archiveImage { padding-top: 8px; }
+.abstractsOnly { font-size: 80%; padding-left: 1px; color: rgb(75, 75, 75); }
+.mappingInstr { font-size: 80%; padding-bottom: 4px; padding-top: 6px; }
+.mapContinue { padding-bottom: 8px; padding-top: 8px; }
+.mappingTerm { font-size: 80%; padding-top: 4px; padding-left: 4px; }
+.mappingItem { padding-bottom: 2px; padding-left: 16px; font-size: 75%; }
+.mappingArea { margin: 4px; }
+.MEDexplode { font-size: 75%; color: rgb(51, 51, 51); padding-left: 10px; line-height: 80%; padding-bottom: 3px; white-space: nowrap; }
+.field_tagsExample { font-size: 70%; padding: 2px 4px; font-family: Verdana,Arial,Helvetica,sans-serif; }
+.DIIpan { float: right; padding-left: 40px; padding-bottom: 10px; }
+.CITEDradio { font-size: 80%; margin-left: -3px; }
+.mark_instruct { font-size: 80%; padding-top: 8px; }
+.pcByCell { border-right: 2px solid rgb(255, 255, 255); }
+.pcByHead { background-color: rgb(229, 229, 229); font-size: 75%; padding: 3px; border-right: 2px solid rgb(255, 255, 255); text-align: center; }
+.citedPatentTable { margin-bottom: 8px; margin-top: 8px; }
+.special_JCR { padding: 4px; border: 1px dashed rgb(51, 51, 51); margin-top: 12px; margin-bottom: 4px; margin-right: 6px; background-color: rgb(242, 249, 242); }
+.otherProductLink { font-family: Arial,Helvetica,sans-serif; font-size: 75%; color: rgb(255, 255, 255); float: right; margin: 0px; padding: 0px 0px 4px; }
+.otherProductLink A:link, .otherProductLink A:active, .otherProductLink A:visited { color: rgb(255, 255, 255); text-decoration: none; }
+.otherProductLink A:hover { color: rgb(255, 255, 255); text-decoration: underline; }
+.records_chunk { display: none; }
+.trLogo { text-align: right; }
+.trRules { background-image: url('tr_rules.gif'); background-repeat: repeat-x; margin-right: 12px; margin-left: 12px; }
+.trBotShad { background-image: url('tr_bot_shad.gif'); background-repeat: repeat-x; }
+.trLinks { font-family: Arial,Helvetica,sans-serif; font-size: 65%; color: rgb(151, 150, 154); float: left; padding-top: 26px; padding-left: 20px; }
+.trByTR { font-family: Arial,Helvetica,sans-serif; font-size: 65%; font-style: italic; text-align: right; margin-right: 22px; color: rgb(151, 150, 154); }
+.secondary_record_citMap { margin-top: 2px; margin-left: -4px; font-size: 75%; }
+.nowISIP { font-size: 80%; padding-left: 5px; }
+.ncbi_instruction { padding-right: 20px; font-weight: bold; }
+.NEWncbiContainer P { font-size: 75%; padding: 20px; }
+.TCnote { background-color: rgb(254, 250, 223); padding: 0px; }
+.orangeHead { font-family: Arial,Helvetica,sans-serif; font-size: 130%; font-weight: bold; color: rgb(255, 146, 1); padding: 3px; }
+.F_synonyms_intro { font-size: 75%; padding: 4px 10px 8px; margin-left: 15px; }
+.F_synonyms_data { font-size: 70%; color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px; padding-right: 3px; }
+.RCIlink { font-family: Verdana,Arial,Helvetica,sans-serif; font-weight: bold; color: rgb(255, 204, 0); }
+A.RCIlink:link, A.RCIlink:active, A.RCIlink:visited { color: rgb(255, 204, 0); text-decoration: none; }
+A.RCIlink:hover { color: rgb(255, 204, 0); text-decoration: underline; }
+.currentSettings2 { font-size: 70%; color: rgb(102, 102, 102); padding: 1px; }
+.NEWaddResourcesContainer h2 { font-size: 85%; color: rgb(75, 75, 75); padding-top: 18px; font-weight: bold; padding-bottom: 4px; border-bottom: 1px solid rgb(204, 204, 204); margin: 0px 20px 0px 10px; }
+.NEWaddResourcesContainer h3 { font-size: 85%; color: rgb(75, 75, 75); padding: 10px 20px 0px; font-weight: bold; margin: 0px; }
+.other_desc { font-size: 75%; color: rgb(75, 75, 75); padding: 6px 20px 8px 30px; margin: 0px; }
+.NEWaddResourcesContainer UL { margin: 0px 20px 0px 25px; padding-left: 0px; padding-bottom: 8px; }
+.NEWaddResourcesContainer LI { margin-top: 0px; padding-left: 0px; margin-bottom: 0px; margin-left: 25px; padding-bottom: 0px; font-size: 75%; color: rgb(75, 75, 75); }
+.NEWselectDBContainer h2 { font-size: 85%; color: rgb(75, 75, 75); padding-top: 18px; font-weight: bold; padding-bottom: 4px; border-bottom: 1px solid rgb(204, 204, 204); margin: 0px 20px 0px 10px; }
+.NEWselectDBContainer h3 { font-size: 85%; color: rgb(75, 75, 75); padding: 10px 20px 0px 10px; font-weight: bold; margin: 0px; }
+.select_desc { font-size: 75%; color: rgb(75, 75, 75); padding: 6px 20px 8px; margin: 0px; }
+.spec_years { font-weight: normal; font-size: 90%; }
+.NEWselectDBContainer UL { margin: 0px 20px 0px 15px; padding-left: 0px; padding-bottom: 8px; }
+.NEWselectDBContainer LI { margin-top: 0px; padding-left: 0px; margin-bottom: 0px; margin-left: 25px; padding-bottom: 0px; font-size: 75%; color: rgb(75, 75, 75); }
+.RegMark { font-family: Arial,Helvetica,sans-serif; font-size: 80%; vertical-align: top; padding-left: 2px; }
+.TMMark { font-family: Arial,Helvetica,sans-serif; font-size: 65%; vertical-align: top; padding-left: 2px; }
+.ZZgreybg_view { background-color: rgb(242, 242, 242); }
+.ZZgreybg { background-color: rgb(242, 242, 242); }
+.ZZsubnavML { font-weight: bold; }
+.ZZtdbgwhite { background-color: rgb(255, 255, 255); }
+.ZZtdbgwhitepad { padding-right: 10px; padding-left: 10px; padding-bottom: 8px; background-color: rgb(255, 255, 255); }
+.ZZpagecntnav1 { padding-right: 10px; padding-left: 10px; padding-bottom: 8px; vertical-align: top; }
+.NEWmiskHorRule { border-top: 1px solid rgb(204, 204, 204); }
+.NEWsaIcon { margin-left: 6px; margin-top: 5px; cursor: pointer; }
+.NEWsignedIn { font-size: 75%; font-weight: bold; color: rgb(102, 102, 102); padding-right: 9px; }
+.NEWtoggleIcon { margin-right: 3px; vertical-align: bottom; }
+.F_synonyms_intro { font-size: 75%; padding: 4px 10px 8px; margin-left: 15px; }
+.F_synonyms_data { font-size: 70%; color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px; padding-right: 3px; }
+.RCIlink { font-family: Verdana,Arial,Helvetica,sans-serif; font-weight: bold; color: rgb(255, 204, 0); }
+.AbstractIndent { margin-left: 50px; text-indent: -36pt; }
+.RefNumbers { padding-right: 5px; padding-left: 3px; white-space: nowrap; width: 3%; vertical-align: text-top; }
+.currentSettings2 { font-size: 70%; color: rgb(102, 102, 102); padding: 1px; }
+.moreLink { font-size: 70%; white-space: nowrap; vertical-align: middle; }
+.mlCount { font-size: 90%; white-space: nowrap; vertical-align: middle; }
+.saveToLabel { font-size: 70%; white-space: nowrap; vertical-align: middle; padding-left: 8px; color: rgb(89, 89, 89); }
+.outputSE .saveToLabel { padding-left: 0px; }
+.viewML { font-size: 70%; white-space: nowrap; vertical-align: top; font-weight: bold; }
+.NEWquickOutputBox { background-color: rgb(242, 242, 242); margin-bottom: 8px; }
+.NEWquickOutputBox .dothorz { height: 1px; background-color: rgb(187, 187, 187); }
+.NEWquickOutputBox .dotvert { background-color: rgb(187, 187, 187); width: 1px; }
+.pageNumBoxes { font-size: 100%; font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: 1px solid rgb(128, 128, 128); }
+.emailForm { font-family: Arial,Helvetica,sans-serif; font-size: 75%; white-space: nowrap; }
+.totalCount { font-size: 70%; color: rgb(51, 51, 51); padding-left: 2px; padding-bottom: 6px; }
+.outputHead { padding: 5px 10px 5px 0px; font-size: 75%; color: rgb(51, 51, 51); font-weight: bold; }
+.outputHeadButtons { padding-left: 20px; }
+.outputStepCell { color: rgb(89, 89, 89); padding-right: 2px; padding-left: 2px; }
+.outputText { font-size: 75%; color: rgb(51, 51, 51); white-space: nowrap; padding-right: 4px; padding-left: 6px; padding-top: 3px; }
+.outputText2 { font-size: 75%; color: rgb(51, 51, 51); padding-left: 8px; padding-right: 4px; padding-top: 4px; }
+.outputTextEm { font-size: 75%; color: rgb(51, 51, 51); padding: 3px 3px 3px 8px; text-align: right; }
+.outputStepHead { font-size: 75%; font-weight: bold; color: rgb(51, 51, 51); margin-bottom: 4px; padding: 2px 2px 2px 4px; background-color: rgb(179, 217, 236); white-space: nowrap; }
+.outputSErow1, .outputSE, .outputSErow3 { padding: 4px 4px 2px 8px; vertical-align: middle; }
+.outputEm { padding: 4px 4px 2px; vertical-align: middle; }
+.NEWwokErrorMess { font-size: 75%; font-weight: bold; color: rgb(153, 51, 51); margin-top: 10px; margin-bottom: 10px; padding: 15px; background-color: rgb(255, 255, 204); border: 1px dashed rgb(153, 51, 51); }
+.outputLink { font-size: 90%; padding-left: 12px; font-weight: normal; white-space: nowrap; }
+.printWhitePage { background-image: url('spacer.gif'); background-repeat: repeat-x; padding-bottom: 0px; padding-top: 3px; background-color: rgb(255, 255, 255); font-family: "Times New Roman","Lucida Sans Unicode","Lucida Grande",Times,serif; margin-right: 3px; margin-left: 3px; }
+.printWhitePage TD { font-size: 85%; }
+.printWhitePage .NEWfooter { margin-top: 10px; }
+.NEWnavBar { background-color: rgb(255, 255, 255); margin: 3px 0px 8px; border-top: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); padding: 4px 0px; }
+.hitCount { white-space: nowrap; }
+.goto { padding-right: 6px; padding-left: 6px; font-size: 75%; color: rgb(75, 75, 75); white-space: nowrap; }
+.sortby { padding-left: 10px; font-size: 75%; color: rgb(75, 75, 75); white-space: nowrap; text-align: right; }
+.NEWwokLogo {  }
+.NEWumlDataContainer .summary_quickTop, .NEWumlDataContainer .summary_quickTopButtons { padding: 0px; margin: 0px; }
+.BacktoTop { white-space: nowrap; font-family: Arial,Helvetica,sans-serif; font-size: 80%; padding: 4px 10px 10px 17px; margin: 0px; }
+.NEWumlDataContainer .dothorz { height: 1px; background-color: rgb(255, 255, 255); }
+.NEWumlDataContainer .summary_recnum { white-space: nowrap; font-size: 75%; padding-top: 4px; padding-left: 8px; vertical-align: top; }
+.NEWlistToggle { white-space: nowrap; font-family: Arial,Helvetica,sans-serif; font-size: 80%; font-weight: bold; padding: 4px 10px 10px 17px; margin: 0px; }
+.NEWlistToggle .NEWpipe { vertical-align: bottom; height: 16px; width: 1px; padding-left: 5px; padding-right: 5px; }
+.NEWlistToggleLabel { color: rgb(75, 75, 75); font-weight: bold; padding-right: 10px; font-style: italic; }
+.umlClearBtn { float: right; margin-top: 4px; }
+.NEWumlPage .NEWProdListBox { margin: 0px; padding: 0px 0px 12px; }
+.NEWumlPage .NEWpageTitle { padding-top: 20px; padding-bottom: 4px; }
+.umlProdListItem { margin-bottom: 1px; border-width: 1px; border-style: solid; border-color: rgb(153, 153, 153); }
+.umlProdLink { display: block; padding: 4px 4px 4px 9px; background-color: rgb(223, 239, 247); border-left: 7px solid rgb(205, 195, 184); }
+.umlProdListItem A:hover { border-left: 7px solid rgb(255, 146, 1); padding-left: 9px; margin-bottom: 0px; }
+.umlProdListHelp A:hover { text-decoration: none; }
+.umlActiveProd .umlProdLink A:hover { border-left-width: 0px; padding-left: 0px; margin-bottom: 0px; }
+.umlActiveProd { border-bottom-style: none; border-left: 8px solid rgb(255, 146, 1); margin-bottom: 0px; }
+.umlActiveProd .umlProdLink { display: block; padding: 4px 4px 4px 9px; background-color: rgb(223, 239, 247); border-left: 0px solid rgb(255, 255, 255); }
+.umlProdListText { font-size: 75%; font-weight: bold; }
+.umlProdListCount { font-weight: bold; }
+.umlFrom { font-weight: normal; }
+.umlProdName { font-style: italic; padding-right: 4px; }
+.NEWumlPage .NEWvcrContainer .hitCount { color: rgb(75, 75, 75); font-weight: bold; }
+.NEWumlPage .NEWvcrContainer .summary_hit_count, .NEWumlPage .NEWvcrContainer .umlProdName { font-weight: bold; font-size: 75%; }
+.NEWumlPage .NEWvcrContainer .umlFrom { font-size: 75%; }
+.umlProdListNote { font-size: 75%; color: rgb(102, 102, 102); padding: 6px 10px 6px 0px; border-top: 1px solid rgb(204, 204, 204); margin: 4px 0px 0px; }
+.umlProdListHelp { font-size: 70%; margin: 0px; color: rgb(102, 102, 102); padding: 0px 10px 0px 24px; text-decoration: none; }
+.umlProdListItem A:hover { text-decoration: none; }
+.umlProdListItem A:hover .umlProdListText { text-decoration: underline; }
+.umlProdListOutput { border-left: 1px solid rgb(153, 153, 153); border-bottom: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); background-color: rgb(223, 239, 247); }
+.umlOutputRow { margin-bottom: 1px; width: 100%; }
+.umlProdListRowSpacer { height: 2px; width: 40px; }
+.umlOutpuRowSpacerTD { width: 40px; border-top: 1px solid rgb(153, 153, 153); }
+.umlMoreField { font-size: 75%; color: rgb(51, 51, 51); padding-right: 35px; padding-bottom: 5px; vertical-align: text-top; margin-left: -20px; }
+.umlProdListOutput .NEWquickOutputBox { background-color: rgb(223, 239, 247); margin-bottom: 0px; padding-right: 20px; padding-left: 20px; }
+.umlMoreGap { background-repeat: repeat-x; height: 10px; background-position: center bottom; }
+.umlMoreBox { padding: 10px 20px 10px 40px; border-right: 1px solid rgb(187, 187, 187); border-bottom: 1px solid rgb(187, 187, 187); border-left: 1px solid rgb(187, 187, 187); border-style: none solid solid; margin: 0px; }
+.NEWumlDataContainer .summary_AR, .NEWumlDataContainer .summary_CitCount { font-size: 70%; text-align: right; padding: 0px 3px 0px 10px; float: right; }
+.NEWrefineClosedSpacer { width: 23px; min-width: 23px; }
+.outputHideLink { padding-left: 20px; }
+.outputHideLink A { padding-left: 4px; padding-right: 4px; }
+.outputHideLink img { margin-right: 2px; }
+.citationMapErrorContainer { background-color: rgb(255, 255, 255); padding: 30px; border-top: 1px solid rgb(204, 204, 204); }
+.citationMapErrorText { font-family: Arial,Helvetica,sans-serif; font-size: 75%; color: rgb(51, 51, 51); background-color: rgb(255, 255, 204); border: 1px dashed rgb(102, 102, 102); padding: 0px 20px 20px; }
+.citationMapErrorText P { margin-right: 4px; margin-left: 0px; margin-bottom: 0px; }
+.upToText { padding-left: 23px; }
+.cancellationNoteAllDB, .cancellationNoteSummary, .cancellationNoteSearchHistory { font-size: 80%; font-weight: normal; color: rgb(255, 0, 0); padding-bottom: 15px; }
+.cancellationNoteSilo { font-size: 80%; font-weight: normal; color: rgb(255, 0, 0); padding-bottom: 4px; padding-top: 11px; }
+.cancellationNoteSelect { font-weight: normal; color: rgb(255, 0, 0); padding-top: 8px; font-size: 75%; padding-left: 20px; }
+.cancellationTimeSpan { font-size: 80%; font-weight: normal; color: rgb(255, 0, 0); }
+.cancellationYear { color: rgb(255, 0, 0); }
+.searchSettingChanged { color: rgb(255, 0, 0); font-weight: bold; }
+.searchSettingsChanged { font-weight: normal; color: rgb(255, 0, 0); padding-bottom: 2px; }
+.hitHilite { background-color: rgb(255, 255, 0); }
+.citedRefTableRow1 .hitHilite, .citedRefTableRow2 .hitHilite { background-color: transparent; }
+.bluetext { color: rgb(0, 0, 204); }
+.moduleContentText TD { font-size: 75%; }
+.wokErrorMess { padding-bottom: 3px; padding-top: 3px; background-color: rgb(255, 255, 204); text-align: center; border: 1px dashed rgb(102, 102, 102); width: 98%; margin-left: 1px; color: rgb(153, 0, 0); font-size: 75%; }
+.mobileText { font-family: Arial,Helvetica,sans-serif; font-size: 70%; float: left; padding-top: 4px; padding-left: 14px; }
+.blueBackDescription { background-color: rgb(255, 255, 255); font-family: Arial,Helvetica,sans-serif; color: rgb(51, 51, 51); font-size: 100%; text-align: left; white-space: nowrap; font-weight: bold; padding-top: 4px; padding-left: 8px; padding-right: 19px; }
+.blueBack, .blueBackHead { background-color: rgb(207, 225, 239); font-family: Arial,Helvetica,sans-serif; color: rgb(51, 51, 51); font-size: 100%; text-align: left; white-space: nowrap; font-weight: bold; padding-top: 4px; padding-bottom: 4px; padding-left: 8px; }
+.TopBoxCEL { background-color: rgb(223, 239, 247); margin-top: 7px; margin-bottom: 7px; padding: 4px 6px; border: 1px dashed rgb(51, 51, 51); }
+.TopBoxCELtext { font-family: Arial,Helvetica,sans-serif; font-size: 75%; padding-top: 2px; padding-bottom: 2px; }
+.nowWith { color: rgb(153, 153, 153); font-size: 80%; }
+.enwicon { cursor: pointer; }
+.h_L1 { padding-left: 3px; }
+.h_L2 { padding-left: 25px; }
+.h_L3 { padding-left: 47px; }
+.h_L4 { padding-left: 69px; }
+.h_L5 { padding-left: 91px; }
+.h_L6 { padding-left: 113px; }
+.h_L7 { padding-left: 135px; }
+.h_L8 { padding-left: 157px; }
+.h_L9 { padding-left: 169px; }
+.NEWtabBarAF { margin-left: 29px; margin-right: 15px; padding-left: 24px; background-color: rgb(255, 255, 255); }
+.NEWAuthorSearchContainer { background-color: rgb(255, 255, 255); padding: 10px 0px 20px; margin: 0px; white-space: nowrap; }
+.NEWAuthorSearchtabBar { margin: 0px; padding: 0px; white-space: nowrap; }
+.NewProxyClaimAdminRow { background-color: rgb(242, 242, 242); }
+.NewProxyClaimRowEven { background-color: rgb(255, 255, 255); }
+.NewProxyClaimRowOdd { background-color: rgb(242, 242, 242); }
+.NewProxyClaimAuSpan { font-family: Arial; font-size: 12px; font-weight: bold; font-style: normal; text-decoration: none; color: rgb(75, 75, 75); }
+.NewProxyClaimAuSpan { font-family: Arial; font-size: 12px; font-weight: bold; font-style: normal; text-decoration: none; color: rgb(75, 75, 75); }
+.NewProxyClaimRidSpan { font-family: Arial; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(51, 51, 51); }
+.NewProxyClaimTh { text-align: left; font-family: Arial; font-size: 75%; font-weight: bold; font-style: normal; text-decoration: none; color: rgb(51, 51, 51); border-bottom: 2px solid rgb(102, 102, 102); }
+.NewProxyClaimPageHeader { font-family: Arial; font-size: 13px; font-weight: bold; text-decoration: none; color: rgb(51, 51, 51); }
+.queryTopBoxQuerySpell { background-color: rgb(223, 239, 247); margin-bottom: 7px; padding: 4px 6px; border: 1px dashed rgb(51, 51, 51); }
+.queryTopBoxQuerySpellText { font-family: Arial,Helvetica,sans-serif; font-size: 75%; padding-top: 2px; padding-bottom: 2px; }
+.SpellLinks { padding-top: 2px; font-size: 75%; padding-bottom: 2px; }
+
+/* ::::: http://images.webofknowledge.com/WOKRS510B3_1/css/WoKfullRecord.css ::::: */
+
+.FRleftColumn { padding: 6px 25px; vertical-align: top; width: 72%; }
+.FRrightColumn { padding: 6px 25px; vertical-align: top; width: 28%; }
+.rightbgblue { padding: 1px 15px 0px; background-color: rgb(223, 239, 247); width: 100%; vertical-align: top; }
+.NEWfullRecord .NEWnavBar { margin-top: 0px; }
+.FRbackLink { font-family: Arial,Helvetica,sans-serif; font-size: 70%; font-weight: bold; width: 25%; }
+.FR_rec_num { padding-right: 10px; padding-left: 10px; font-size: 75%; color: rgb(75, 75, 75); }
+.fr_product_row { font-size: 70%; color: rgb(79, 79, 79); text-align: right; width: 25%; }
+.fr_product_row .RegMark { font-family: Arial,Helvetica,sans-serif; vertical-align: top; padding-left: 1px; font-size: 100%; }
+.fr_product_row .TMMark { font-family: Arial,Helvetica,sans-serif; font-size: 75%; vertical-align: top; }
+.fr_inspec { border-collapse: collapse; empty-cells: show; }
+.FR_links_table { margin-bottom: 18px; }
+.formBoxesHoldings { font-size: 70%; font-family: Arial,Helvetica,sans-serif; border: 1px solid rgb(128, 128, 128); vertical-align: top; }
+.FullRecTitle { font-size: 115%; padding-bottom: 8px; color: rgb(51, 51, 51); font-family: Arial,Helvetica,sans-serif; padding-top: 2px; margin: 0px; }
+.fr_data_row { font-size: 75%; padding-bottom: 2px; padding-top: 6px; font-family: Arial,Helvetica,sans-serif; color: rgb(51, 51, 51); margin: 0px; }
+.fr_address_row { color: rgb(51, 51, 51); font-family: Arial,Helvetica,sans-serif; font-size: 75%; margin: 0px; }
+.letwrap { width: 520px; white-space: pre-line; word-wrap: break-word; }
+.fr_data_row A:link, .fr_data_row A:active, .fr_data_row A:visited, .fr_data_row A:hover { color: rgb(53, 80, 202); text-decoration: none; font-weight: normal; }
+.fr_data_row A:hover { text-decoration: underline; }
+.FR_label { font-weight: bold; padding-right: 4px; }
+.FR_source_label { font-weight: bold; padding-left: 5px; }
+.fr_dataTable { border: 1px solid rgb(204, 204, 204); }
+.fr_dataTable_head { font-size: 80%; color: rgb(51, 51, 51); font-weight: bold; padding: 4px; background-color: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); text-align: left; }
+.fr_dataTable_hilite { font-size: 75%; font-family: Arial,Helvetica,sans-serif; background-color: rgb(249, 249, 249); padding: 2px 4px; }
+.fr_dataTable_row { font-size: 75%; font-family: Arial,Helvetica,sans-serif; padding: 2px 4px; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); }
+.fr_showFunding { font-size: 75%; padding-bottom: 4px; font-family: Arial,Helvetica,sans-serif; color: rgb(75, 75, 75); margin: 0px; padding-left: 5px; }
+.NEWFRsidebar { padding: 1px 10px 0px 15px; background-color: rgb(223, 239, 247); }
+.FRgreenshadow { background-image: url('shadow_green1.gif'); background-repeat: repeat-y; vertical-align: top; padding-bottom: 1px; }
+.FRrightColumn H2 { margin-top: 15px; margin-bottom: 0px; font-size: 85%; font-weight: bold; border-top: 1px solid rgb(153, 153, 153); padding-top: 5px; padding-bottom: 3px; color: rgb(51, 51, 51); }
+.NEWFRside_instr { color: rgb(51, 51, 51); font-style: normal; font-weight: normal; padding-top: 3px; font-size: 70%; padding-left: 1px; margin: 0px; }
+.NEWFRside_hits { color: rgb(0, 0, 0); font-style: italic; font-weight: normal; padding-top: 6px; font-size: 75%; padding-left: 1px; padding-right: 1px; }
+.NEWFRside_Correction { font-size: 75%; text-align: left; padding-top: 3px; padding-bottom: 4px; margin: 0px; }
+.NEWFRside_View { font-size: 75%; font-weight: bold; color: rgb(51, 51, 51); padding: 6px 0px 2px 1px; margin: 0px; }
+.NEWFRside_rec { padding-top: 7px; padding-bottom: 3px; color: rgb(51, 51, 51); font-size: 75%; margin: 0px; }
+.NEWFRsidebar UL { margin-top: 0px; padding-left: 0px; margin-bottom: 0px; margin-left: 20px; }
+.NEWFRsidebar LI { padding-bottom: 1px; font-size: 75%; color: rgb(51, 51, 51); }
+.NEWFRsidebar A:link, .NEWFRsidebar A:active, .NEWFRsidebar A:visited, .NEWFRsidebar A:hover { color: rgb(53, 80, 202); text-decoration: none; }
+.NEWFRsidebar A:hover { text-decoration: underline; }
+.hiliteTarget { background-color: rgb(255, 255, 102); font-weight: bold; }
+.inWoS { font-size: 80%; font-weight: normal; font-style: normal; padding-left: 8px; color: rgb(79, 79, 79); text-align: right; }
+.viewAbsLinks { font-size: 75%; color: rgb(153, 153, 153); background-color: rgb(242, 242, 242); padding: 3px; text-align: right; margin: 0px; }
+a[name]:hover, a[id]:hover { color: black; text-decoration: none; }
+.relatedRecordsLink { padding-left: 15px; padding-right: 15px; }
+.relatedRecordsLink A:link, .relatedRecordsLink A:active, .relatedRecordsLink A:visited, .relatedRecordsLink A:hover { color: rgb(53, 80, 202); text-decoration: none; }
+.relatedRecordsLink A:hover { text-decoration: underline; }
+.h_L1, .h_L2, .h_L3, .h_L4, .h_L5, .h_L6, .h_L7, .h_L8, .h_L9, .h_L10, .h_L11 { font-family: Arial,Helvetica,sans-serif; }
+.NEWricon { vertical-align: bottom; }
+.FRauthorString { white-space: nowrap; }
+.TopBoxCEL { background-color: rgb(223, 239, 247); margin-top: 7px; margin-bottom: 7px; padding: 4px 6px; border: 1px dashed rgb(51, 51, 51); }
+.TopBoxCELtext { font-family: Arial,Helvetica,sans-serif; font-size: 75%; padding-top: 2px; padding-bottom: 2px; }
+.CHEMresultsTableFR { margin-bottom: 7px; margin-top: 9px; border: 1px solid rgb(153, 153, 153); padding: 6px; }
+
+/* ::::: http://images.webofknowledge.com/WOKRS510B3_1/css/WoKchem.css ::::: */
+
+.CHEMheading2 { font-size: 85%; font-family: Arial,Helvetica,sans-serif; padding-top: 8px; padding-left: 10px; color: rgb(51, 51, 51); padding-bottom: 2px; font-weight: bold; }
+.CHEMinstr2 { font-size: 75%; font-family: Arial,Helvetica,sans-serif; padding-left: 20px; padding-bottom: 3px; color: rgb(51, 51, 51); padding-top: 3px; }
+.CHEMsearchFormLabel { font-size: 75%; font-weight: bold; padding-right: 6px; padding-left: 10px; padding-top: 1px; white-space: nowrap; }
+.noPluginMessage { padding-bottom: 3px; padding-top: 3px; background-color: rgb(255, 255, 204); text-align: center; border: 1px dashed rgb(102, 102, 102); width: 98%; margin: 6px 1px 25px; }
+.noPluginHead { font-family: Arial,Helvetica,sans-serif; font-size: 80%; font-weight: bold; padding-top: 6px; padding-bottom: 6px; color: rgb(153, 0, 0); }
+.noPluginText { font-family: Arial,Helvetica,sans-serif; font-size: 80%; font-weight: normal; padding-bottom: 6px; color: rgb(153, 0, 0); }
+.compoundCombine { font-family: Arial,Helvetica,sans-serif; font-size: 80%; font-weight: bold; color: rgb(51, 51, 51); padding: 4px; border-top: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); margin-right: 10px; margin-left: 10px; }
+.DII_CHEMsearchFormLabel { font-size: 80%; font-weight: bold; padding-right: 6px; padding-left: 10px; padding-top: 0px; white-space: nowrap; margin-top: 4px; }
+.DII_CHEMexample { font-size: 80%; padding-bottom: 4px; color: rgb(51, 51, 51); }
+.CHEMradio { font-size: 80%; margin-left: -3px; }
+.CPplugin { border: 1px solid rgb(204, 204, 204); }
+.CPformBoxesSearch { font-size: 75%; font-family: Arial,Helvetica,sans-serif; width: 30em; border: 1px solid rgb(128, 128, 128); margin: 4px 0px 0px; }
+.searchBoxWidth { height: 1px; width: 250px; }
+.SinceLastVisitText { font-style: italic; }
+.ViewSummLimits { color: rgb(75, 75, 75); font-size: 70%; padding-left: 26px; padding-bottom: 2px; }
+.ViewSummQuery { color: rgb(59, 59, 59); font-size: 90%; padding-top: 6px; padding-left: 26px; }
+.ViewStructureDrawing { padding-top: 6px; padding-bottom: 10px; padding-left: 26px; }
+.CHEMsubtabnav { background-color: rgb(255, 255, 255); margin-left: 15px; margin-right: 15px; }
+.CHEM_simple_elements_table, .CHEMtable { background-color: rgb(238, 238, 238); }
+.CHEM_simple_elements_table, .CHEM_simple_elements_table th, .CHEM_simple_elements_table td, .CHEMtable, .CHEMtable th, .CHEMtable td { border-color: rgb(204, 204, 204); border-spacing: 0px; border-style: solid; border-width: 1px; border-collapse: collapse; }
+.CHEM_simple_elements_table th, .CHEM_simple_elements_table td, .CHEMtable th, .CHEMtable td { font-size: 75%; padding: 3px 4px 5px; text-align: left; }
+.CHEM_simple_elements_table .simple_chime { padding: 0px; }
+.CHEMtableLabel { font-weight: bold; color: rgb(89, 89, 89); padding-right: 5px; }
+.CHEMtableData { background-color: rgb(255, 255, 255); font-weight: normal; padding-right: 10px; }
+.CHEMsummLinks { padding-right: 3px; padding-left: 20px; }
+.CHEMresultsLink { font-size: 65%; font-weight: bold; }
+.CHEMsummImg { padding: 0px 4px; }
+.CHEMsummImg applet { border: 1px solid rgb(51, 51, 51); }
+.NEWcitRptHead { font-size: 100%; font-weight: bold; color: rgb(59, 59, 59); text-align: center; }
+.CHEMdothorz { margin-top: 8px; margin-bottom: 8px; border-top: 1px solid rgb(204, 204, 204); margin-left: 20px; }
+.CHEMsummaryCompoundName { font-size: 75%; text-align: center; }
+.detail_title_row { font-size: 70%; padding-bottom: 2px; padding-top: 6px; font-family: Arial,Helvetica,sans-serif; color: rgb(51, 51, 51); margin: 0px; }

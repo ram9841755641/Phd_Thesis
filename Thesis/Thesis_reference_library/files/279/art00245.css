@@ -1,0 +1,676 @@
+
+/* ::::: http://www.ingentaconnect.com/css/connect/jquery.bookmark.css ::::: */
+
+.bookmark_popup_text img { border: medium none; vertical-align: bottom; }
+.bookmark_popup { display: none; position: absolute; z-index: 100; }
+.bookmark_popup ul { float: left; width: 320px; border: 1px solid rgb(170, 170, 170); }
+.bookmark_list { display: inline-block; float: left; list-style-type: none; font-size: 80%; margin: 0px; padding: 0px; }
+@media not all {
+  .bookmark_list { font-size: 100%; }
+}
+html:first-child .bookmark_list { font-size: 80%; }
+.bookmark_list li { float: left; width: 23%; margin: 0px 1px; padding: 1px; }
+.bookmark_compact {  }
+.bookmark_compact li { width: 16px; height: 16px; margin: 0px; padding: 2px; background-color: transparent; border: medium none; }
+.bookmark_list a { width: 100%; text-decoration: none; cursor: pointer; }
+.bookmark_list span { display: inline-block; width: 16px; height: 16px; }
+.bookmark_list span.bookmark_icons { background: url('bookmarks.gif') no-repeat scroll center center transparent; }
+.bookmark_list img { border: medium none; }
+#bookmarks-container { font-size: 11px; margin-top: 1em; margin-bottom: 1em; height: 46px; border: 1px solid rgb(232, 139, 105); padding: 5px; width: 710px; line-height: 1.5; }
+#selectBookmark { display: block; height: 20px; margin-top: 5px; }
+#bookmarks-container span.para { padding-left: 0px; }
+
+/* ::::: http://www.ingentaconnect.com/css/connect/template_layout.css ::::: */
+
+body { font-family: Arial,Verdana,Helvetica,sans-serif; color: rgb(75, 73, 66); background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 0px; margin: 0px; }
+a { text-decoration: underline; color: rgb(196, 114, 46); }
+#topnavigation a { text-decoration: none; }
+a:hover { color: rgb(187, 128, 15); }
+hr { display: none; }
+strong { font-weight: bold ! important; }
+em { font-style: italic ! important; }
+#llb { width: 963px; margin: 0px auto; }
+#container { width: 963px; margin: 0px auto; line-height: 1.5em; position: relative; background-image: url('ic_rightmenu_background.gif'); background-position: right top; background-repeat: repeat-y; overflow: hidden; background-color: rgb(255, 255, 255); }
+#container h1 { line-height: 1.2em; }
+.strapline { line-height: 1.2em; }
+#header { background-color: rgb(255, 255, 255); }
+#container #logo { float: left; width: 280px; }
+#container #logo img { padding: 12px 10px; }
+#container .rightside { float: right; width: 400px; }
+#container .rightside ul.itemlist { clear: right; line-height: 120%; }
+.rightside .itemlist li { float: right; border-right: 1px solid rgb(204, 204, 204); margin: 0.3em; padding-right: 0.6em; }
+.rightside .itemlist li.last { border: medium none; }
+.ptlogo { float: right; clear: right; }
+.ptlogo img { float: right; margin: 10px; }
+#main-content-container { clear: both; float: left; width: 963px; }
+#content { width: 710px; float: left; padding-left: 10px; }
+#rightnavbar { width: 240px; float: right; padding: 0px; margin: 0px; overflow: hidden; background-image: url('ic_rightmenu_background.gif'); background-position: right top; background-repeat: repeat-y; }
+#footer { clear: both; background-color: rgb(52, 50, 50); color: rgb(255, 255, 255); line-height: 1.6em; padding: 7px; overflow: hidden; width: 100%; margin-top: 10px; }
+#footerarea { clear: both; overflow: hidden; }
+#footer-text li { float: left; border-right: 1px solid rgb(255, 255, 255); line-height: 1em; margin: 5px 5px 5px 0px; padding-right: 5px; }
+#footer-text li.last { border: medium none; }
+.hidden { clear: both; line-height: 0; margin: 0px; padding: 0px; }
+#content h3 { padding: 1% 0% 0%; }
+#content blockquote { padding: 2%; }
+
+/* ::::: http://www.ingentaconnect.com/css/connect/content.css ::::: */
+
+h1 { color: rgb(33, 30, 31); font-size: 1.8em ! important; margin: 10px 0px ! important; }
+.maingraphic { width: 709px; height: 297px; margin-top: 1.4em; position: relative; cursor: pointer; }
+.captionboxcontainer .caption { background-color: rgb(68, 59, 62); }
+.maingraphic ul { background: url('ic_semitransparentmenu.png') no-repeat scroll 0% 0% transparent; }
+h2 { font-size: 1.5em ! important; margin: 5px 0px ! important; }
+h3 { font-size: 1.4em ! important; margin: 5px 0px ! important; }
+p { margin: 5px 0px ! important; }
+.breadcrumb a { color: rgb(33, 30, 31); text-decoration: underline; }
+.headingp, .heading-macfix { border: 1px solid rgb(232, 139, 105); margin: 10px 0px; padding: 0.5em 20px; position: relative; overflow: hidden; }
+.heading .left-col, .heading-macfix .left-col { float: left; position: relative; width: 49%; }
+form { padding: 0px; margin: 0px; }
+#moreLikeThis { margin-top: 5px; }
+#moredetails .expand, #moreLikeThis .expand { background: url('right-arrow.gif') no-repeat scroll left 50% transparent; padding-left: 13px; }
+.heading .right-col, .heading-macfix .right-col { float: right; font-weight: bold; position: relative; text-align: right; width: 45%; }
+.heading p, .headingp p, .heading-macfix p { clear: right; margin-left: 0px; padding-left: 0px; }
+.radios input { vertical-align: middle; margin: 0px 3px; }
+input.blackbutton, span.blackleftside { background-image: url('buttonleft.gif'); background-color: rgb(0, 0, 0); background-position: left top; background-repeat: no-repeat; margin-top: 0px ! important; border: medium none; height: 34px; padding: 0px 6px 5px 10px; }
+input.small_blackbutton, span.small_blackleftside { background-image: url('small_buttonleft.gif'); background-color: rgb(0, 0, 0); background-position: left top; background-repeat: no-repeat; border: medium none; height: 22px; padding: 2px 6px 5px 10px; margin-top: 0px ! important; float: left; }
+input.small_orangebutton, span.small_orangeleftside { background-image: url('small_orangebuttonleft.gif'); background-color: rgb(166, 76, 13); background-position: left top; background-repeat: no-repeat; border: medium none; height: 22px; padding: 2px 6px 5px 30px; margin-top: 0px ! important; float: left; }
+.greyversionleft { background-image: url('small_greybuttonleft.gif') ! important; background-color: rgb(146, 146, 146) ! important; cursor: default ! important; }
+.greyversionright { background-image: url('small_greybuttonright.gif') ! important; background-color: rgb(146, 146, 146) ! important; cursor: default ! important; }
+span.blackbutton { float: left; background-image: url('buttonright.gif'); background-position: right top; background-repeat: no-repeat; text-align: right; overflow: hidden; padding: 0px 3px 0px 0px; margin: 0px 5px 0px 0px; height: 34px; }
+span.small_blackbutton { float: left; background-image: url('small_buttonright.gif'); background-position: right top; background-repeat: no-repeat; text-align: right; overflow: hidden; padding: 0px 5px 0px 0px; margin: 0px 5px 0px 0px; height: 22px; }
+span.small_orangebutton { float: left; background-image: url('small_orangebuttonright.gif'); background-position: right top; background-repeat: no-repeat; text-align: right; overflow: hidden; padding: 0px 5px 0px 0px; margin: 5px 5px 0px 0px; height: 22px; }
+.blackbutton, .small_blackbutton { color: rgb(255, 255, 255); font-weight: bold; cursor: pointer; }
+input.orangebutton, span.orangeleftside { background-image: url('orangebuttonleft.gif'); background-color: rgb(166, 76, 13); background-position: left top; background-repeat: no-repeat; margin-top: 0px ! important; border: medium none; height: 34px; padding: 0px 6px 7px 30px; }
+span.orangeleftside, span.blackleftside { padding: 8px 6px 20px 30px; float: left; height: auto; line-height: 1em; }
+span.blackleftside { padding: 8px 6px 20px 10px ! important; }
+span.orangeleftside a, span.blackleftside a, span.small_orangeleftside a, span.small_blackleftside a { color: rgb(255, 255, 255); text-decoration: none; }
+span.orangebutton { float: left; background-image: url('orangebuttonright.gif'); background-position: right top; background-repeat: no-repeat; text-align: right; overflow: hidden; padding: 0px 5px 0px 0px; margin: 0px 5px 0px 0px; height: 33px; }
+.orangebutton, .small_orangebutton { color: rgb(255, 255, 255); font-weight: bold; cursor: pointer; }
+.pagelinks { line-height: 1.4em; padding: 0.4em; overflow: hidden; clear: both; }
+.pagelinks ul { width: 232px; float: left; }
+.pagelinks ul .heading { font-weight: bold; color: rgb(196, 114, 46); }
+.pagelinks .list1, .pagelinks .list2 { margin-right: 10px; }
+.pagelinks p { line-height: 2.2em; }
+.pagelinks h4 { font-size: 1.8em; line-height: 2em; }
+.basket { vertical-align: middle; }
+#admin-home .left-colp { float: left; position: relative; width: 45%; }
+#admin-home .right-colz { margin-left: 45%; position: relative; }
+#admin-home .left-colp ul.bobby, #admin-home .right-colz ul.bobby, #my-ingenta-content ul.bobby { margin-left: 0px ! important; }
+#my-ingenta-content ul.bobby { margin-bottom: 10px; }
+#secure { font-weight: bold; text-transform: uppercase; padding: 3px 0px 15px; margin: 0px; }
+#moredetails .open, #moreLikeThis .open { background: url('down-arrow.gif') no-repeat scroll left 50% transparent; }
+.signInLink { color: rgb(0, 0, 0); }
+.athens-sign-in { color: rgb(0, 0, 0); }
+.contain { overflow: hidden; }
+.left { float: left; margin-right: 5px ! important; padding: 3px 0px; }
+.right { float: right; }
+.toplink { float: right; margin-right: 140px; font-weight: bold; padding-top: 50px; }
+.rowShade { background-color: rgb(246, 246, 246); }
+.heading-macfix .backtotop { float: right; }
+.publicationslist .publishername { margin-bottom: 10px; }
+.filterlinks .left-col { width: 40%; }
+.filterlinks .right-col { width: 60%; font-weight: normal; }
+fieldset { border: 1px solid rgb(232, 139, 105); padding: 15px; margin-bottom: 20px; }
+legend { padding: 0px 10px; color: rgb(75, 73, 66); font-size: 1.2em; }
+.contactinfo ul { list-style: circle outside none ! important; margin-left: 30px; }
+ul.traditional { list-style: circle outside none ! important; margin-left: 30px; }
+ul.traditional li { list-style: circle outside none ! important; }
+.contactinfo ul li { list-style: circle outside none ! important; }
+input, select { margin-top: 5px ! important; }
+input.icbutton, #quicksearchform .searchbutton { margin-top: 0px ! important; }
+#purchaseexpand h4, h4.sectionheading, h4.profileheading { color: rgb(0, 0, 0); font-size: 1.2em; line-height: 1.5em; }
+h4.sectionheading { margin-top: 10px; }
+h4.profileheading { padding: 30px; float: left; border: 1px solid rgb(232, 139, 105); width: 150px; }
+#purchaseexpand .paymentButtons { float: right; text-align: right; }
+#purchaseexpand form { display: inline; }
+.heading-macfix.noline { border: medium none ! important; padding: 0px; margin: 0px; }
+#moreLikeThis ul, #moredetails ul { margin-left: 10px; }
+.userpage .caption { min-height: 140px ! important; }
+.profilebox div { float: left; margin-left: 10px; width: 210px; }
+.profilebox { border: 1px solid rgb(232, 139, 105); margin: 15px 0px; overflow: hidden; padding: 15px; position: relative; }
+#bookmarks-container #printButton { float: right; margin: 8px 5px 0px 0px; }
+#bookmarks-container #printButton a { text-decoration: none; }
+table.spacedtable th, td { margin: 2px ! important; border-spacing: 2px; }
+#main-content-container .subsection input.form-input-text { width: 180px; }
+#main-content-container select.form-input-text { width: 185px; }
+.bordertopnbottom { border-top: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); }
+#sign-in-form-page, #signinform li { overflow: hidden; }
+#sign-in-form-page .linkpadding { padding: 5px 0px; }
+.paymentButtons .clearer { clear: both; }
+.advertisingbanner { text-align: center; padding: 15px 0px 0px; }
+.skyscrapperright { float: right; margin-left: 10px; }
+#contentwrapper { overflow: hidden; }
+.clear { clear: both; }
+#doigeneratorframe { border: 0px none; height: 560px; margin-left: 20px; width: 95%; }
+#codexframe { border: 0px none; width: 95%; }
+.inputbox { float: left; padding-right: 5px; }
+.navlink { text-align: right; }
+#shownav { padding-right: 20px; }
+.availabilityfree .buylabel { display: none; }
+.purchaseexpand p.rust, #purchaseexpand p.rust { font-weight: bold; }
+.VATform .VATformfields { display: none; margin: 5px 0px; }
+.VATform .VATformfields input, .VATform .VATformfields select { margin-right: 0px; margin-bottom: 5px; margin-left: 0px; margin-top: 0px ! important; }
+p.error { color: rgb(138, 31, 17); font-weight: bold; font-size: 1.2em; }
+.sushicredentials { font-style: italic; }
+.abstractheading { font-weight: bold; }
+.rust { color: rgb(153, 51, 0); font-weight: bold; }
+
+/* ::::: http://www.ingentaconnect.com/css/connect/menus.css ::::: */
+
+#topnavigation { clear: both; line-height: 100%; background: url('ic_topnavigation_background.gif') repeat-x scroll 0% 0% rgb(249, 158, 24); width: 100%; height: 47px; border-bottom: 1px solid rgb(196, 113, 47); font-size: 1.2em; font-weight: bold; }
+#topnavigation ul { width: 620px; float: left; }
+#topnavigation ul li { float: left; }
+#topnavigation ul li.navitem1 { border-right: 1px solid rgb(166, 84, 22); }
+#topnavigation ul li.navitem1 a { margin: 16px 15px; font-weight: bold; color: rgb(255, 255, 255); display: block; }
+#topnavigation ul li.navitem_search { padding: 0px 0px 0px 1.4em; }
+#topnavigation .searchnavbox { margin-top: 5px; float: left; height: 38px; width: 309px; background: url('ic_top_nav_searchbox_background_container.gif') no-repeat scroll 0% 0% transparent; }
+#topnavigation .searchnavbox input#search-value1 { margin-top: 5px; margin-left: 10px; border-width: 1px; border-style: solid; border-color: black black rgb(153, 153, 153); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; width: 198px; height: 24px; }
+#topnavigation input { float: left; }
+#topnavigation .searchnavbox ul.searchoptionmenu.hidden { display: none; }
+.toprightsidenav #subjectlist { display: none; position: absolute; z-index: 1; top: 121px; right: 0px; width: 420px; padding: 5px; line-height: 2.2em; background-color: rgb(249, 169, 24); border-left: 1px solid rgb(196, 113, 47); border-bottom: 1px solid rgb(196, 113, 47); border-top: 1px solid rgb(196, 113, 47); overflow: hidden; font-size: 0.8em; font-weight: normal; }
+.toprightsidenav #subjectlist div { float: left; }
+.toprightsidenav #subjectlist ul { float: none; width: auto; }
+.toprightsidenav #subjectlist ul li { float: none ! important; }
+.toprightsidenav #subjectlist ul li a { border-right: medium none ! important; }
+.toprightsidenav #subjectarea { height: 30px; }
+#topnavigation .searchnavbox ul.searchoptionmenu { position: absolute; top: 118px; left: 456px; background-color: rgb(33, 29, 30); width: 230px; color: white; padding: 5px; z-index: 1; line-height: 2.2em; font-size: 0.8em; }
+#topnavigation .searchnavbox ul.searchoptionmenu li { float: none; }
+#topnavigation .searchnavbox ul.searchoptionmenu li a.selected { font-weight: bold; }
+#topnavigation .searchnavbox ul.searchoptionmenu li a { width: auto; float: none; height: auto; position: static; color: rgb(255, 255, 255); }
+#topnavigation .searchnavbox #searchmenucontainer {  }
+#topnavigation .searchoptions { float: left; width: 30px; height: 48px; }
+#topnavigation .searchoptions a.searchoptionsbutton { float: left; width: 30px; height: 48px; position: relative; background: url('ic_topnavigation_searchbox_downarrow.gif') no-repeat scroll 0% 0% transparent; }
+#topnavigation .searchoptions a.selected { background: url('ic_topnavigation_searchbox_downarrow_selected.gif') no-repeat scroll 0% 0% transparent; }
+#topnavigation .navitem2 { border-right: 1px solid rgb(166, 84, 22); font-size: 0.9em; font-weight: normal; }
+#topnavigation .navitem2 a { margin: 16px 15px; display: block; font-size: 90%; color: rgb(255, 255, 255); }
+#topnavigation ul.toprightsidenav { float: right; width: 340px; padding-top: 17px; }
+#topnavigation ul.toprightsidenav li { float: right; }
+#topnavigation .toprightsidenav li.heading { color: rgb(255, 255, 255); font-size: 0.9em; font-weight: normal; }
+#topnavigation ul.toprightsidenav li a { margin: 15px 0px 15px 5px; padding-right: 5px; border-right: 1px solid rgb(211, 125, 35); color: rgb(255, 255, 255); }
+#topnavigation ul.toprightsidenav li.arrow a { margin-top: 1.35em; }
+.rightnav { width: 206px; padding: 1.4em 10px; float: right; line-height: 1em; }
+.rightnav h4 { font-size: 1.2em; line-height: 1.5em; color: rgb(0, 0, 0); }
+.rightnav .form-input-text { width: 205px; height: 20px; color: rgb(102, 102, 102); border: 1px solid rgb(240, 185, 145); background-color: rgb(255, 255, 255); vertical-align: middle; }
+.rightnav #signinform li { margin-bottom: 0.6em; overflow: hidden; }
+.rightnav #signinform li a.passwordremind { font-size: 0.9em; }
+.rightnav .bobby li { padding: 4px 0px; border-top: 1px solid rgb(204, 204, 204); }
+.rightnav .logins li { padding: 5px 0px ! important; }
+.rightnav #need-to-register { border-top: 1px solid rgb(204, 204, 204); padding-top: 10px; margin-bottom: 10px; overflow: hidden; }
+#text-size-control { padding: 0.4em; }
+#text-size-control a { text-transform: lowercase; padding: 0px 5px 0px 0px; font-weight: bold; }
+.small { font-size: 1.2em; }
+.medium { font-size: 1.4em; }
+.large { font-size: 1.6em; }
+.xlarge { font-size: 1.8em; }
+.rightnav h5 { font-size: 1.6em; line-height: 1.8em; color: rgb(0, 0, 0); }
+#socialbookmarks { padding: 0.4em; margin-top: 10px; }
+#socialbookmarks li { padding-bottom: 5px; clear: both; }
+#socialbookmarks img { float: left; margin-bottom: 4px; }
+#socialbookmarks li a.text { float: left; margin: 5px 0px 0px 5px; }
+#socialbookmarks li.ICBlog { padding-top: 5px; }
+.rightnav #signed-in-as { margin: 10px 0px 0px; }
+.rightnav .signed-in-user { font-weight: bold; }
+.rightnav .usertype { display: block; padding: 5px 0px; font-weight: normal; }
+.rightnav #sign-in-form { display: none; }
+.rightnav .menulink { display: block; padding: 10px 0px 0px 5px; }
+.rightnav .icon-key, .rightnav .homepagelink, .rightnav #loggedinsection, .rightnav #premium-contact { margin-top: 10px; border: 1px solid rgb(204, 204, 204); padding: 10px; }
+.rightnav #premium-contact { line-height: 1.2 ! important; }
+.rightnav #premium-contact h4 { line-height: 1.1 ! important; }
+.rightnav #loggedinsection { margin-top: 0px ! important; }
+.rightnav .icon-key .rightnavhead { font-weight: bold; margin: 5px 0px; }
+.rightnav .icon-key .icon { padding: 5px 0px 0px; overflow: hidden; }
+.rightnav .icon-key .icon .access-icon { float: left; width: 25px; }
+.rightnav ul.bobby { margin-left: 0px ! important; }
+.rightnav #tools { margin-top: 10px; border: 1px solid rgb(204, 204, 204); padding: 10px; }
+.rightnav .toolsitem li { border-top: medium none ! important; }
+.expandable ul { margin-left: 5px; }
+.rightnav #tools #linksoptions li, .rightnav #tools #rss-links li { padding-left: 0px ! important; }
+.hide { display: none; }
+.rightnav #tools .expandlinks .plus, .rightnav #tools .expandlinks .minus { text-decoration: none; }
+
+/* ::::: http://a465.g.akamai.net/f/465/1984/1d/www.ingentaconnect.com/css/connect/reset.css ::::: */
+
+html { color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+fieldset, img { border: 0px none; }
+address, caption, cite, code, dfn, th, var, optgroup { font-style: inherit; font-weight: inherit; }
+del, ins { text-decoration: none; }
+li { list-style: none outside none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q:before, q:after { content: ""; }
+abbr, acronym { border: 0px none; font-variant: normal; }
+legend { color: rgb(0, 0, 0); }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+input, button, textarea, select {  }
+
+/* ::::: http://a465.g.akamai.net/f/465/1984/1d/www.ingentaconnect.com/css/connect/bobby.css ::::: */
+
+ul.bobby { list-style: none outside none; margin: 0px; padding-left: 0px; }
+ul.bobby-float { display: block; list-style: none outside none; margin: 0px; padding-left: 0px; }
+.bobby-float li { position: relative; width: auto; float: left; margin-right: 2px; }
+.bobby-float .rightborder { border-right: 1px solid rgb(102, 150, 177); padding-right: 2px; }
+.low-lead p, #low-lead p { padding: 0.1em 0px; }
+
+/* ::::: http://a465.g.akamai.net/f/465/1984/1d/www.ingentaconnect.com/css/connect/admin/ui-theme/cupertino/jquery-ui-1.7.custom.css ::::: */
+
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute; left: -1e+8px; }
+.ui-helper-reset { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none outside none; }
+.ui-helper-clearfix:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+* html .ui-helper-clearfix { height: 1%; }
+.ui-helper-clearfix { display: block; }
+.ui-helper-zfix { width: 100%; height: 100%; top: 0px; left: 0px; position: absolute; opacity: 0; }
+.ui-state-disabled { cursor: default ! important; }
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+.ui-widget-overlay { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
+.ui-widget { font-family: Lucida Grande,Lucida Sans,Arial,sans-serif; font-size: 1.1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Lucida Grande,Lucida Sans,Arial,sans-serif; font-size: 1em; }
+.ui-widget-content { border: 1px solid rgb(221, 221, 221); background: url('ui-bg_highlight-hard_100_f9f9f9_1x100.png') repeat-x scroll 50% top rgb(249, 249, 249); color: rgb(54, 43, 54); }
+.ui-widget-content a { color: rgb(54, 43, 54); }
+.ui-widget-header { border: 1px solid rgb(178, 199, 215); background: url('ui-bg_highlight-soft_100_e7eef3_1x100.png') repeat-x scroll 50% 50% rgb(231, 238, 243); color: rgb(34, 34, 34); font-weight: bold; }
+.ui-widget-header a { color: rgb(34, 34, 34); }
+.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid rgb(204, 204, 204); background: url('ui-bg_glass_80_e6e6e6_1x400.png') repeat-x scroll 50% 50% rgb(230, 230, 230); font-weight: normal; color: rgb(68, 68, 68); outline: medium none; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: rgb(68, 68, 68); text-decoration: none; outline: medium none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { border: 1px solid rgb(178, 199, 215); background: url('ui-bg_glass_100_f0f0f0_1x400.png') repeat-x scroll 50% 50% rgb(240, 240, 240); font-weight: normal; color: rgb(11, 91, 152); outline: medium none; }
+.ui-state-hover a, .ui-state-hover a:hover { color: rgb(11, 91, 152); text-decoration: none; outline: medium none; }
+.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid rgb(38, 148, 232); background: url('ui-bg_glass_50_99c2ff_1x400.png') repeat-x scroll 50% 50% rgb(153, 194, 255); font-weight: normal; color: rgb(0, 0, 0); outline: medium none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: rgb(0, 0, 0); outline: medium none; text-decoration: none; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight { border: 1px solid rgb(249, 221, 52); background: url('ui-bg_glass_55_fbf5d0_1x400.png') repeat-x scroll 50% 50% rgb(251, 245, 208); color: rgb(54, 54, 54); }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a { color: rgb(54, 54, 54); }
+.ui-state-error, .ui-widget-content .ui-state-error { border: 1px solid rgb(205, 10, 10); background: url('ui-bg_glass_95_fef1ec_1x400.png') repeat-x scroll 50% 50% rgb(254, 241, 236); color: rgb(205, 10, 10); }
+.ui-state-error a, .ui-widget-content .ui-state-error a { color: rgb(205, 10, 10); }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text { color: rgb(205, 10, 10); }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled { opacity: 0.35; background-image: none; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary { opacity: 0.7; font-weight: normal; }
+.ui-icon { width: 16px; height: 16px; background-image: url('ui-icons_222222_256x240.png'); }
+.ui-widget-content .ui-icon { background-image: url('ui-icons_222222_256x240.png'); }
+.ui-widget-header .ui-icon { background-image: url('ui-icons_72a7cf_256x240.png'); }
+.ui-state-default .ui-icon { background-image: url('ui-icons_888888_256x240.png'); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon { background-image: url('ui-icons_2694e8_256x240.png'); }
+.ui-state-active .ui-icon { background-image: url('ui-icons_ffffff_256x240.png'); }
+.ui-state-highlight .ui-icon { background-image: url('ui-icons_2e83ff_256x240.png'); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon { background-image: url('ui-icons_cd0a0a_256x240.png'); }
+.ui-icon-carat-1-n { background-position: 0px 0px; }
+.ui-icon-carat-1-ne { background-position: -16px 0px; }
+.ui-icon-carat-1-e { background-position: -32px 0px; }
+.ui-icon-carat-1-se { background-position: -48px 0px; }
+.ui-icon-carat-1-s { background-position: -64px 0px; }
+.ui-icon-carat-1-sw { background-position: -80px 0px; }
+.ui-icon-carat-1-w { background-position: -96px 0px; }
+.ui-icon-carat-1-nw { background-position: -112px 0px; }
+.ui-icon-carat-2-n-s { background-position: -128px 0px; }
+.ui-icon-carat-2-e-w { background-position: -144px 0px; }
+.ui-icon-triangle-1-n { background-position: 0px -16px; }
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.ui-icon-arrow-1-n { background-position: 0px -32px; }
+.ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.ui-icon-arrow-1-e { background-position: -32px -32px; }
+.ui-icon-arrow-1-se { background-position: -48px -32px; }
+.ui-icon-arrow-1-s { background-position: -64px -32px; }
+.ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.ui-icon-arrow-1-w { background-position: -96px -32px; }
+.ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.ui-icon-arrowthick-1-n { background-position: 0px -48px; }
+.ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.ui-icon-arrowreturnthick-1-w { background-position: 0px -64px; }
+.ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.ui-icon-arrow-4 { background-position: 0px -80px; }
+.ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.ui-icon-extlink { background-position: -32px -80px; }
+.ui-icon-newwin { background-position: -48px -80px; }
+.ui-icon-refresh { background-position: -64px -80px; }
+.ui-icon-shuffle { background-position: -80px -80px; }
+.ui-icon-transfer-e-w { background-position: -96px -80px; }
+.ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.ui-icon-folder-collapsed { background-position: 0px -96px; }
+.ui-icon-folder-open { background-position: -16px -96px; }
+.ui-icon-document { background-position: -32px -96px; }
+.ui-icon-document-b { background-position: -48px -96px; }
+.ui-icon-note { background-position: -64px -96px; }
+.ui-icon-mail-closed { background-position: -80px -96px; }
+.ui-icon-mail-open { background-position: -96px -96px; }
+.ui-icon-suitcase { background-position: -112px -96px; }
+.ui-icon-comment { background-position: -128px -96px; }
+.ui-icon-person { background-position: -144px -96px; }
+.ui-icon-print { background-position: -160px -96px; }
+.ui-icon-trash { background-position: -176px -96px; }
+.ui-icon-locked { background-position: -192px -96px; }
+.ui-icon-unlocked { background-position: -208px -96px; }
+.ui-icon-bookmark { background-position: -224px -96px; }
+.ui-icon-tag { background-position: -240px -96px; }
+.ui-icon-home { background-position: 0px -112px; }
+.ui-icon-flag { background-position: -16px -112px; }
+.ui-icon-calendar { background-position: -32px -112px; }
+.ui-icon-cart { background-position: -48px -112px; }
+.ui-icon-pencil { background-position: -64px -112px; }
+.ui-icon-clock { background-position: -80px -112px; }
+.ui-icon-disk { background-position: -96px -112px; }
+.ui-icon-calculator { background-position: -112px -112px; }
+.ui-icon-zoomin { background-position: -128px -112px; }
+.ui-icon-zoomout { background-position: -144px -112px; }
+.ui-icon-search { background-position: -160px -112px; }
+.ui-icon-wrench { background-position: -176px -112px; }
+.ui-icon-gear { background-position: -192px -112px; }
+.ui-icon-heart { background-position: -208px -112px; }
+.ui-icon-star { background-position: -224px -112px; }
+.ui-icon-link { background-position: -240px -112px; }
+.ui-icon-cancel { background-position: 0px -128px; }
+.ui-icon-plus { background-position: -16px -128px; }
+.ui-icon-plusthick { background-position: -32px -128px; }
+.ui-icon-minus { background-position: -48px -128px; }
+.ui-icon-minusthick { background-position: -64px -128px; }
+.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-icon-key { background-position: -112px -128px; }
+.ui-icon-lightbulb { background-position: -128px -128px; }
+.ui-icon-scissors { background-position: -144px -128px; }
+.ui-icon-clipboard { background-position: -160px -128px; }
+.ui-icon-copy { background-position: -176px -128px; }
+.ui-icon-contact { background-position: -192px -128px; }
+.ui-icon-image { background-position: -208px -128px; }
+.ui-icon-video { background-position: -224px -128px; }
+.ui-icon-script { background-position: -240px -128px; }
+.ui-icon-alert { background-position: 0px -144px; }
+.ui-icon-info { background-position: -16px -144px; }
+.ui-icon-notice { background-position: -32px -144px; }
+.ui-icon-help { background-position: -48px -144px; }
+.ui-icon-check { background-position: -64px -144px; }
+.ui-icon-bullet { background-position: -80px -144px; }
+.ui-icon-radio-off { background-position: -96px -144px; }
+.ui-icon-radio-on { background-position: -112px -144px; }
+.ui-icon-pin-w { background-position: -128px -144px; }
+.ui-icon-pin-s { background-position: -144px -144px; }
+.ui-icon-play { background-position: 0px -160px; }
+.ui-icon-pause { background-position: -16px -160px; }
+.ui-icon-seek-next { background-position: -32px -160px; }
+.ui-icon-seek-prev { background-position: -48px -160px; }
+.ui-icon-seek-end { background-position: -64px -160px; }
+.ui-icon-seek-first { background-position: -80px -160px; }
+.ui-icon-stop { background-position: -96px -160px; }
+.ui-icon-eject { background-position: -112px -160px; }
+.ui-icon-volume-off { background-position: -128px -160px; }
+.ui-icon-volume-on { background-position: -144px -160px; }
+.ui-icon-power { background-position: 0px -176px; }
+.ui-icon-signal-diag { background-position: -16px -176px; }
+.ui-icon-signal { background-position: -32px -176px; }
+.ui-icon-battery-0 { background-position: -48px -176px; }
+.ui-icon-battery-1 { background-position: -64px -176px; }
+.ui-icon-battery-2 { background-position: -80px -176px; }
+.ui-icon-battery-3 { background-position: -96px -176px; }
+.ui-icon-circle-plus { background-position: 0px -192px; }
+.ui-icon-circle-minus { background-position: -16px -192px; }
+.ui-icon-circle-close { background-position: -32px -192px; }
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.ui-icon-circle-zoomin { background-position: -176px -192px; }
+.ui-icon-circle-zoomout { background-position: -192px -192px; }
+.ui-icon-circle-check { background-position: -208px -192px; }
+.ui-icon-circlesmall-plus { background-position: 0px -208px; }
+.ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.ui-icon-circlesmall-close { background-position: -32px -208px; }
+.ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.ui-icon-squaresmall-close { background-position: -80px -208px; }
+.ui-icon-grip-dotted-vertical { background-position: 0px -224px; }
+.ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+.ui-corner-tl {  }
+.ui-corner-tr {  }
+.ui-corner-bl {  }
+.ui-corner-br {  }
+.ui-corner-top {  }
+.ui-corner-bottom {  }
+.ui-corner-right {  }
+.ui-corner-left {  }
+.ui-corner-all {  }
+.ui-widget-overlay { background: url('ui-bg_diagonals-thick_15_444444_40x40.png') repeat scroll 50% 50% rgb(68, 68, 68); opacity: 0.3; }
+.ui-widget-shadow { margin: 4px 0px 0px 4px; padding: 0px; background: url('ui-bg_diagonals-small_0_aaaaaa_40x40.png') repeat scroll 50% 50% rgb(170, 170, 170); opacity: 0.3; }
+.ui-resizable { position: relative; }
+.ui-resizable-handle { position: absolute; font-size: 0.1px; z-index: 99999; display: block; }
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0px; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0px; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0px; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0px; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px; }
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0px none ! important; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: 0.5em 0.5em 0.5em 2.2em; }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: 0.5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0px none; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+.ui-dialog { position: relative; padding: 0.2em; width: 300px; }
+.ui-dialog .ui-dialog-titlebar { padding: 0.5em 0.3em 0.3em 1em; position: relative; }
+.ui-dialog .ui-dialog-title { float: left; margin: 0.1em 0px 0.2em; }
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: 0.3em; top: 50%; width: 19px; margin: -10px 0px 0px; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0px; }
+.ui-dialog .ui-dialog-content { border: 0px none; padding: 0.5em 1em; background: none repeat scroll 0% 0% transparent; overflow: auto; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0px 0px; background-image: none; margin: 0.5em 0px 0px; padding: 0.3em 1em 0.5em 0.4em; }
+.ui-dialog .ui-dialog-buttonpane button { float: right; margin: 0.5em 0.4em 0.5em 0px; cursor: pointer; padding: 0.2em 0.6em 0.3em; line-height: 1.4em; width: auto; overflow: visible; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+.ui-slider { position: relative; text-align: left; }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: 0.7em; display: block; border: 0px none; }
+.ui-slider-horizontal { height: 0.8em; }
+.ui-slider-horizontal .ui-slider-handle { top: -0.3em; margin-left: -0.6em; }
+.ui-slider-horizontal .ui-slider-range { top: 0px; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0px; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0px; }
+.ui-slider-vertical { width: 0.8em; height: 100px; }
+.ui-slider-vertical .ui-slider-handle { left: -0.3em; margin-left: 0px; margin-bottom: -0.6em; }
+.ui-slider-vertical .ui-slider-range { left: 0px; width: 100%; }
+.ui-slider-vertical .ui-slider-range-min { bottom: 0px; }
+.ui-slider-vertical .ui-slider-range-max { top: 0px; }
+.ui-tabs { padding: 0.2em; }
+.ui-tabs .ui-tabs-nav { list-style: none outside none; position: relative; padding: 0.2em 0.2em 0px; }
+.ui-tabs .ui-tabs-nav li { position: relative; float: left; border-bottom-width: 0px ! important; margin: 0px 0.2em -1px 0px; padding: 0px; }
+.ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; padding: 0.5em 1em; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 1px; border-bottom-width: 0px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; }
+.ui-tabs .ui-tabs-panel { padding: 1em 1.4em; display: block; border-width: 0px; background: none repeat scroll 0% 0% transparent; }
+.ui-tabs .ui-tabs-hide { display: none ! important; }
+.ui-datepicker { width: 17em; padding: 0.2em 0.2em 0px; }
+.ui-datepicker .ui-datepicker-header { position: relative; padding: 0.2em 0px; }
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position: absolute; top: 2px; width: 1.8em; height: 1.8em; }
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+.ui-datepicker .ui-datepicker-prev { left: 2px; }
+.ui-datepicker .ui-datepicker-next { right: 2px; }
+.ui-datepicker .ui-datepicker-prev-hover { left: 1px; }
+.ui-datepicker .ui-datepicker-next-hover { right: 1px; }
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px; }
+.ui-datepicker .ui-datepicker-title { margin: 0px 2.3em; line-height: 1.8em; text-align: center; }
+.ui-datepicker .ui-datepicker-title select { float: left; font-size: 1em; margin: 1px 0px; }
+.ui-datepicker select.ui-datepicker-month-year { width: 100%; }
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year { width: 49%; }
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-year { float: right; }
+.ui-datepicker table { width: 100%; font-size: 0.9em; border-collapse: collapse; margin: 0px 0px 0.4em; }
+.ui-datepicker th { padding: 0.7em 0.3em; text-align: center; font-weight: bold; border: 0px none; }
+.ui-datepicker td { border: 0px none; padding: 1px; }
+.ui-datepicker td span, .ui-datepicker td a { display: block; padding: 0.2em; text-align: right; text-decoration: none; }
+.ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: 0.7em 0px 0px; padding: 0px 0.2em; border-left: 0px none; border-right: 0px none; border-bottom: 0px none; }
+.ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: 0.5em 0.2em 0.4em; cursor: pointer; padding: 0.2em 0.6em 0.3em; width: auto; overflow: visible; }
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float: left; }
+.ui-datepicker.ui-datepicker-multi { width: auto; }
+.ui-datepicker-multi .ui-datepicker-group { float: left; }
+.ui-datepicker-multi .ui-datepicker-group table { width: 95%; margin: 0px auto 0.4em; }
+.ui-datepicker-multi-2 .ui-datepicker-group { width: 50%; }
+.ui-datepicker-multi-3 .ui-datepicker-group { width: 33.3%; }
+.ui-datepicker-multi-4 .ui-datepicker-group { width: 25%; }
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width: 0px; }
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width: 0px; }
+.ui-datepicker-multi .ui-datepicker-buttonpane { clear: left; }
+.ui-datepicker-row-break { clear: both; width: 100%; }
+.ui-datepicker-rtl { direction: rtl; }
+.ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane { clear: right; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float: right; }
+.ui-datepicker-rtl .ui-datepicker-group { float: right; }
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width: 0px; border-left-width: 1px; }
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width: 0px; border-left-width: 1px; }
+.ui-datepicker-cover { display: block; position: absolute; z-index: -1; top: -4px; left: -4px; width: 200px; height: 200px; }
+.ui-progressbar { height: 2em; text-align: left; }
+.ui-progressbar .ui-progressbar-value { margin: -1px; height: 100%; }
+
+/* ::::: http://a465.g.akamai.net/f/465/1984/1d/www.ingentaconnect.com/css/connect/search.css ::::: */
+
+#search-form .left-col { position: relative; width: 120px; float: left; padding: 0px 0px 0px 20px; margin: 5px 0px 0px; }
+#search-form .right-col { margin: 5px 0px 0px 140px; }
+#email-form .left-col { position: relative; width: 150px; float: left; padding: 0px 0px 5px 20px; margin: 0px 0px 5px; }
+.subsection { position: relative; padding: 0px 0px 5px; margin: 0px; background-color: rgb(255, 255, 255); border-bottom: 1px dashed rgb(153, 193, 202); }
+#title { position: relative; padding: 0px 0px 1em; margin: 0px; border-bottom: 1px dashed rgb(153, 193, 202); background-color: rgb(255, 255, 255); }
+#title .left { position: relative; width: auto; text-align: left; padding-left: 0px; margin-right: 60px; }
+#title .left-track { position: relative; width: auto; text-align: left; padding-left: 0px; margin-right: 200px; }
+#title .right { position: relative; width: 50px; float: right; }
+#title .right-track { position: relative; width: 200px; float: right; }
+#title .left h2 { text-indent: 0px; }
+#article-journal-logo { position: relative; float: right; margin-right: 10px; }
+#top-of-page { overflow: visible; }
+#title p { padding: 0.1em 0px; }
+#abstract { position: relative; margin: 10px 10px 10px 0px; }
+#abstract, #info { position: relative; }
+#abstract p { margin-left: 0px; }
+#abstract p, #info p { clear: none; }
+#info { position: relative; margin: 10px 10px 10px 0px; }
+#info p { padding: 0.1em 0px; }
+.align-center { text-align: center; }
+.align-middle { vertical-align: middle; }
+#journal-info { margin: 0px; padding: 0px; }
+#journal-info .left { position: relative; margin: 0px 0px 0px 10px; width: 80px; float: left; clear: right; }
+#journal-info .right { position: relative; width: 425px; margin: 0px 0px 0px 120px; padding: 0px 0px 0px 10px; }
+#search-heading .left-col { position: relative; float: left; width: 48%; }
+#search-heading .right-col { position: relative; text-align: right; }
+p.spacer { line-height: 0; margin: 0px 0px 10px; padding: 0px; }
+#author-off { position: relative; padding-left: 20px; }
+#author-off p { margin-left: 0px; }
+#author-off .left-col { position: relative; width: 15em; float: left; font-weight: bold; }
+#author-off .right-col { position: relative; width: auto; margin-left: 180px; }
+input.large-input-text { padding: 0px 0px 0px 2px; width: 250px; margin: 2px 0px 5px; color: rgb(51, 102, 153); font-family: verdana,sans-serif; font-size: 12px; }
+textarea.big-textarea { padding: 0px 0px 0px 2px; margin: 2px 0px 5px; color: rgb(51, 102, 153); font-family: verdana,sans-serif; font-size: 12px; }
+.page-heading { position: relative; width: auto; margin: 0px; }
+.page-heading .heading-text { position: relative; width: auto; }
+.heading-text p { margin: 0px; }
+.page-heading .access-icon { position: relative; width: auto; float: left; margin: 0px 4px 0px 0px; z-index: 99; }
+.heading .right-col, .fax-heading .right-col { width: 35%; }
+.heading .left-col, fax-heading .left-col { width: 50%; }
+.heading-macfix p.hidden { clear: left; }
+.heading-macfix p, #links p, #info p { clear: none; }
+.linkserver { position: relative; margin-left: 20px; overflow: visible; }
+.linkserver img.float { position: relative; width: auto; float: left; margin: 0px 10px 10px 0px; }
+.linkserver p { margin: 0px; padding: 0px; clear: none; }
+.modifyindent { padding-left: 10px; }
+.originaldescription { display: none; }
+
+/* ::::: http://a465.g.akamai.net/f/465/1984/1d/www.ingentaconnect.com/css/connect/search_pager.css ::::: */
+
+.pager-bar, .pager-barp, .marked-list-pager, .article-pager { position: relative; width: auto; margin: 10px 0px 0px; padding: 2px 10px 10px 0px; overflow: hidden; }
+.pager-bar .left-colp { position: relative; float: left; width: 69%; z-index: 99; }
+.pager-bar .right-col { position: relative; top: -2px; text-align: right; margin-left: 20px; }
+.marked-list-pager .left-col { position: relative; width: 20%; float: left; margin-top: 11px; }
+.marked-list-pager .right-col { position: relative; width: 78%; float: right; }
+.article-pager li.spacer { margin: 0px 5px; }
+
+/* ::::: http://a465.g.akamai.net/f/465/1984/1d/www.ingentaconnect.com/css/connect/registration.css ::::: */
+
+.subsection { position: relative; padding: 0px 0px 10px; margin: 0px; background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(232, 139, 105); }
+.subsection.last { border-bottom: medium none; }
+.subsection .rust, .subsection-on .rust { color: rgb(153, 51, 0); font-weight: bold; }
+.error { color: rgb(153, 51, 0); }
+.subsection-no-border { position: relative; padding: 0px 0px 10px 20px; margin: 0px; }
+.subsection-on { position: relative; padding: 0px 0px 10px 20px; background-color: rgb(238, 238, 255); }
+.subsection-off { position: relative; padding: 0px 0px 10px 20px; background-color: rgb(238, 238, 238); }
+.subsection h3, .subsection-on h3, .subsection-off h3 { padding: 0.8em 0px 0.9em; margin-left: 0px; }
+.subsection p, .subsection-on p, .subsection-off p, .subsection-no-border p { margin-left: 0px; }
+.subsection .left-col, .subsection-on .left-col, .subsection-off .left-col, .subsection-no-border .left-col { position: relative; width: 150px; float: left; font-weight: bold; }
+.subsection .right-col, .subsection-on .right-col, .subsection-off .right-col, .subsection .right-colp, .subsection-no-border .right-col { position: relative; margin-left: 160px; }
+.right-col textarea, right-colp textarea { margin: 0px; }
+.checkbox-left-text { margin: 0px 0px 0.1em 30px; overflow: visible; }
+.checkbox-left-text p { margin-left: 0px; padding-top: 0px; }
+.checkbox-left { position: absolute; margin-left: -30px; }
+.heading h2.rust { padding-left: 0px; }
+.right-col table, .right-colp table { margin: 0px 0px 10px; }
+.left-col .currency-symbol { position: relative; right: -10px; top: 3px; width: 20px; padding: 0px; margin: 0px; float: right; font-weight: normal; }
+.nopad table { margin-left: 0px; }
+.right-col .left-colp { position: relative; width: 150px; float: left; font-weight: bold; }
+.right-col .right-col { position: relative; width: auto; margin-left: 150px; }
+table { margin: 0px 0px 10px; padding: 0px; }
+.checkboxes { position: relative; padding-left: 20px; }
+.checkboxes .row { position: relative; overflow: visible; clear: both; }
+.checkboxes .checkbox-item { position: relative; width: 30px; float: left; }
+.checkboxes .checkbox-lable { position: relative; margin-left: 40px; }
+.which-trial table { display: block; margin: 0px 0px 10px 20px; }
+.indent-20 table { padding: 0px; }
+form h3.rust { margin: 10px 0px; }
+#main-content-container > .table-center { padding-left: 20px; }
+p.pad { clear: both; margin: 0px 0px 5px; padding: 0px; font-size: 1px; }
+#offer-buttons { margin-bottom: 10px; }
+#library-button-spacer { margin-right: 10px; }
+.right-colp input { margin: 2px 3px 0px; float: left; }
+
+/* ::::: http://www.ingentaconnect.com/css/size11.css ::::: */
+
+body { font-size: 12px; }
+div.lower > ul.bobby-float > li, div.lower-fax > ul.bobby-float > li { font-size: 13px; }

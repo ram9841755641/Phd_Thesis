@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.sciencedirect.com/science/article/pii/S0042682285710161">
+<meta name="wpd_url" content="http://audioslides.elsevier.com/viewersmall.aspx?doi=10.1006/viro.1995.1016">
+<meta name="wpd_date" content="2013-04-10T23:46Z">
+
+    <title>Audioslide viewer</title>
+    <script src="jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="swfobject.js" type="text/javascript"></script> 
+
+  
+    <script type="text/javascript">
+
+
+        function openPopup() {
+            var myWindow = window.open('viewerlarge.aspx?doi=10.1006/viro.1995.1016', 'audioslideviewer', 'width=800,height=675,scrollbars=no,location=no');
+            myWindow.focus();
+        };
+
+        function openReport() {
+            var myWindow = window.open('report.aspx?doi=10.1006/viro.1995.1016', 'audioslideviewerReport', 'width=320,height=430,scrollbars=no,location=no');
+            myWindow.focus();
+        };    
+
+    </script>
+
+<link rel="stylesheet" type="text/css" href="S0042682285710161_8.css" media="all">
+</head>
+<body style="margin: 0px; padding: 0px;">
+
+     <object style="visibility: visible;" data="audioslideviewer.swf" name="audioslideViewer" id="audioslideViewer" wmode="opaque" bgcolor="#ffffff" allownetworking="all" allowscriptaccess="always" swliveconnect="true" menu="false" type="application/x-shockwave-flash" height="227" width="258"><param value="false" name="menu"><param value="true" name="swliveconnect"><param value="always" name="allowscriptaccess"><param value="all" name="allownetworking"><param value="always" name="allowScriptAccess"><param value="#ffffff" name="bgcolor"><param value="opaque" name="wmode"><param value="audioslideViewer" name="id"><param value="audioslideViewer" name="name"><param value="baseUrl=http://audioslides.elsevier.com/&amp;xmlPath=AudioSlide.aspx?doi=10.1006/viro.1995.1016&amp;saveProgressCall=SaveProgress.aspx?doi=10.1006/viro.1995.1016_0&amp;width=258&amp;height=194&amp;isPreview=false" name="flashvars"></object>
+     <div id="topContainer">
+        <a id="report" href="javascript:openReport();">Report inappropriate content in this presentation</a>
+        <div class="fullScreen">
+            <a href="javascript:openPopup();"></a>
+        </div>
+     </div>
+
+  <script type="text/javascript">
+
+      var zoom = document.documentElement.clientWidth / window.innerWidth;
+      $(window).resize(function() {
+    var zoomNew = document.documentElement.clientWidth / window.innerWidth;
+    if (zoom != zoomNew) {
+        // zoom has changed
+        // adjust your fixed element
+        zoom = zoomNew;
+
+        embedSWF();
+    }
+          
+});
+
+      // <![CDATA[
+      var flashvars = {};
+      var params = {};
+      var attributes = params;
+      var isEmbedded = false;
+      var url = '';
+
+      function embedSWF() {
+          // Zet flashvars
+          flashvars["baseUrl"] = "http://audioslides.elsevier.com/";
+          flashvars["xmlPath"] = "AudioSlide.aspx?doi=10.1006/viro.1995.1016";
+          flashvars["saveProgressCall"] = "SaveProgress.aspx?doi=10.1006/viro.1995.1016_0";
+          flashvars["width"] = "258";  
+          flashvars["height"]  = "194"; 
+          flashvars["isPreview"]  = 'false';
+               
+          // Zet attributes
+          params.menu = "false";
+          params.swliveconnect = "true";
+          params.allowscriptaccess = "always";
+          params.allownetworking = "all";
+
+          attributes["allowScriptAccess"] = 'always';
+          attributes["bgcolor"] = '#ffffff';
+          attributes["wmode"] = 'opaque';
+          attributes["id"] = 'audioslideViewer';
+          attributes["name"] = 'audioslideViewer';
+
+          if (!isEmbedded) {
+              swfobject.embedSWF('flash/audioslideviewer.swf?v=20000001', 'audioslideViewer', "258", "227", '10.0.0', "", flashvars, params, attributes);
+              isEmbedded = true;
+          }
+      }
+
+      // ]]>
+
+      $(document).ready(function () {             
+          embedSWF();
+      });
+
+  </script>
+
+
+</body>
+</html>

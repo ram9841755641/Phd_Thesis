@@ -1,0 +1,18 @@
+
+/* ::::: null ::::: */
+
+a, a:link { position: relative; color: rgb(1, 86, 170); text-decoration: none; vertical-align: baseline; }
+p, div { font-family: arial,verdana,helvetica,sans-serif; font-size: 11px; font-weight: 400; }
+#topContainer { height: 20px; width: 258px; padding: 4px 2px 0px 4px; }
+#report { float: left; }
+#info { margin-top: 5px; color: rgb(92, 92, 92); font-style: italic; }
+img { vertical-align: middle; }
+.fullScreen { position: relative; top: -27px; }
+.fullScreen a { display: inline-block; width: 24px; height: 17px; right: 13px; text-indent: -85px; z-index: 5; }
+.fullScreen a { position: absolute; background: url('btnFullscreenSprite.gif') no-repeat scroll center top transparent; }
+.fullScreen a:hover { background-position: center bottom; }
+#audioslideViewer { margin-top: 0px; position: relative; z-index: 0; }
+
+/* ::::: null ::::: */
+
+#audioslideViewer { visibility: hidden; }

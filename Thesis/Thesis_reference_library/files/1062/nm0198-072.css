@@ -1,0 +1,415 @@
+
+/* ::::: http://www.nature.com.libgate.library.nuigalway.ie/nm/style_older.css ::::: */
+
+A { color: rgb(154, 26, 26); text-decoration: underline; }
+A:hover { color: rgb(204, 51, 0); text-decoration: underline; }
+A:visited { color: rgb(154, 26, 26); text-decoration: underline; }
+A.topnav, A.topnav:visited, A.topnav:hover { font: bold 10px Tahoma,Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.topnavsml, A.topnavsml:visited, A.topnavsml:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: underline; }
+.leftnavOn { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+A.leftnavOn, A.leftnavOn:visited, A.leftnavOn:hover { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+A.leftnav, A.leftnav:visited { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.leftnav:hover { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+A.leftnav2, A.leftnav2:visited { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.leftnav2:hover { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+A.leftnav2on, A.leftnav2on:visited, A.leftnav2on:hover { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+A.leftnav3, A.leftnav3:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.leftnav3:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+A.leftnav3On, A.leftnav3On:visited, A.leftnav3On:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+A.subject, A.subject:visited { font: 10px Arial,Verdana,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.subject:hover { font: 10px Arial,Verdana,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+A.subjectred, A.subjectred:visited, A.subjectred:hover { font: 10px Arial,Verdana,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+A.closewindow, A.closewindow:hover, A.closewindow:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: underline; }
+A.closewindow2, A.closewindow2:hover, A.closewindow2:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+.search { font: bold 12px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+A.adsearch, A.adsearch:visited, A.adsearch:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+.breadcrumb, .breadcrumblink { font-family: verdana,arial,helvetica,sans-serif; font-size: 10px; color: rgb(0, 0, 0); text-decoration: none; }
+A.breadcrumblink { font-size: 10px; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+A.breadcrumblink:visited { font-size: 10px; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+A.breadcrumblink:hover { font-size: 10px; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+.whitesml2 { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); }
+A.whitesml2, A.whitesml2:visited, A.whitesml2:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+.login { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+A.redsml, A.redsml:visited, A.redsml:hover { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.retraction, A.retraction:visited, A.retraction:hover { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.blacksml2, A.blacksml2:visited { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: underline; }
+A.blacksml2:hover { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.top, A.top:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: underline; }
+A.top:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+.date { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.subjecttitle { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); }
+.subjecttext { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(153, 0, 0); }
+A.linksml, A.linksml:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.linksml:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; font-size: 10px; }
+A.anchor2, A.anchor2:visited { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.anchor2:hover { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.archivemonth, A.archivemonth:visited { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.archivemonth:hover { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.articletitle, A.articletitle:visited { font: bold small Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.articletitle:hover { color: rgb(204, 51, 0); text-decoration: underline; }
+.authorname { font: 10px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); text-decoration: none; }
+.author { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+.seealso { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+.freeaccess { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); }
+.greysml { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 204, 204); text-decoration: none; text-transform: uppercase; }
+.redsml2 { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); }
+.tochead { font: bold 12px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); }
+.tocsub { font: bold 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); }
+.blacksml { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+.whitesml { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; }
+.webfocustext { font: 11px/15px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: none; }
+.pagenum { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(153, 153, 153); text-decoration: none; }
+.pagenum2 { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.blacksml2 { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+.blacksmltext { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+.blacknorm { font: 11px/16px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.bodylink { font: 12px/15px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 255); text-decoration: underline; }
+A.bodylink:visited { font: 12px/15px Verdana,Arial,Helvetica,sans-serif; color: rgb(153, 0, 153); text-decoration: underline; }
+A.bodylink:hover { font: 12px/15px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 255); text-decoration: underline; }
+A.bodylink2 { font: 11px/15px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 255); text-decoration: underline; }
+A.bodylink2:visited { font: 11px/15px Verdana,Arial,Helvetica,sans-serif; color: rgb(153, 0, 153); text-decoration: underline; }
+A.bodylink2:hover { font: 11px/15px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 255); text-decoration: underline; }
+A.contentslink { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.contentslink:visited { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(146, 90, 177); text-decoration: underline; }
+A.contentslink:hover { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.articlelink { font: 10px/16px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 255); text-decoration: underline; }
+A.articlelink:visited { font: 10px/16px Verdana,Arial,Helvetica,sans-serif; color: rgb(153, 0, 153); text-decoration: underline; }
+A.articlelink:hover { font: 10px/16px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 255); text-decoration: underline; }
+A.login, A.login:visited, A.login:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.anchor, A.anchor:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); text-decoration: none; }
+A.anchor:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+.articlelink { font: 10px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 255); }
+.bottomnav { font: 11px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); text-decoration: none; }
+A.bottomnav, A.bottomnav:visited { font: bold 11px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); text-decoration: none; }
+A.bottomnav:hover { font: 11px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+A.copyright, A.copyright:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.copyright:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+A.privacy, A.privacy:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.privacy:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.footer, A.footer:visited { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.footer:hover { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.greysmllink, A.greysmllink:visited { font: 10px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); text-decoration: underline; }
+A.greysmllink:hover { font: 10px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.popnav, A.popnav:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.popnav:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.sml, A.sml:visited { font: 10px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: underline; }
+A.sml:hover { font: 10px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+.sponsor { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(153, 0, 102); }
+.introtext { font: 12px/14px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.browsetext { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.browsehighlight { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 102); }
+A.browselink, A.browselink:visited { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); text-decoration: none; }
+A.browselink:hover { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: none; }
+.heading1 { font: bold medium Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); }
+H2 { font: bold large Georgia,Times New Roman,Times,serif; color: rgb(0, 0, 0); }
+.heading3 { font: bold small Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-transform: uppercase; }
+.heading4 { font: bold small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.table1 { font: bold small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.table2 { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.table3 { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.archivehead { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); }
+.articleareatitle { font: bold 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 102, 102); }
+.articleinfo { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.articletitle { font: bold small Georgia,Times New Roman,Times,serif; color: rgb(0, 0, 0); }
+.articletext { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.faq { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); }
+.quote { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); }
+.doi { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.divider { font: x-small Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.specialoffer { font: small Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); }
+.articleinfo2 { font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.articleinfodate { font: bold 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.bodytext { font: 12px/15px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.subtitle { font: bold 12px/15px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); }
+.toctitle { font: bold medium Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); }
+.tocsubject { font: bold 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(154, 26, 26); text-decoration: none; }
+.white12 { font: bold 12px Verdana,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); text-decoration: none; }
+.categ_small { font-family: Tahoma,Arial,Helvetica,sans-serif; font-weight: bold; font-size: 14px; color: rgb(154, 26, 26); text-decoration: none; text-transform: uppercase; line-height: 2; }
+.categ_large { font-family: Tahoma,Arial,Helvetica,sans-serif; font-size: 18px; color: rgb(154, 26, 26); text-decoration: none; text-transform: uppercase; line-height: 2; }
+.uppercase { text-transform: uppercase; }
+.lgn_border { background-color: rgb(226, 226, 226); }
+.lgn_background { background-color: rgb(226, 226, 226); }
+.lgn_text { color: rgb(0, 0, 0); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 10px; line-height: 11px; }
+a.lgn_text, a.lgn_text:link { color: rgb(154, 26, 26); text-decoration: underline; }
+a.lgn_text:visited { color: rgb(56, 73, 85); text-decoration: underline; }
+a.lgn_text:hover { color: rgb(204, 51, 0); text-decoration: underline; }
+.lgn_textbig { color: rgb(0, 0, 0); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 11px; line-height: 14px; }
+.lgn_textalt { color: rgb(56, 73, 85); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 11px; line-height: 16px; }
+.lgn_textred { color: rgb(204, 51, 0); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 10px; line-height: 11px; }
+.lgn_textbox { color: rgb(0, 0, 0); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 11px; margin-left: 0px; padding-left: 0px; }
+.boxbar { font-size: xx-small; font-weight: bold; color: rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+.boxtitle { font-size: 12px; font-weight: bold; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+.boxlink { font-size: xx-small; color: rgb(154, 26, 26); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; line-height: 1.5; }
+.boxlink:visited { color: rgb(154, 26, 26); }
+.boxlink:hover { color: rgb(154, 26, 26); }
+.boxlinkedtitle { font-size: 12px; font-weight: bold; color: rgb(154, 26, 26); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+.boxlinkedtitle:visited { color: rgb(154, 26, 26); }
+.boxlinkedtitle:hover { color: rgb(154, 26, 26); }
+.boxtext { font-size: 11px; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+.boxseealso { font-size: xx-small; font-weight: bold; color: rgb(204, 0, 51); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+.prdnorm { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.prd_red { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.prd_red:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: underline; }
+A.prd_red:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+.jbsnorm { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.jbslink { font: bold 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: underline; }
+A.jbslink:hover { font: bold 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.jbslink:visited { font: bold 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: underline; }
+.jbs_red { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+.jbs_red:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: underline; }
+.jbs_red:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+
+/* ::::: http://www.nature.com.libgate.library.nuigalway.ie/common/style/table_sites/naturejobs.css ::::: */
+
+.natjob, .natjobmore { font-family: Verdana,arial,Helvetica,sans-serif; }
+h2.natjob { margin: 0px; border: 1px solid black; padding: 1px 4px 2px; font: bold 12px georgia; letter-spacing: -0.04em; }
+h2.natjob a { text-decoration: none; }
+h2.natjob span.first { color: rgb(255, 68, 68); }
+h2.natjob span.second { color: rgb(68, 68, 68); }
+ul.natjob { text-align: left; border-right: 1px solid black; border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color black black; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 4px; background: none repeat scroll 0% 0% rgb(243, 242, 242); list-style-type: none; margin: 0px; }
+ul.natjob h3 { font-weight: bold; font-size: 10px; margin: 10px 0px 0px; }
+ul.natjob h3.first { margin: 0px; }
+ul.natjob h3 a:link, ul.natjob h3 a:visited { color: rgb(0, 0, 0); text-decoration: underline; }
+div.natjobmore { border-right: 1px solid black; border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color black black; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 4px 4px 6px; margin-bottom: 15px; background: none repeat scroll 0% 0% rgb(243, 242, 242); }
+div.natjobmore a:link, div.natjobmore a:visited { display: block; padding-left: 7px; background: url('arrow_red_001.gif') no-repeat scroll 0px 0.5em transparent; font-size: 10px; color: rgb(204, 0, 51); text-decoration: underline; }
+ul.natjob ul { list-style-type: none; font-size: 10px; margin: 0px; padding: 0px; }
+p.natjobmore { margin: 0px; padding-bottom: 5px; }
+p.nateventmore { margin: 0px; padding-bottom: 5px; padding-top: 5px; }
+#natpav.box { color: rgb(0, 0, 0); margin: 10px 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(136, 136, 136); overflow: hidden; font-family: Verdana,Arial,Helvetica,sans-serif; }
+#natpav .box-item { font-size: 60%; padding: 6px; }
+#natpav .box-item p { margin: 0px 0px 1em; }
+#natpav.box ul { list-style-type: none; }
+h2.natpav { background: none repeat scroll 0% 0% rgb(245, 245, 245); margin: 0px; padding: 5px 0px 5px 5px; font-size: 70%; letter-spacing: -0.04em; text-transform: lowercase; border-bottom: 1px solid rgb(136, 136, 136); }
+h2.natpav a { text-decoration: none; }
+.box .box-item ul.chal-list { font-size: 100%; margin: 0px; padding: 0px; }
+.box .box-item ul.chal-list li ul { background: none no-repeat scroll left top transparent; padding: 0px; margin: 0px 0px 5px; }
+.box .box-item ul.chal-list li { background: none repeat scroll 0% 0% transparent; padding: 0px; margin: 0px 0px 10px; border-bottom: 1px solid rgb(221, 221, 221); }
+.box .box-item ul.chal-meta { margin: 0px; padding: 0px; }
+.box .box-item ul.chal-meta li { border-bottom: 0px none; margin: 0px; padding: 0px 0px 1px; }
+.box .box-item ul.chal-meta li span.award { font-weight: bold; }
+.box .box-item ul.chal-list h3 { font-size: 100%; margin: 0px 0px 10px; padding: 0px; }
+.box .box-item ul.chal-list h3 a { text-decoration: underline ! important; }
+.box .box-item ul.chal-list img { float: left; margin: 0px 5px 0px 0px; width: 27px; height: 27px; }
+#natpav .box-item ul.more { margin: 0px; padding: 0px; }
+#natpav .box-item ul.more li { margin: 0px 0px 1em; }
+#natpav .box-item ul.more li { background: url('next.gif') no-repeat scroll 0px 0.3em transparent; margin: 0px 0px 1em; padding: 0px 0px 0px 15px; }
+#natpav .box-item ul.more li a { text-decoration: none; }
+#natpav .box-item ul.more li a:hover { text-decoration: underline; }
+#natpav .box-item ul.more li.powered { background: none repeat scroll 0% 0% transparent; line-height: 23px; }
+.box .box-item ul.more li.powered div { float: right; margin: 0px; padding: 0px; }
+.box .box-item ul.more li.powered span { float: right; display: block; text-align: right; }
+.box .box-item ul.more li.powered img { margin: 0px 0px 0px 5px; padding: 0px; float: right; border: 0px none; }
+.box .box-item ul.more li.powered img a { margin: 0px; padding: 0px; float: right; }
+
+/* ::::: http://www.nature.com.libgate.library.nuigalway.ie/common/style/table_sites/abad.css ::::: */
+
+div.ab-ad { font-family: Verdana,arial,Helvetica,sans-serif; font-size: 10px; background: none repeat scroll 0% 0% rgb(234, 234, 234); padding: 0px 3px 3px; margin: 15px 0px; text-align: center; }
+div.ab-ad h2.head-main, div.ab-ad h3.head-main, div.ab-ad h4.head-main { font-size: 100%; color: rgb(204, 204, 204); font-weight: normal; margin: 0px; text-transform: uppercase; }
+div.ab-ad h3.head-supported, div.ab-ad h4.head-supported, div.ab-ad h5.head-supported { font-size: 100%; color: rgb(0, 0, 0); font-weight: normal; margin: 5px 0px 0px; }
+div.ab-ad h4.head-products, div.ab-ad h5.head-products, div.ab-ad h6.head-products { font-size: 100%; background: none repeat scroll 0% 0% rgb(224, 235, 249); color: rgb(51, 51, 51); font-weight: bold; padding: 5px; margin: 0px; }
+div.ab-ad h5.head-section, div.ab-ad h6.head-section { font-size: 100%; color: rgb(0, 104, 179); font-weight: bold; margin: 0px; }
+div.ab-ad div.container { background-color: rgb(255, 255, 255); border: 1px solid rgb(224, 235, 249); margin-top: 3px; }
+div.ab-ad ul { text-align: left; margin: 0px; padding: 5px; background: none repeat scroll 0% 0% rgb(255, 255, 255); list-style-type: none; text-transform: none; }
+div.ab-ad ul ul { padding: 0px; margin-bottom: 5px; }
+div.ab-ad li { padding: 2px 0px; margin: 0px; }
+div.ab-ad a { color: rgb(0, 104, 179); }
+div.ab-ad a.sponsor img { border: 0px none; width: 100%; max-width: 118px; }
+div.ab-ad p.blurb { text-align: left; margin: 0px 5px 5px; padding: 0px; }
+
+/* ::::: http://www.nature.com.libgate.library.nuigalway.ie/common/style/table_sites/eotm_jotw.css ::::: */
+
+.eotm-jotw * { font-family: Verdana,arial,Helvetica,sans-serif; }
+.eotm-jotw { overflow: hidden; list-style-type: none; margin: 0px 0px 20px; padding: 0px 0px 10px; border: 1px solid rgb(231, 231, 231); background-color: rgb(255, 255, 255); }
+.eotm-jotw .main-heading { font-size: 10px; margin: 0px; padding: 10px 10px 10px 48px; background: url('eotm_jotw_bg.jpg') no-repeat scroll 0px 0px transparent; }
+.eotm-jotw .main-heading .type { color: rgb(255, 0, 0); display: block; }
+.eotm-jotw .main-heading .timeframe { font-weight: normal; font-size: 10px; }
+.eotm-jotw .main-heading .job-or-event { text-transform: uppercase; }
+.eotm-jotw .events-jobs { padding: 70px 8px 0px; margin: -70px 0px 0px; list-style-type: none; }
+.jotw .events-jobs { background: url('jotw.gif') no-repeat scroll 10px 30px transparent; }
+.eotm .events-jobs { background: url('eotm.gif') no-repeat scroll 10px 30px transparent; }
+.eotm-jotw .title { margin: 10px 0px 0px; font-size: 10px; }
+.eotm-jotw .events-jobs p { margin: 0px 0px 10px; font-size: 10px; }
+.eotm-jotw .events-jobs p span { font-weight: bold; }
+.eotm-jotw .more { text-decoration: none; display: block; margin: 10px 0px 0px 8px; padding-left: 15px; padding-right: 8px; background: url('next.gif') no-repeat scroll 0px 0.3ex transparent; line-height: 11px; clear: both; }
+.eotm-jotw .more .link { text-decoration: underline; font-size: 10px; }
+.eotm-jotw .site { font-weight: bold; letter-spacing: -0.04em; color: rgb(68, 68, 68); font-size: 10px; font-family: Georgia,serif; display: block; margin-top: 0.5ex; }
+.eotm-jotw .site .nature { color: rgb(255, 51, 51); }
+
+/* ::::: http://www.nature.com.libgate.library.nuigalway.ie/common/style/table_sites/more_articles.css ::::: */
+
+#more-like-this { font-family: Verdana,arial,Helvetica,sans-serif; font-size: 11px; }
+#more-like-this { margin: 25px 0px; padding: 0px 0px 10px; border: 1px solid rgb(204, 204, 204); }
+#more-like-this h3 { font-size: 12px; background-color: rgb(246, 246, 246); font-weight: bold; padding: 3px 3px 3px 10px; margin: 0px; }
+#more-like-this div.wrapper { padding: 0px 10px 10px; }
+#more-like-this p.explain { margin: 10px; }
+#more-like-this a.article { color: rgb(102, 102, 102); display: block; margin: 0px; font-weight: bold; }
+#more-like-this a.article:hover { color: rgb(204, 0, 51); }
+#more-like-this p.journal { margin: 0px 0px 10px; font-style: italic; }
+#more-like-this p.journal span { font-style: normal; }
+#more-like-this h4.area { font-size: 11px; color: rgb(0, 0, 0); margin: 0px; padding-left: 0px; text-transform: uppercase; background-color: transparent; }
+#more-like-this a.allmatches:link, #more-like-this a.allmatches:visited { color: rgb(204, 0, 51); display: block; margin: 0px; padding: 0px 0px 0px 10px; background: url('arrow_s.gif') no-repeat scroll left center transparent; }
+#more-like-this a.allmatches:hover { background: url('arrow_s.gif') no-repeat scroll left center transparent; }
+
+/* ::::: http://www.nature.com.libgate.library.nuigalway.ie/common/style/table_sites/header_footer_shared.css ::::: */
+
+* html #head-er, * html #foot-er { font-size: 62.5%; }
+* html #head-er, * html #foot-er { font-size: 63%; }
+#head-er, #foot-er { font-size: 62.5%; margin: 0px; padding: 0px 0px 20px; color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 255, 255); font-family: Verdana,arial,Helvetica,sans-serif; }
+#head-er .hidden, #foot-er .hidden { position: absolute; left: 0px; top: -500px; width: 1px; height: 1px; overflow: hidden; }
+#head-er .clearfix:after, #foot-er .clearfix:after { content: url('clear.gif'); display: block; height: 0px; clear: both; visibility: hidden; }
+* html #head-er .clearfix, * html #foot-er .clearfix { height: 1%; }
+#head-er div.cleardiv, #foot-er div.cleardiv { clear: both; padding: 0px ! important; }
+#head-er .button, #foot-er .button { font-weight: bold; font-size: 80%; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); }
+#head-er .b, #foot-er .b { font-weight: bold; }
+#head-er .i, #foot-er .i { font-style: italic; }
+#head-er span.journalname, #foot-er span.journalname { font-style: italic; }
+#head-er span.journalnumber, #foot-er span.journalnumber { font-weight: bold; }
+#head-er hr, #foot-er hr { display: none; }
+span.journalname { font-style: italic; }
+span.journalnumber { font-weight: bold; }
+
+/* ::::: http://www.nature.com.libgate.library.nuigalway.ie/common/includes/header/style/table_sites/header.css ::::: */
+
+#head-er hr { display: none; }
+#head-er .header-nonad-wrapper { padding-bottom: 15px; border-bottom: 1px solid rgb(255, 255, 255); }
+#head-er .accessibility-login-wrap { background-color: rgb(234, 234, 234); float: left; width: 100%; border-bottom: 1px solid rgb(0, 0, 0); }
+#head-er .accessibility-login { padding: 4px 0px 5px; text-align: right; }
+#head-er .accessibility-login a.nature-link { font: bold 160%/80% Garamond,serif; color: rgb(177, 6, 46); text-decoration: none; float: left; margin-right: 20px; width: 4.9em; text-align: left; }
+* html #head-er .accessibility-login a.nature-link:hover { background: none repeat scroll 0% 0% transparent; }
+#head-er .accessibility-login a.nature-link:hover { background: url('nature.com.underline.gif') no-repeat scroll left bottom transparent; }
+#head-er .accessibility-login img.nature-logo { height: 11px; width: 82px ! important; margin: 1px 20px 0px 0px; border: 0px none; float: left; }
+#head-er .accessibility-login .jumplinks { float: left; width: 45%; text-align: left; list-style-type: none; padding: 0px; margin: 0px; }
+#head-er .accessibility-login .jumplinks li { display: inline; padding-left: 15px; }
+#head-er .accessibility-login .jumplinks li.first { padding-left: 0px; }
+#head-er .accessibility-login .jumplinks a { color: rgb(0, 0, 0); text-decoration: none; padding-left: 10px; background: url('arrow_down.gif') no-repeat scroll left center transparent; }
+#head-er .accessibility-login .jumplinks a:hover { text-decoration: underline; }
+#head-er .logon .onlyformacie { font-size: 3px; }
+#head-er .logon .onlyformacie { display: none; }
+#head-er .logon a.login { font-weight: bold; color: rgb(177, 6, 46); text-decoration: none; padding: 0px 15px 0px 0px; text-transform: uppercase; letter-spacing: -0.1em; background: url('logon.gif') no-repeat scroll right center transparent; }
+#head-er .logon a.login:hover { background: url('logon_over.gif') no-repeat scroll right center transparent; text-decoration: underline; }
+#head-er .logon a.login:active { background: url('logon.gif') no-repeat scroll right center transparent; }
+#head-er .logon a.logoff { font-weight: bold; color: rgb(177, 6, 46); text-decoration: none; padding: 0px 15px; text-transform: uppercase; letter-spacing: -0.1em; background: url('logoff.gif') no-repeat scroll right center transparent; }
+#head-er .logon p { margin: 0px; }
+#head-er .logon .user, #head-er .logon .inst { font-weight: bold; }
+#head-er .image-user-services-wrap { float: left; width: 100%; background-color: rgb(214, 51, 92); }
+#head-er .image-user-services { border-bottom: 1px solid transparent; }
+* html #head-er .image-user-services { border-bottom: 0px none; }
+#head-er .image-user-services img.journal-header { float: left; width: 344px; height: 74px; margin: 0px; border: 0px none; }
+#head-er .user-services { float: right; }
+#head-er .user-services.div1 { width: 12.7em ! important; }
+#head-er .user-services.div2 { width: 8.7em ! important; }
+#head-er .user-services ul { list-style-type: none; border-style: solid; border-color: rgb(255, 255, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 0px 0px 1px; text-align: right; margin: 22px 0px 21px; padding: 0px; }
+#head-er .user-services ul.list1 { border-right: 1px solid rgb(255, 255, 255); }
+#head-er .user-services li { border-bottom: 1px solid rgb(255, 255, 255); }
+#head-er .user-services a { display: block; color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; padding: 1px 13px 1px 0px; background: url('arrow_s_001.gif') no-repeat scroll right center rgb(118, 116, 116); }
+#head-er .user-services a:hover { background: url('arrow_s_001.gif') no-repeat scroll right center rgb(0, 0, 0); }
+#head-er .publications-search-wrap { background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+* html #head-er .publications-search { padding-top: 3px; padding-bottom: 3px; }
+#head-er .publications-search { padding: 4px 0px; }
+* html #head-er .publications { margin: 6px 0px 0px; }
+#head-er .publications { float: left; list-style-type: none; padding: 0px; margin: 4px 0px 0px; }
+#head-er .publications li { display: inline; margin-left: 10px; }
+#head-er .publications li.first { margin-left: 0px; }
+#head-er .publications a { color: rgb(255, 255, 255); text-decoration: none; padding-right: 15px; text-transform: uppercase; background: url('arrow_s_001.gif') no-repeat scroll right center transparent; }
+#head-er .publications a:hover { text-decoration: underline; }
+#head-er .search { text-align: right; }
+#head-er .search form { display: inline; margin: 0px; }
+#head-er .search form a { color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; padding-right: 14px; background: url('arrow_s_001.gif') no-repeat scroll right center transparent; font-size: 80%; font-weight: normal; }
+#head-er .search form a:hover { text-decoration: underline; }
+#head-er #searchtext { width: 10em; font-size: 80%; font-weight: normal; }
+#head-er .publications-search label { color: rgb(255, 255, 255); text-transform: uppercase; font-size: 80%; font-weight: normal; }
+#head-er input, #head-er select { font-size: 80%; font-weight: normal; }
+#head-er .publications-search input.button { color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(234, 234, 234); padding: 0px 3px; font-weight: bold; }
+#head-er .accessibility-login, #head-er .image-user-services, #head-er .publications-search { padding-left: 1%; padding-right: 1%; }
+.header-leaderboard-wrap { padding-left: 1%; padding-right: 1%; background: url('bg_leaderboard.gif') no-repeat scroll 50% 0px rgb(234, 234, 234); }
+.header-leaderboard { text-align: center; margin: 0px 0px 15px; }
+.header-leaderboard img, .header-leaderboard ilayer, .header-leaderboard iframe, .header-leaderboard embed { border: 0px none; padding: 0px; margin: 0px; width: 100%; max-width: 728px; height: 90px; vertical-align: bottom; }
+.header-leaderboard table { margin-left: auto; margin-right: auto; }
+
+/* ::::: http://www.nature.com.libgate.library.nuigalway.ie/common/style/restrict_width/760px.css ::::: */
+
+#head-er .accessibility-login, #head-er .image-user-services, #head-er .publications-search { width: 760px; margin: 0px auto; padding-left: 0px; padding-right: 0px; }
+* html #head-er .accessibility-login-wrap, * html #head-er .image-user-services-wrap, * html #head-er .publications-search-wrap { text-align: center; }
+.header-leaderboard img, .header-leaderboard ilayer, .header-leaderboard iframe, .header-leaderboard embed { width: 728px; }
+#head-er { padding-bottom: 0px; }
+
+/* ::::: http://www.nature.com.libgate.library.nuigalway.ie/nm/style.css ::::: */
+
+#head-er .image-user-services-wrap { background-color: rgb(154, 26, 26); }
+#head-er .image-user-services img.journal-header { width: 167px; }
+#head-er .image-user-services { background: url('nm_bg_header.gif') no-repeat scroll center top transparent; }
+#head-er .user-services a { background: url('arrow_s_001.gif') no-repeat scroll right center rgb(95, 4, 4); }
+#head-er .user-services a:hover { background: url('arrow_s_001.gif') no-repeat scroll right center rgb(0, 0, 0); }
+a.retraction, a.retraction:visited, a.retraction:hover { font-size: x-small; }
+a.anchor2, a.anchor2:visited, a.anchor2:hover { font-size: x-small; }
+a.archivemonth, a.archivemonth:visited, a.archivemonth:hover { font-size: xx-small; }
+a.articletitle, a.articletitle:visited, a.articletitle:hover { font-size: x-small; }
+.author { font-size: x-small; }
+.seealso { font-size: xx-small; }
+.freeaccess { font-size: xx-small; }
+.blacksml { font-size: xx-small; }
+.pagenum { font-size: x-small; }
+.pagenum2 { font-size: xx-small; }
+.blacksmltext { font-size: xx-small; }
+a.contentslink, a.contentslink:visited, a.contentslink:hover { font-size: xx-small; }
+.heading1 { font-size: small; }
+H2 { font-size: medium; }
+.heading3 { font-size: x-small; }
+.heading4 { font-size: x-small; }
+.table1 { font-size: x-small; }
+.table2 { font-size: x-small; }
+.table3 { font-size: xx-small; }
+.articletitle { font-size: x-small; }
+.articletext { font-size: x-small; }
+.faq { font-size: x-small; }
+.quote { font-size: x-small; }
+.doi { font-size: xx-small; }
+.divider { font-size: xx-small; }
+.specialoffer { font-size: x-small; }
+.toctitle { font-size: small; }
+A.closewindow { font-size: 10px; color: rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+A.closewindow:hover { font-size: 10px; color: rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+A.closewindow:visited { font-size: 10px; color: rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+A.closewindow2 { font-size: 10px; color: rgb(154, 26, 26); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+A.closewindow2:hover { font-size: 10px; color: rgb(154, 26, 26); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+A.closewindow2:visited { font-size: 10px; color: rgb(154, 26, 26); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+.heading1 { font-weight: bold; font-size: small; color: rgb(154, 26, 26); font-family: Verdana,Arial,Helvetica,sans-serif; }
+.categ_small { font-family: Tahoma,Arial,Helvetica,sans-serif; font-weight: bold; font-size: 14px; color: rgb(154, 26, 26); text-decoration: none; text-transform: uppercase; line-height: 2; }
+.categ_small2 { font-family: Tahoma,Arial,Helvetica,sans-serif; font-weight: bold; font-size: 14px; color: rgb(154, 26, 26); text-decoration: none; text-transform: uppercase; }
+.categ_large { font-family: Tahoma,Arial,Helvetica,sans-serif; font-size: 18px; color: rgb(154, 26, 26); text-decoration: none; text-transform: uppercase; line-height: 2; }
+.uppercase { text-transform: uppercase; }
+.lgn_border { background-color: rgb(226, 226, 226); }
+.lgn_background { background-color: rgb(226, 226, 226); }
+.lgn_text { color: rgb(0, 0, 0); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 10px; line-height: 11px; }
+a.lgn_text, a.lgn_text:link { color: rgb(154, 26, 26); text-decoration: underline; }
+a.lgn_text:visited { color: rgb(56, 73, 85); text-decoration: underline; }
+a.lgn_text:hover { color: rgb(204, 51, 0); text-decoration: underline; }
+.lgn_textbig { color: rgb(0, 0, 0); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 11px; line-height: 14px; }
+.lgn_textalt { color: rgb(56, 73, 85); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 11px; line-height: 16px; }
+.lgn_textred { color: rgb(204, 51, 0); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 10px; line-height: 11px; }
+.lgn_textbox { color: rgb(0, 0, 0); font-family: Verdana,Arial,Geneva,sans-serif; font-size: 11px; margin-left: 0px; padding-left: 0px; }
+.boxbar { font-size: xx-small; font-weight: bold; color: rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+.boxtitle { font-size: 12px; font-weight: bold; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+.boxlink { font-size: xx-small; color: rgb(154, 26, 26); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; line-height: 1.5; }
+.boxlink:visited { color: rgb(154, 26, 26); }
+.boxlink:hover { color: rgb(154, 26, 26); }
+.boxlinkedtitle { font-size: 12px; font-weight: bold; color: rgb(154, 26, 26); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+.boxlinkedtitle:visited { color: rgb(154, 26, 26); }
+.boxlinkedtitle:hover { color: rgb(154, 26, 26); }
+.boxtext { font-size: 11px; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+.boxseealso { font-size: xx-small; font-weight: bold; color: rgb(204, 0, 51); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+.breadcrumb, .breadcrumblink { font-family: verdana,arial,helvetica,sans-serif; font-size: 10px; color: rgb(0, 0, 0); text-decoration: none; }
+A.breadcrumblink { font-size: 10px; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+A.breadcrumblink:visited { font-size: 10px; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+A.breadcrumblink:hover { font-size: 10px; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+.tocnext { font-size: 10px; color: rgb(102, 102, 102); font-family: Verdana,Arial,Helvetica,sans-serif; text-decoration: none; }
+.prdnorm { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: none; }
+A.prd_red { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(204, 51, 0); text-decoration: underline; }
+A.prd_red:hover { font: 10px Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); text-decoration: underline; }
+A.prd_red:visited { font: 10px Verdana,Arial,Helvetica,sans-serif; text-decoration: underline; }
+span.articletitle.japanese { font-weight: normal; display: inline; }
+a.contentslink.japanese:link, a.contentslink.japanese:visited { padding: 2px 5px 2px 15px; font-size: 80%; background: url('japanese.gif') no-repeat scroll left center transparent; display: inline; }
+a.contentslink.japanese:hover { font-size: 80%; display: inline; }
+h2.japanese { font-size: 100%; }
+span.toc-header-japanese { display: block; font-size: 130%; font-weight: normal; }
+.articletext.japanese { line-height: 1.5; font-size: 80%; }

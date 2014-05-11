@@ -1,0 +1,381 @@
+
+/* ::::: http://www.futuremedicine.com.libgate.library.nuigalway.ie/templates/jsp/style.css ::::: */
+
+.xslDebugTemplate { color: rgb(153, 153, 153); font-size: 10px; font-family: sans-serif; padding-left: 2px; }
+.xslDebugNodePath { color: rgb(255, 0, 0); font-size: 10px; font-family: sans-serif; padding-left: 2px; }
+.xslDebugImport { color: rgb(0, 127, 0); font-size: 10px; font-family: sans-serif; padding-left: 2px; }
+.wbr { font-family: "Lucida Sans Unicode","Arial Unicode MS",sans-serif; font-size: 2pt; color: rgb(255, 255, 255); white-space: normal; letter-spacing: 0px; word-spacing: 0px; word-wrap: break-word; }
+.noWrap, .nobrWithWbr { white-space: nowrap; }
+.ff2 .nobrWithWbr { white-space: normal; }
+.tocHeading .subj-group { display: block; font-size: 90%; }
+div.boxed-text-, div.boxed-text-anchor, div.boxed-text-float { margin-left: 3em; }
+div.boxed-text-margin {  }
+.refnumber { text-align: left; vertical-align: top; }
+.references .note p { padding: 0em; margin: 0em; }
+.articleEntry { margin-bottom: 1em; }
+.NLM_table-wrap td, .NLM_table-wrap td, .NLM_table-wrap th, .NLM_table-wrap th { border-right: 1px solid black; border-bottom: 1px solid black; }
+.NLM_table-wrap-foot p { margin: 0px; }
+.NLM_table-wrap table { border: 1px solid black; border-spacing: 0px; border-collapse: collapse; width: 95%; }
+.NLM_table-wrap table.frame_none { border: medium none; }
+.NLM_table-wrap table.frame_left { border-width: medium medium medium 1px; border-style: none none none solid; border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color black; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.NLM_table-wrap table.frame_right { border-width: medium 1px medium medium; border-style: none solid none none; border-color: -moz-use-text-color black -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.NLM_table-wrap table.frame_top { border-right: medium none; border-width: 1px medium medium; border-style: solid none none; border-color: black -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.NLM_table-wrap table.frame_bottom { border-width: medium medium 1px; border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color black; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.NLM_table-wrap table.frame_sides { border-width: medium 1px; border-style: none solid; border-color: -moz-use-text-color black; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.NLM_table-wrap table.frame_topbot { border-right: medium none; border-left: medium none; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px medium; border-style: solid none; border-color: black -moz-use-text-color; }
+table.rowsep0 td, table.rowsep0 th { border-bottom: medium none; }
+table.rowsep1 td, table.rowsep1 th { border-bottom: 1px solid black; }
+table.rowsep2 td, table.rowsep2 th { border-bottom: 3px double black; }
+col.rowsep0, tr.rowsep0 td, tr.rowsep0 th { border-bottom: medium none; }
+col.rowsep1, tr.rowsep1 td, tr.rowsep1 th { border-bottom: 1px solid black; }
+col.rowsep2, tr.rowsep2 td, tr.rowsep2 th { border-bottom: 3px double black; }
+tr th.rowsep0, tr td.rowsep0 { border-bottom: medium none; }
+tr th.rowsep1, tr td.rowsep1 { border-bottom: 1px solid black; }
+tr th.rowsep2, tr td.rowsep2 { border-bottom: 3px double black; }
+table.colsep0 td, table.colsep0 th { border-right: medium none; }
+table.colsep1 td, table.colsep1 th { border-right: 1px solid black; }
+table.colsep2 td, table.colsep2 th { border-right: 3px double black; }
+col.colsep0, tr.colsep0 td, tr.colsep0 th { border-right: medium none; }
+col.colsep1, tr.colsep1 td, tr.colsep1 th { border-right: 1px solid black; }
+col.colsep2, tr.colsep2 td, tr.colsep2 th { border-right: 3px double black; }
+tr th.colsep0, tr td.colsep0 { border-right: medium none; }
+tr th.colsep1, tr td.colsep1 { border-right: 1px solid black; }
+tr th.colsep2, tr td.colsep2 { border-right: 3px double black; }
+.NLM_table-wrap table tr.last td { border-bottom: medium none; }
+.NLM_table-wrap table tr td.last, .NLM_table-wrap table tr th.last { border-right: medium none; }
+.NLM_table-wrap .align_right { text-align: right; }
+.NLM_table-wrap .align_left { text-align: left; }
+.NLM_def-list { margin: 1em 0px; }
+.NLM_def-list .NLM_title, .NLM_def-list .NLM_term-head, .NLM_def-list .NLM_def-head, .NLM_def-list .NLM_term { font-weight: bold; vertical-align: top; }
+.NLM_def-list .NLM_def { vertical-align: top; }
+.NLM_table-wrap table tr td table.listgroup, .NLM_table-wrap table tr td table.listgroup td { border: medium none; width: auto; text-align: left; }
+.title1, .title2, .title3, .title4, .title5, .inlinehead1, .inlinehead2, .inlinehead3, .inlinehead4, .inlinehead5 { font-weight: bold; }
+.searchNone0, .searchNone1, .searchNone2, .searchNone3, .searchNone4, .searchNone5, .searchNone6, .searchNone7, .searchNone8, .searchNone9 { color: inherit; background-color: inherit; font-weight: inherit; }
+.searchTerm0, .searchTerm1, .searchTerm2, .searchTerm3, .searchTerm4, .searchTerm5, .searchTerm6, .searchTerm7, .searchTerm8, .searchTerm8 { font-weight: bold; }
+.searchTerm0, .searchTerm1, .searchTerm2, .searchTerm3, .searchTerm4 { color: black; }
+.searchTerm5, .searchTerm6, .searchTerm7, .searchTerm8, .searchTerm8 { color: white; }
+.searchTerm0 { background-color: rgb(255, 255, 102); }
+.searchTerm1 { background-color: rgb(160, 255, 255); }
+.searchTerm2 { background-color: rgb(153, 255, 153); }
+.searchTerm3 { background-color: rgb(255, 153, 153); }
+.searchTerm4 { background-color: rgb(255, 102, 255); }
+.searchTerm5 { background-color: rgb(136, 0, 0); }
+.searchTerm6 { background-color: rgb(0, 170, 0); }
+.searchTerm7 { background-color: rgb(136, 104, 0); }
+.searchTerm8 { background-color: rgb(0, 70, 153); }
+.searchTerm9 { background-color: rgb(153, 0, 153); }
+.citation_source-book, .citation_source-journal { font-style: italic; }
+.dash { font-size: 13px; }
+.quote { margin: 1em 0em 1em 5em; display: block; }
+.entityA, .entityB, .entityC, .entityD { border: 0px none; }
+.entityB { vertical-align: baseline; }
+.entityC { vertical-align: bottom; }
+.entityD { vertical-align: text-bottom; }
+.fromGoogle { border-style: solid; border-color: red; border-width: 2px 0pt; margin: 12px 0pt; padding: 2px 0pt; line-height: 20px; font-size: 12px; }
+ol.simple { list-style: none outside none; }
+ol.alphaLower { list-style: lower-alpha outside none; }
+ol.alphaUpper { list-style: upper-alpha outside none; }
+ol.romanLower { list-style: lower-roman outside none; }
+ol.romanUpper { list-style: upper-roman outside none; }
+.smallcaps { font-variant: small-caps; }
+.strike { text-decoration: line-through; }
+.NLM_disp-formula { display: block; }
+a.roDisabled { color: graytext; }
+.articleEntry .firstCell { text-align: right; vertical-align: top; width: 18px; padding-top: 0px; }
+.sectionHeading { background-color: rgb(225, 225, 225); }
+.sectionHeading th { font-size: larger; }
+.artAuthors .NLM_bio { font-weight: normal; }
+.multiIssueToc .issueTitle { font-weight: bold; }
+.monospace { font-family: monospace; }
+table.formula { margin: 1em 0px; clear: both; }
+.NLM_list-list_type-simple { list-style: none outside none; display: block; }
+.IN_LIST-freeText, .IN_LIST-label, .IN_LIST-title { list-style: none outside none; display: inline; margin: 0px; padding: 0px; }
+.fullSideBullet { width: 15px; vertical-align: top; }
+.accessIcon { border: medium none; }
+.quickLinks_head, .quickSearch_head, .quickSearch_content, .quickLinks_content { border: 1px solid black; }
+.quickSearch_content, .quickLinks_content { border-top: medium none; }
+.fontSize1 { font-size: xx-small; }
+.fontSize2 { font-size: small; }
+.fontSize3 { font-size: medium; }
+.fontSize4 { font-size: large; }
+.fontSize5 { font-size: x-large; }
+.fontSize6 { font-size: xx-large; }
+.fontSize7 { font-size: xx-large; }
+.panelHeading, .panelFooter { position: relative; padding: 3px 10px; }
+.panelHeading .left, .panelHeading .right, .panelFooter .left, .panelFooter .right { position: absolute; width: 6px; height: 6px; background-repeat: no-repeat; }
+.panelHeading .left, .panelHeading .right { top: 0px; }
+.panelFooter .left, .panelFooter .right { bottom: 0px; }
+.panelHeading .left, .panelFooter .left { left: 0px; }
+.panelHeading .right, .panelFooter .right { right: 0px; }
+.panelHeading .left { background-image: url('curve_left_top.png'); }
+.panelHeading .right { background-image: url('curve_right_top.png'); }
+.panelFooter .left { background-image: url('curve_left_top.png'); }
+.panelFooter .right { background-image: url('curve_right_bottom.png'); }
+.panelHeading .content h3 { margin: 0px; font-size: 1em; }
+.panelBody { width: auto; padding: 0.5em; }
+.panelBody .spacer { clear: both; height: 1px; width: 100%; }
+#mobileDevicePairingCode .char { padding: 0.5em; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); margin-right: 0.5em; }
+.reprAndPerms { margin: 10px; }
+.reprAndPerms .coverImage { float: left; min-height: 115px; margin-right: 20px; }
+.reprAndPerms .article_meta div { margin-bottom: 5px; }
+.reprAndPerms .article_meta label { color: rgb(0, 102, 255); font-weight: bold; width: 20%; }
+.reprAndPerms .topContent { margin-bottom: 20px; }
+.reprintsForm label { float: left; width: 20%; }
+.reprintsForm .labelGroup { margin: 10px 5px; height: 20px; }
+.reprintsForm .labelGroup input { float: right; width: 20%; }
+.reprintsForm .dropDownHeader { color: rgb(0, 102, 255); font-size: 10pt; font-weight: bold; margin-bottom: 5px; }
+.reprintsForm .subText { margin-bottom: 10px; }
+.reprintsForm label { font-weight: bold; }
+.regForm .error {  }
+.regForm .heading { font-weight: bold; }
+.expired { color: red; font-weight: bold; }
+.hold { color: red; }
+.alert_subtle { font-size: 9pt; }
+.grace { color: orange; }
+.downloadTSV { display: none; }
+.debugInfo { background: url('page.png') no-repeat scroll 0px 0px transparent; padding: 1px; display: block; }
+.debugInfo, .debugAttr { display: none; }
+.debugPath:hover { color: red; }
+.debugInfo { padding-left: 20px; z-index: 99999; }
+.debugBox { border: 1px dotted red; }
+.debugTable { background-color: white; border: 1px solid; font-size: 11px; }
+.debugFCK, .debugFCV { background-color: rgb(238, 238, 238); }
+.debugAttr { z-index: 9999; }
+.debugNoF { border: 1px dotted rgb(74, 107, 130); }
+.debugError { border: 1px solid red; padding: 1px; }
+.debugPE { display: block; width: 100%; text-align: center; color: white; background-color: red; padding-bottom: 2px; }
+.debugST { display: none; width: 100%; }
+.shadow { box-shadow: 3px 3px 5px 6px rgb(204, 204, 204); }
+#SaveSearchForm #saveSearchHeader { text-align: center; font-weight: bolder; font-size: 10pt; }
+.modifySearchSubmit { background: none repeat scroll 0% 0% transparent; border: medium none; cursor: pointer; padding: 0px; margin: 0px; font-size: 8pt; }
+.saveSearchSubmit { width: 45px; border: medium none; cursor: pointer; }
+.addressLink { cursor: pointer; text-decoration: underline; color: rgb(0, 0, 255); }
+.addThisPlaceHolderTableData { display: table-cell; vertical-align: middle; }
+.addThisButtonTableData { display: table-cell; vertical-align: middle; }
+.addThisButtonTableData div { display: table-cell; vertical-align: middle; }
+.addThisTable { display: table; }
+.addThisTableRow { display: table-row; }
+
+/* ::::: http://www.futuremedicine.com.libgate.library.nuigalway.ie/templates/jsp/_midtier/style.css ::::: */
+
+img.JournalCover { border: 0px none; width: 96px; height: 125px; margin: 0px 5px 3px 0px; float: left; }
+.ecommRecommendArticles p { margin-left: 10px; }
+#coverArtListing { float: left; width: 548px; display: inline; }
+.coverArtRow { float: left; clear: left; border-bottom: 1px solid rgb(204, 204, 153); width: 100%; padding-bottom: 12px; margin-bottom: 20px; }
+.coverArtContainer { width: 182px; float: left; text-align: center; }
+.coverArtContainer a:link, .coverArtContainer a:active, .coverArtContainer a:visited, .coverArtContainer a:hover { font-weight: bold; }
+.coverArtImage { position: relative; height: 220px; width: 150px; margin: 0px auto; }
+.ecommConf ul { list-style: none outside none; }
+.coverArtImage img { position: absolute; bottom: 0px; left: 5px; }
+.BeforeFilter, .AfterFilter { display: inline; }
+.creativeCommons { float: left; padding-right: 5px; }
+#mobileDevicePairing_login form { width: 47%; float: left; margin: 1em 0px; }
+#mobileDevicePairing_login .personLogin { margin-right: 5%; font-size: 12px; }
+#mobileDevicePairing_login .emailLogin { font-size: 12px; }
+#mobileDevicePairing_login .login_link { margin: 10px 0px; display: inline-block; }
+#mobileDevicePairing_login label { float: left; width: 12em; }
+#mobileDevicePairing_login .field { clear: left; margin: 0.25em 0px; }
+#searchFormLeft { width: 57%; float: left; }
+.search_result_right { width: 100%; }
+.search_result_refine { text-align: center; width: 26%; float: left; }
+#searchResultsAll { overflow-y: auto; overflow-x: hidden; }
+
+/* ::::: http://www.futuremedicine.com.libgate.library.nuigalway.ie/templates/jsp/_midtier/_FFA/_fum/style.css ::::: */
+
+body { font-size: 10pt; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: verdana,arial,helvetica,sans-serif; margin-left: 0pt; margin-top: 0pt; border-width: 0pt; }
+img, td, th { border-width: 0pt; border-spacing: 0pt; }
+.textInput { width: 100pt; }
+.hr, hr { width: 100%; height: 1px; color: rgb(0, 51, 102); background-color: rgb(0, 51, 102); border: 0px none; }
+table.headerLogo, table.identitiesBar, table.identitiesBar, table.mainMenu, table.quickSearch, table.pageBody, table.footer { width: 100%; padding: 0pt; margin: 0pt; }
+table.headerLogo { border-width: 0px; border-spacing: 0pt; background-color: rgb(0, 51, 102); }
+span.interests-descr { display: block; }
+table.identitiesBar { border-width: 1px; border-color: rgb(0, 51, 102); border-style: solid; background-color: rgb(204, 204, 204); }
+td.identitiesBar { padding-right: 10px; }
+table.MainMenu { border-spacing: 1pt; }
+table.mainMenu td { background: none repeat scroll 0% 0% rgb(15, 32, 75); text-align: center; white-space: nowrap; padding-left: 20px; padding-right: 20px; }
+table.mainMenu a, table.mainMenu a:visited { color: white; }
+form.quickSearch { display: inline; margin: 0pt; padding: 0pt; }
+form.quickSearch * { font-size: 8pt; vertical-align: middle; }
+td.pageBody { margin: 0pt; border-width: 0pt; padding: 0pt 0pt 0pt 5pt; }
+table.homePage { width: 100%; }
+.verticalBar * { margin: 0px; border-width: 0px; padding: 0px; }
+.verticalBar table td { width: 1px; height: 100% ! important; background-color: rgb(0, 51, 102); }
+td.bullet { width: 0.5em; text-align: left; vertical-align: top; }
+.menuTabSelected, a.menuTabSelected, a.menuTabSelected:visited, a.menuTabSelected:active, a.menuTabSelected:link { background-color: rgb(0, 51, 102); color: rgb(255, 255, 204); font-weight: bold; text-decoration: none; font-size: 10pt; }
+.menuTabs, .menuTabPlain, a.menuTabPlain, a.menuTabPlain:visited, a.menuTabPlain:active, a.menuTabPlain:link { background-color: rgb(238, 238, 238); color: rgb(0, 51, 102); font-weight: normal; text-decoration: none; font-size: 10pt; }
+.menuTabs .spacer1 { background-color: rgb(153, 153, 153); }
+.menuTabs .spacer2 { background-color: rgb(255, 255, 255); }
+.subMenuTabSelected, a.subMenuTabSelected, a.subMenuTabSelected:visited, a.subMenuTabSelected:active, a.subMenuTabSelected:link { background-color: rgb(0, 51, 102); color: rgb(255, 255, 204); font-weight: bold; text-decoration: none; font-size: 9pt; }
+.subMenuTabs, .subMenuTabPlain, a.subMenuTabPlain, a.subMenuTabPlain:visited, a.subMenuTabPlain:active, a.subMenuTabPlain:link { background-color: rgb(0, 51, 102); color: rgb(255, 255, 255); font-weight: normal; text-decoration: none; font-size: 9pt; }
+.subMenuTabs .spacer1 { background-color: rgb(0, 0, 102); }
+.subMenuTabs .spacer2 { background-color: rgb(0, 68, 136); }
+.menuTabsPage { padding: 1em; border-width: 1px; border-style: solid; border-color: rgb(0, 51, 102); }
+table.breadcrumbs tr td { font-size: 8pt; }
+p { font-size: 10pt; font-family: verdana,arial,helvetica,sans-serif; }
+td, th { font-size: 10pt; font-family: verdana,arial,helvetica,sans-serif; }
+td.main { vertical-align: top; padding-left: 10px; padding-right: 10px; width: 100%; }
+td.fulltext { font-size: 10pt; font-weight: normal; text-decoration: none; }
+table.quickLinks { width: 170px; }
+.quickLinks { border-width: 1px; border-style: solid; border-color: rgb(85, 85, 85); }
+.quickLinks th { border-width: 0px 0px 1px; border-style: solid; border-color: rgb(85, 85, 85); background-color: rgb(223, 223, 223); text-align: center; }
+.quickLinks td { background-color: rgb(255, 255, 255); }
+.quickLinks tr.link { padding-bottom: 5px; }
+.journalIndexBar { background-color: rgb(238, 238, 238); }
+.journalIndexBar td { padding-left: 12px; text-indent: -4px; font-size: 8pt; }
+.logoStyle1 { font-size: 18pt; font-weight: bold; color: rgb(255, 255, 255); text-decoration: none; }
+.logoStyle2 { font-size: 12pt; font-style: italic; color: rgb(255, 255, 255); text-decoration: none; }
+.logostyle3 { font-size: 12pt; font-weight: bold; color: rgb(255, 255, 255); text-decoration: none; }
+.mainMenu { font-size: 10pt; font-weight: bold; color: rgb(255, 255, 255); text-align: center; vertical-align: middle; text-decoration: none; }
+.fulltext { font-size: 10pt; font-weight: normal; text-decoration: none; }
+.li1 { font-size: 10pt; }
+.fulltextdd { font-size: 8pt; }
+.quote { padding-right: 3em; padding-left: 3em; text-align: left; }
+a.topic_link { font-size: 10pt; font-weight: bold; color: rgb(0, 0, 0); text-decoration: none; }
+a.topic_link:hover { font-size: 10pt; font-weight: bold; color: rgb(255, 0, 0); text-decoration: underline; }
+.topic_text { font-size: 10pt; }
+a.ext_link { font-size: 9pt; font-weight: bold; color: rgb(102, 0, 0); text-decoration: none; }
+a.ext_link:hover { font-size: 9pt; font-weight: bold; color: rgb(255, 0, 0); text-decoration: underline; }
+.section_head { font-weight: bold; font-size: 10pt; color: rgb(125, 42, 7); }
+.category { font-weight: bold; font-size: 9pt; color: rgb(125, 42, 7); }
+.link { font-size: 9pt; }
+.indiv { font-size: 10pt; color: rgb(0, 0, 0); }
+.smallred { font-size: 8pt; color: rgb(152, 0, 0); }
+.grey10 { font-size: 10pt; color: rgb(204, 204, 204); }
+.black9pt { font-size: 9pt; color: rgb(0, 0, 0); }
+.loginFormRememberHelp, .loginFormRememberHelp a, .black8pt { font-size: 8pt; color: rgb(0, 0, 0); }
+.gray9pt { font-size: 9pt; color: rgb(153, 153, 153); }
+.loginForm label, .sectionTitle { color: rgb(0, 51, 102); font-weight: bold; font-size: 10pt; }
+h1.loginForm, .pageTitle { color: rgb(0, 51, 153); font-weight: bold; font-size: 15pt; margin-top: 0px; }
+.bc { font-size: 8pt; }
+.bcA { font-size: 8pt; font-weight: bold; color: rgb(0, 0, 0); }
+.noLinkLine, .ref { text-decoration: none; }
+.art_title { font-weight: bold; }
+.art_authors { font-style: italic; }
+.arttitle { font-weight: bold; font-size: 10pt; }
+.articleworkflow-table { background-color: rgb(238, 238, 238); width: 600px; border: 1px solid rgb(0, 0, 0); font-size: 10pt; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); }
+.articleworkflow-table-head { background-color: rgb(0, 0, 0); font-size: 10pt; font-style: normal; font-weight: bold; color: rgb(255, 255, 255); }
+.articleworkflow-table-text { font-size: 10pt; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); }
+a.issueStyleCategory { font-size: 10pt; color: blue; text-decoration: none; }
+a.issueStyleCoverDate { font-size: 10pt; color: blue; text-decoration: none; }
+a.issueStyleVolIssue { font-size: 8pt; text-decoration: none; }
+a.issueStyleSample { font-size: 10pt; font-weight: bold; color: rgb(0, 136, 0); text-decoration: none; }
+a.issueStyleLatest { font-size: 10pt; font-weight: bold; color: rgb(136, 0, 0); text-decoration: none; }
+.QuickSearchBoxForm label { font-size: 10pt; color: rgb(0, 0, 0); text-decoration: none; }
+.QuickSearchBoxForm .header { font-weight: bold; color: rgb(85, 85, 85); }
+.QuickSearchBoxForm a { font-size: 8pt; color: rgb(160, 32, 32); text-decoration: underline; text-align: right; }
+.MarketingMessageArea { text-align: center; vertical-align: middle; margin-left: 1em; margin-right: 1em; }
+table.showjournals { margin-left: 1em; }
+.header1, h1, .journalTitle { color: rgb(0, 51, 153); font-weight: bold; font-size: 15pt; }
+.header2, h2 { color: rgb(0, 51, 102); font-weight: bold; font-size: 13pt; margin-top: 0pt; }
+.header3, h3 { color: rgb(0, 0, 0); font-weight: bold; font-size: 12pt; margin-top: 0pt; }
+.header4, h4 { color: rgb(0, 0, 0); font-weight: bold; font-size: 11pt; margin-bottom: 0px; }
+.error { color: red; }
+.success { color: green; }
+#hide { display: none; }
+.ConfirmPrepay table { background-color: silver; }
+.searchResultCell { text-align: left; vertical-align: top; }
+.searchResultTitle { color: rgb(0, 0, 0); font-weight: bold; }
+.searchResultAuthor { font-style: italic; }
+a.searchResultJournal:hover { text-decoration: underline; }
+.searchResultJournal, a.searchResultJournal { color: rgb(0, 102, 153); text-decoration: none; }
+.searchResultCitation { color: rgb(0, 0, 0); }
+.searchResultAbstract { color: rgb(0, 0, 0); }
+.wbr { visibility: hidden; color: rgb(255, 255, 255); font-size: 1px; }
+div.bottomSiteMapLink { font-size: 9px; text-align: center; }
+a.siteMapLink:link { color: rgb(58, 117, 196); font-size: 9px; font-weight: normal; text-decoration: none; }
+a.siteMapLink:visited { color: rgb(58, 117, 196); font-size: 9px; font-weight: normal; text-decoration: none; }
+a.siteMapLink:hover { color: rgb(58, 117, 196); font-size: 9px; font-weight: normal; text-decoration: underline; }
+div.bottomContactInfo { font-size: 9px; text-align: center; }
+a.contactLink:link { color: rgb(58, 117, 196); font-size: 9px; font-weight: normal; text-decoration: none; }
+a.contactLink:visited { color: rgb(58, 117, 196); font-size: 9px; font-weight: normal; text-decoration: none; }
+a.contactLink:hover { color: rgb(77, 144, 205); font-size: 9px; font-weight: normal; text-decoration: none; }
+.sideMenu td.sideMenuHead { background: none repeat scroll 0% 0% rgb(0, 82, 147); color: rgb(255, 255, 255); font-size: 11px; font-weight: bold; padding-left: 7px; padding-right: 7px; }
+.sideMenu td { background: none repeat scroll 0% 0% rgb(231, 231, 233); font-size: 11px; font-weight: bold; padding-left: 7px; padding-right: 7px; }
+.sideMenu a:link { color: rgb(51, 51, 51); text-decoration: none; }
+.sideMenu a:visited { color: rgb(51, 51, 51); text-decoration: none; }
+.sideMenu a:hover { color: rgb(51, 51, 51); text-decoration: underline; }
+td.mainContentHead { background: none repeat scroll 0% 0% rgb(168, 169, 173); color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; padding: 2px 5px; }
+td.mainContent { background: none repeat scroll 0% 0% rgb(231, 231, 233); color: rgb(0, 0, 0); font-size: 11px; padding: 5px; }
+td.blockHead { background: none repeat scroll 0% 0% rgb(58, 117, 196); color: rgb(255, 255, 255); font-size: 11px; font-weight: bold; padding: 5px; }
+td.block { padding: 5px; }
+td.block p { font-size: 11px; }
+tr.register1 { background: none repeat scroll 0% 0% rgb(72, 98, 248); color: rgb(255, 255, 255); font-size: 5px; }
+tr.register2 { background: none repeat scroll 0% 0% rgb(209, 210, 212); color: rgb(0, 0, 0); font-size: 10px; }
+tr.search1 { background: none repeat scroll 0% 0% rgb(181, 209, 232); color: rgb(0, 0, 0); font-size: 9px; }
+tr.search2 { background: none repeat scroll 0% 0% rgb(58, 117, 196); color: rgb(0, 0, 0); font-size: 9px; font-weight: bold; }
+a.search2:link { color: rgb(255, 255, 255); }
+a.search2:hover { color: rgb(255, 255, 255); }
+a.search2:visited { color: rgb(255, 255, 255); }
+h5, .header5 { margin: 0px; color: rgb(0, 0, 204); font-style: italic; font-weight: normal; }
+.textSection { color: navy; font-weight: bold; }
+.citedByEntry { margin-bottom: 0.5em; }
+.citedBySection { margin-bottom: 2em; }
+.article_link .header4 { font-size: 10pt; }
+.tocheading { padding-top: 1em; }
+.search_result_right .section_head { text-align: left; }
+.feedback input, .feedback textarea, .feedback select { font-family: verdana,arial,helvetica,sans-serif; }
+.contrib { font-style: italic; }
+.affiliation { margin-top: 1em; margin-bottom: 1em; }
+.NLM_corresp { margin-top: 1em; }
+.articleType { font-size: 16pt; font-weight: bold; margin-bottom: 1em; }
+.documentTitle { margin-bottom: 1em; }
+h1.loginForm { font-size: 12pt; }
+.SectionMenu { margin-top: 2em; }
+.popupBody .NLM_table-wrap { padding: 1em; }
+.NLM_table-wrap table { border: medium none; }
+.NLM_table-wrap caption, .NLM_table-wrap thead { font-weight: bold; }
+.NLM_table-wrap caption { caption-side: top; padding-bottom: 0.5em; }
+.NLM_table-wrap td[align="justify"], .NLM_table-wrap th[align="justify"] { text-align: justify; }
+.NLM_table-wrap td[align="right"], .NLM_table-wrap th[align="right"] { text-align: right; }
+.NLM_table-wrap td[align="center"], .NLM_table-wrap th[align="center"] { text-align: center; }
+.NLM_table-wrap th, .NLM_table-wrap td { border: medium none; vertical-align: top; text-align: left; }
+.NLM_table-wrap-foot { padding-top: 0.5em; }
+.NLM_sec_level_1 center > table { margin: 7px 0px; }
+.NLM_caption .title {  }
+div.boxed-text-, div.boxed-text-anchor, div.boxed-text-float { background-color: rgb(225, 225, 225); margin: 0px 0px 1em; padding: 0.8em; }
+.boxed-text-float > table { margin-top: 2em; }
+.boxed-text-float td p { margin: 0px 0px 1em; }
+div.boxed-text- .NLM_label, div.boxed-text-anchor .NLM_label, div.boxed-text-float .NLM_label { float: left; font-weight: bold; }
+.showFullText .abstractSection { color: rgb(0, 51, 153); background-color: rgb(225, 225, 225); border-bottom: 3px double rgb(0, 0, 0); padding: 1px 1em; }
+.issue_title_style { font-size: 14px; font-family: Arial,Helvetica,sans-serif; font-weight: bold; }
+.lilabel { width: 15px; }
+.fromGoogle { border-style: solid; border-color: red; border-width: 2px 0pt; margin: 12px 0pt; padding: 2px 0pt; line-height: 20px; font-size: 12px; }
+.thumbnail .oneOf, .thumbnail .sizeInKb, .thumbnail .figGroupLabel { display: block; clear: left; }
+.ack .title { font-weight: bold; }
+.headerBanner { background: url('banner.jpg') no-repeat scroll 0px 0px white; height: 110px; cursor: pointer; }
+.affiliations { margin-bottom: 2ex; }
+.headerBanner .institutionBanner { padding-right: 10px; overflow: hidden; }
+.offers { display: block; list-style: none outside none; padding: 0px; }
+.offers li { position: relative; margin: 0.5em 0px 0.5em 2em; }
+.offers input { position: absolute; left: -2em; }
+td.quickLinks_content a.ref { text-decoration: underline; }
+.bookItem { clear: left; float: left; width: 98%; margin-top: 20px; }
+img.bookCover, .bookItem .meta { float: left; margin: 0px 10px 0px 0px; }
+.bookItem h2 { margin-bottom: 2px; }
+.bookItem h3 { margin: 0px; font-size: 1em; color: rgb(85, 85, 85); }
+#bookTOCMeta h1, h4 { margin: 0px; }
+#bookTOCMeta .meta { float: left; }
+#bookTOCMeta .meta1 { float: left; width: 40%; }
+#bookTOCMeta .meta2 { float: right; width: 40%; margin-left: 7px; }
+#bookActions { margin-top: 10px; }
+#bookActions span { padding-right: 10px; }
+#pubTypeRadios { margin: 5px 0px; }
+#pubTypeRadios input { margin: 0px; }
+#pubTypeRadios span { padding-right: 10px; }
+#categoryId { min-width: 30%; }
+div.meta { width: 600px; }
+#bookTOCMeta { overflow: auto; }
+img.bookCover { max-width: 120px; border: 1px solid rgb(204, 204, 204); }
+#bookIndex ul { list-style: none outside none; margin: 0px; padding: 0px; }
+#bookIndex strong { color: rgb(119, 119, 119); display: inline-block; font-size: 1.5em; font-weight: bold; margin-top: 1em; }
+#bookIndex ul ul span { display: inline-block; font-weight: bold; margin-right: 0.5em; }
+#bookIndex ul ul ul li { margin-left: 1.8em; }
+#bookIndex ul ul ul span { font-weight: normal; }
+div.helpPopup { background-color: white; border-color: rgb(128, 128, 128) rgb(80, 80, 80) rgb(80, 80, 80) rgb(128, 128, 128); border-style: solid; border-width: 1px 2px 2px 1px; left: 10px; margin-left: 1em; padding: 10px; position: absolute; top: 10px; visibility: hidden; width: 280px; z-index: 1; }
+.thumbnail { background-color: white; clear: both; display: block; float: left; margin: 5px; padding: 5px; text-align: center; }
+.floatFig { background-color: rgb(225, 225, 225); width: 95%; margin: 5px auto; }
+.NLM_abstract { background-color: rgb(225, 225, 225); border-bottom: 3px double rgb(0, 0, 0); color: rgb(0, 51, 153); padding: 1px 1em; margin-bottom: 3em; }
+.references { list-style-type: none; }
+.bookItem img.bookCover { width: 50px; height: 70px; border: 1px solid rgb(204, 204, 204); }
+.subArticles { font-weight: normal; padding-left: 10px; font-size: 8pt; }
+.subArticles .more { font-style: italic; }
